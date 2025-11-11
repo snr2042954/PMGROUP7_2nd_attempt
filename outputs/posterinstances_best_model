@@ -4,16 +4,16 @@ digraph {
 	P1 [shape=circle]
 	P2 [shape=circle]
 	O_w [shape=circle]
-	"deliver poster" [shape=box]
-	"design photo poster" [shape=box]
-	"print poster" [shape=box]
-	"receive order and photo" [shape=box]
-	I_w -> "receive order and photo"
-	"receive order and photo" -> P0
-	P0 -> "design photo poster"
-	"design photo poster" -> P1
-	P1 -> "print poster"
-	"print poster" -> P2
-	P2 -> "deliver poster"
-	"deliver poster" -> O_w
+	deliver_poster [shape=box]
+	design_photo_poster [shape=box]
+	print_poster [shape=box]
+	receive_order_and_photo [shape=box]
+	I_w -> receive_order_and_photo
+	receive_order_and_photo -> P0
+	P0 -> design_photo_poster
+	design_photo_poster -> P1
+	P1 -> print_poster
+	print_poster -> P2
+	P2 -> deliver_poster
+	deliver_poster -> O_w
 }

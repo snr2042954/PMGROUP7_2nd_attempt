@@ -23,76 +23,88 @@ digraph {
 	P20 [shape=circle]
 	P21 [shape=circle]
 	P22 [shape=circle]
+	P23 [shape=circle]
+	P24 [shape=circle]
+	P25 [shape=circle]
 	O_w [shape=circle]
-	"check ticket" [shape=box]
+	check_ticket [shape=box]
 	decide [shape=box]
-	"examine casually" [shape=box]
-	"examine thoroughly" [shape=box]
-	"pay compensation" [shape=box]
-	"register request" [shape=box]
-	"reinitiate request" [shape=box]
-	"reject request" [shape=box]
-	I_w -> "register request"
-	"register request" -> P0
-	P0 -> "examine casually"
-	"check ticket" -> P1
+	examine_casually [shape=box]
+	examine_thoroughly [shape=box]
+	pay_compensation [shape=box]
+	register_request [shape=box]
+	reinitiate_request [shape=box]
+	reject_request [shape=box]
+	I_w -> register_request
+	register_request -> P0
+	P0 -> examine_casually
+	check_ticket -> P1
 	P1 -> decide
 	decide -> P2
-	P2 -> "reinitiate request"
-	"reinitiate request" -> P3
-	P3 -> "examine thoroughly"
-	decide -> P4
-	P4 -> "pay compensation"
-	"register request" -> P5
-	P5 -> "check ticket"
-	"examine casually" -> P6
-	P6 -> decide
-	"register request" -> P7
-	P7 -> "examine thoroughly"
-	decide -> P8
-	P8 -> "reject request"
-	"reinitiate request" -> P9
-	P9 -> "check ticket"
-	"reinitiate request" -> P10
-	P10 -> "examine casually"
-	"examine thoroughly" -> P11
-	P11 -> decide
-	"register request" -> P12
-	P12 -> "examine casually"
-	P12 -> "check ticket"
-	P12 -> "examine thoroughly"
-	decide -> P13
-	P13 -> "reinitiate request"
-	P13 -> "pay compensation"
-	P13 -> "reject request"
-	"reinitiate request" -> P14
-	P14 -> "examine thoroughly"
-	P14 -> "check ticket"
-	P14 -> "examine casually"
-	decide -> P15
-	P15 -> "pay compensation"
-	P15 -> "reject request"
-	"register request" -> P16
-	P16 -> "check ticket"
-	P16 -> "examine thoroughly"
-	"reinitiate request" -> P17
-	P17 -> "check ticket"
-	P17 -> "examine casually"
-	"register request" -> P18
-	"reinitiate request" -> P18
-	P18 -> "examine casually"
-	"check ticket" -> P19
-	"examine casually" -> P19
-	"examine thoroughly" -> P19
-	P19 -> decide
-	"reinitiate request" -> P20
-	"register request" -> P20
-	P20 -> "examine thoroughly"
-	"register request" -> P21
-	"reinitiate request" -> P21
-	P21 -> "check ticket"
-	"examine casually" -> P22
-	"examine thoroughly" -> P22
-	P22 -> decide
-	"pay compensation" -> O_w
+	P2 -> reinitiate_request
+	reinitiate_request -> P3
+	P3 -> examine_thoroughly
+	examine_thoroughly -> P4
+	P4 -> check_ticket
+	decide -> P5
+	P5 -> pay_compensation
+	register_request -> P6
+	P6 -> check_ticket
+	examine_casually -> P7
+	P7 -> decide
+	register_request -> P8
+	P8 -> examine_thoroughly
+	decide -> P9
+	P9 -> reject_request
+	reinitiate_request -> P10
+	P10 -> check_ticket
+	reinitiate_request -> P11
+	P11 -> examine_casually
+	examine_thoroughly -> P12
+	P12 -> decide
+	register_request -> P13
+	P13 -> examine_casually
+	P13 -> check_ticket
+	P13 -> examine_thoroughly
+	decide -> P14
+	P14 -> reinitiate_request
+	P14 -> pay_compensation
+	P14 -> reject_request
+	reinitiate_request -> P15
+	P15 -> examine_thoroughly
+	P15 -> check_ticket
+	P15 -> examine_casually
+	examine_thoroughly -> P16
+	P16 -> check_ticket
+	P16 -> decide
+	decide -> P17
+	P17 -> pay_compensation
+	P17 -> reject_request
+	register_request -> P18
+	P18 -> check_ticket
+	P18 -> examine_thoroughly
+	reinitiate_request -> P19
+	P19 -> check_ticket
+	P19 -> examine_casually
+	register_request -> P20
+	reinitiate_request -> P20
+	P20 -> examine_casually
+	check_ticket -> P21
+	examine_casually -> P21
+	examine_thoroughly -> P21
+	P21 -> decide
+	reinitiate_request -> P22
+	register_request -> P22
+	P22 -> examine_thoroughly
+	examine_thoroughly -> P23
+	register_request -> P23
+	reinitiate_request -> P23
+	P23 -> check_ticket
+	register_request -> P24
+	reinitiate_request -> P24
+	P24 -> check_ticket
+	examine_casually -> P25
+	examine_thoroughly -> P25
+	P25 -> decide
+	pay_compensation -> O_w
 }

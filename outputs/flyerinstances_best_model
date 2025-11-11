@@ -4,17 +4,17 @@ digraph {
 	P1 [shape=circle]
 	P2 [shape=circle]
 	O_w [shape=circle]
-	"deliver flyer" [shape=box]
-	"design flyer" [shape=box]
-	"print flyer" [shape=box]
-	"receive flyer order" [shape=box]
-	"send draft to customer" [shape=box]
-	I_w -> "receive flyer order"
-	"receive flyer order" -> P0
-	P0 -> "design flyer"
-	"send draft to customer" -> P1
-	P1 -> "print flyer"
-	"print flyer" -> P2
-	P2 -> "deliver flyer"
-	"deliver flyer" -> O_w
+	deliver_flyer [shape=box]
+	design_flyer [shape=box]
+	print_flyer [shape=box]
+	receive_flyer_order [shape=box]
+	send_draft_to_customer [shape=box]
+	I_w -> receive_flyer_order
+	receive_flyer_order -> P0
+	P0 -> design_flyer
+	send_draft_to_customer -> P1
+	P1 -> print_flyer
+	print_flyer -> P2
+	P2 -> deliver_flyer
+	deliver_flyer -> O_w
 }

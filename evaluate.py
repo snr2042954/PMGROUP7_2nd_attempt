@@ -88,8 +88,8 @@ def evaluate_custom_alpha(dataset: str, log_path: str, abs_threshold: int = 0, r
     miner = AlphaMinerFrequencies(abs_threshold=abs_threshold, rel_threshold=rel_threshold)
     miner.run(log_path)
     custom_relations = flatten_pairs(miner.direct_follower)
-
     precision, recall, f1, _ = compute_metrics(custom_relations, gold_relations)
+
     return {
         "precision": precision,
         "recall": recall,
@@ -101,7 +101,7 @@ def evaluate_custom_alpha(dataset: str, log_path: str, abs_threshold: int = 0, r
 if __name__ == "__main__":
 
     ### Configuration ###
-    DATASET = "L7.xes"
+    DATASET = "running-example.xes"
     LOG_PATH = f"data/{DATASET}"
     ABS_THRESHOLD = 0
     REL_THRESHOLD = 0.0

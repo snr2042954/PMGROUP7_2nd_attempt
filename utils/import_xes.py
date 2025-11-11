@@ -49,7 +49,7 @@ def read_xes(path, only_complete=True):
         cleaned_activities = [activity.replace(" ", "_") for activity in activities]
         cleaned_log[case_id] = cleaned_activities
 
-    return log
+    return cleaned_log
 
 
 
@@ -94,7 +94,7 @@ def read_xes_pm4py(path: str, only_complete: bool = True) -> EventLog:
 if __name__ == "__main__":
 
     FOLDER = "../data/"
-    DATASET = "L1.xes"
+    DATASET = "running-example.xes"
 
     log_our_method = read_xes(FOLDER+DATASET, only_complete=True)
     log_pm4py_method = read_xes_pm4py(FOLDER+DATASET, only_complete=True)

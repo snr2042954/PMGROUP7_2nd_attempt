@@ -26,6 +26,17 @@ digraph {
 	P23 [shape=circle]
 	P24 [shape=circle]
 	P25 [shape=circle]
+	P26 [shape=circle]
+	P27 [shape=circle]
+	P28 [shape=circle]
+	P29 [shape=circle]
+	P30 [shape=circle]
+	P31 [shape=circle]
+	P32 [shape=circle]
+	P33 [shape=circle]
+	P34 [shape=circle]
+	P35 [shape=circle]
+	P36 [shape=circle]
 	O_w [shape=circle]
 	A_ACCEPTED [shape=box]
 	A_ACTIVATED [shape=box]
@@ -44,12 +55,12 @@ digraph {
 	O_SELECTED [shape=box]
 	O_SENT [shape=box]
 	O_SENT_BACK [shape=box]
-	"W_Afhandelen leads" [shape=box]
-	"W_Beoordelen fraude" [shape=box]
-	"W_Completeren aanvraag" [shape=box]
-	"W_Nabellen incomplete dossiers" [shape=box]
-	"W_Nabellen offertes" [shape=box]
-	"W_Valideren aanvraag" [shape=box]
+	W_Afhandelen_leads [shape=box]
+	W_Beoordelen_fraude [shape=box]
+	W_Completeren_aanvraag [shape=box]
+	W_Nabellen_incomplete_dossiers [shape=box]
+	W_Nabellen_offertes [shape=box]
+	W_Valideren_aanvraag [shape=box]
 	I_w -> A_SUBMITTED
 	A_SUBMITTED -> P0
 	P0 -> A_PARTLYSUBMITTED
@@ -62,54 +73,85 @@ digraph {
 	O_CREATED -> P4
 	P4 -> O_SENT
 	O_SENT -> P5
-	P5 -> "W_Completeren aanvraag"
-	"W_Nabellen offertes" -> P6
-	P6 -> "W_Nabellen offertes"
+	P5 -> W_Completeren_aanvraag
+	W_Nabellen_offertes -> P6
+	P6 -> W_Nabellen_offertes
 	O_SENT_BACK -> P7
-	P7 -> "W_Nabellen offertes"
+	P7 -> W_Nabellen_offertes
 	A_ACTIVATED -> P8
-	P8 -> "W_Valideren aanvraag"
-	A_ACCEPTED -> P9
-	P9 -> A_FINALIZED
-	O_SELECTED -> P10
-	P10 -> O_CREATED
-	"W_Completeren aanvraag" -> P11
-	P11 -> "W_Completeren aanvraag"
-	A_PARTLYSUBMITTED -> P12
-	P12 -> A_DECLINED
-	"W_Afhandelen leads" -> P13
-	P13 -> "W_Completeren aanvraag"
-	"W_Nabellen incomplete dossiers" -> P14
-	P14 -> "W_Nabellen incomplete dossiers"
-	O_DECLINED -> P15
-	P15 -> A_DECLINED
-	A_DECLINED -> P16
-	P16 -> "W_Afhandelen leads"
-	A_CANCELLED -> P17
-	P17 -> O_CANCELLED
-	"W_Beoordelen fraude" -> P18
-	P18 -> "W_Beoordelen fraude"
-	A_PARTLYSUBMITTED -> P19
-	P19 -> A_PREACCEPTED
+	P8 -> W_Valideren_aanvraag
+	A_PREACCEPTED -> P9
+	P9 -> W_Completeren_aanvraag
+	A_ACCEPTED -> P10
+	P10 -> A_FINALIZED
+	O_SELECTED -> P11
+	P11 -> O_CREATED
+	W_Valideren_aanvraag -> P12
+	P12 -> W_Valideren_aanvraag
+	W_Completeren_aanvraag -> P13
+	P13 -> W_Completeren_aanvraag
+	A_PARTLYSUBMITTED -> P14
+	P14 -> A_DECLINED
+	W_Afhandelen_leads -> P15
+	P15 -> W_Completeren_aanvraag
+	O_DECLINED -> P16
+	P16 -> W_Valideren_aanvraag
+	W_Valideren_aanvraag -> P17
+	P17 -> W_Nabellen_incomplete_dossiers
+	W_Nabellen_incomplete_dossiers -> P18
+	P18 -> W_Nabellen_incomplete_dossiers
+	O_DECLINED -> P19
 	P19 -> A_DECLINED
-	A_ACCEPTED -> P20
-	P20 -> O_SELECTED
-	P20 -> A_FINALIZED
-	A_FINALIZED -> P21
-	O_SELECTED -> P21
-	P21 -> O_CREATED
-	O_SENT -> P22
-	"W_Completeren aanvraag" -> P22
-	"W_Afhandelen leads" -> P22
-	P22 -> "W_Completeren aanvraag"
-	"W_Nabellen offertes" -> P23
-	O_SENT_BACK -> P23
-	P23 -> "W_Nabellen offertes"
-	"W_Completeren aanvraag" -> P24
-	"W_Afhandelen leads" -> P24
-	P24 -> "W_Completeren aanvraag"
-	A_PARTLYSUBMITTED -> P25
-	O_DECLINED -> P25
-	P25 -> A_DECLINED
-	"W_Valideren aanvraag" -> O_w
+	A_DECLINED -> P20
+	P20 -> W_Afhandelen_leads
+	A_APPROVED -> P21
+	P21 -> A_ACTIVATED
+	A_CANCELLED -> P22
+	P22 -> O_CANCELLED
+	W_Beoordelen_fraude -> P23
+	P23 -> W_Beoordelen_fraude
+	A_PARTLYSUBMITTED -> P24
+	P24 -> A_PREACCEPTED
+	P24 -> A_DECLINED
+	A_ACCEPTED -> P25
+	P25 -> O_SELECTED
+	P25 -> A_FINALIZED
+	W_Valideren_aanvraag -> P26
+	P26 -> W_Valideren_aanvraag
+	P26 -> W_Nabellen_incomplete_dossiers
+	O_DECLINED -> P27
+	P27 -> W_Valideren_aanvraag
+	P27 -> A_DECLINED
+	A_FINALIZED -> P28
+	O_SELECTED -> P28
+	P28 -> O_CREATED
+	O_SENT -> P29
+	A_PREACCEPTED -> P29
+	W_Completeren_aanvraag -> P29
+	W_Afhandelen_leads -> P29
+	P29 -> W_Completeren_aanvraag
+	W_Nabellen_offertes -> P30
+	O_SENT_BACK -> P30
+	P30 -> W_Nabellen_offertes
+	A_ACTIVATED -> P31
+	W_Valideren_aanvraag -> P31
+	O_DECLINED -> P31
+	P31 -> W_Valideren_aanvraag
+	A_PREACCEPTED -> P32
+	W_Completeren_aanvraag -> P32
+	W_Afhandelen_leads -> P32
+	P32 -> W_Completeren_aanvraag
+	W_Valideren_aanvraag -> P33
+	O_DECLINED -> P33
+	P33 -> W_Valideren_aanvraag
+	W_Completeren_aanvraag -> P34
+	W_Afhandelen_leads -> P34
+	P34 -> W_Completeren_aanvraag
+	A_PARTLYSUBMITTED -> P35
+	O_DECLINED -> P35
+	P35 -> A_DECLINED
+	W_Valideren_aanvraag -> P36
+	W_Nabellen_incomplete_dossiers -> P36
+	P36 -> W_Nabellen_incomplete_dossiers
+	W_Valideren_aanvraag -> O_w
 }

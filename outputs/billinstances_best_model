@@ -3,13 +3,13 @@ digraph {
 	P0 [shape=circle]
 	P1 [shape=circle]
 	O_w [shape=circle]
-	"deliver bill" [shape=box]
-	"print bill" [shape=box]
-	"write bill" [shape=box]
-	I_w -> "write bill"
-	"write bill" -> P0
-	P0 -> "print bill"
-	"print bill" -> P1
-	P1 -> "deliver bill"
-	"deliver bill" -> O_w
+	deliver_bill [shape=box]
+	print_bill [shape=box]
+	write_bill [shape=box]
+	I_w -> write_bill
+	write_bill -> P0
+	P0 -> print_bill
+	print_bill -> P1
+	P1 -> deliver_bill
+	deliver_bill -> O_w
 }

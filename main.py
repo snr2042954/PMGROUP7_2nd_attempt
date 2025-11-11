@@ -36,7 +36,7 @@ def run_full_analysis_for_dataset(dataset: str, abs_values: list[int], rel_value
     # Summary
     print(f"\n📊 === Evaluation Summary for {dataset} ===")
     print(f"→ Gold standard relations: {len(standards[dataset].direct_succession)}")
-    print(f"→ Best config: abs={abs_best}, rel={rel_best:.1f}")
+    print(f"→ Best config: abs={abs_best}, rel={rel_best:.2f}")
     print("\n--- Best Custom Miner ---")
     print(f"Precision: {best_result['precision']:.3f}")
     print(f"Recall:    {best_result['recall']:.3f}")

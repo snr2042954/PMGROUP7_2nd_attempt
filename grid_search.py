@@ -34,7 +34,7 @@ def run_alpha_experiment(dataset_name, log_path, abs_values, rel_values, verbose
                 "recall": custom["recall"],
                 "f1": custom["f1"],
             })
-            print(f"abs={abs_t}, rel={rel_t:.1f} → Custom F1={custom['f1']:.3f}")
+            print(f"abs={abs_t}, rel={rel_t:.2f} → Custom F1={custom['f1']:.3f}")
 
     # --- Sort by F1 ---
     results_sorted = sorted(results, key=lambda r: r["f1"], reverse=True)
