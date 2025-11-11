@@ -367,3 +367,28 @@ standards["BPI_Challenge_2012.xes"] = GoldStandardModel(
     expected_transitions_count=24,
     expected_arcs_count=60  # Estimated from complex structure
 )
+
+def underscore_names(model: GoldStandardModel) -> GoldStandardModel:
+    """Replace spaces with underscores in all activity-related fields."""
+    def fix_name(name: str) -> str:
+        return name.replace(" ", "_")
+
+    # Replace in sets and relations
+    model.activities = {fix_name(a) for a in model.activities}
+    model.start_activities = {fix_name(a) for a in model.start_activities}
+    model.end_activities = {fix_name(a) for a in model.end_activities}
+    model.direct_succession = {(fix_name(a), fix_name(b)) for (a, b) in model.direct_succession}
+
+    # Replace in places
+    new_places = []
+    for inputs, outputs in model.places:
+        new_inputs = {fix_name(i) for i in inputs}
+        new_outputs = {fix_name(o) for o in outputs}
+        new_places.append((new_inputs, new_outputs))
+    model.places = new_places
+
+    return model
+
+
+for key in standards:
+    standards[key] = underscore_names(standards[key])

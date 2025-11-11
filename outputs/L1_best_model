@@ -1,0 +1,47 @@
+digraph {
+	I_w [shape=circle]
+	P0 [shape=circle]
+	P1 [shape=circle]
+	P2 [shape=circle]
+	P3 [shape=circle]
+	P4 [shape=circle]
+	P5 [shape=circle]
+	P6 [shape=circle]
+	P7 [shape=circle]
+	P8 [shape=circle]
+	P9 [shape=circle]
+	O_w [shape=circle]
+	a [shape=box]
+	b [shape=box]
+	c [shape=box]
+	d [shape=box]
+	e [shape=box]
+	I_w -> a
+	a -> P0
+	P0 -> b
+	c -> P1
+	P1 -> d
+	a -> P2
+	P2 -> c
+	b -> P3
+	P3 -> d
+	a -> P4
+	P4 -> e
+	e -> P5
+	P5 -> d
+	a -> P6
+	P6 -> b
+	P6 -> c
+	P6 -> e
+	a -> P7
+	P7 -> c
+	P7 -> e
+	c -> P8
+	b -> P8
+	e -> P8
+	P8 -> d
+	b -> P9
+	e -> P9
+	P9 -> d
+	d -> O_w
+}

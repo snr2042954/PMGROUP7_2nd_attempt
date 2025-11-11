@@ -1,15 +1,13 @@
-from pm4py.objects.log.importer.xes import importer as xes_importer
 from pm4py.algo.discovery.alpha import algorithm as alpha_miner
-from pm4py.algo.discovery.dfg import algorithm as dfg_factory
+from pm4py.algo.discovery.heuristics import algorithm as heuristics_miner
 
 from alpha_miner import AlphaMinerFrequencies
 from utils.gold_standards import standards
+from utils.import_xes import read_xes_pm4py
 
-# ---------------------------------------------------------------------
-# Helper functions
-# ---------------------------------------------------------------------
 
 def compute_metrics(discovered: set, gold: set):
+    """Compute precision, recall, and F1-score between discovered and gold relations."""
     intersection = discovered & gold
     precision = len(intersection) / len(discovered) if discovered else 0
     recall = len(intersection) / len(gold) if gold else 0
@@ -29,14 +27,48 @@ def flatten_pairs(pairs):
         flat.append((a[0], b[0]))
     return set(flat)
 
+
 def evaluate_pm4py_alpha(dataset: str, log_path: str):
-    """Run PM4Py Alpha Miner and return its metrics vs gold standard."""
+
     gold = standards[dataset]
     gold_relations = gold.direct_succession
 
-    log = xes_importer.apply(log_path)
-    dfg = dfg_factory.apply(log)
-    relations = set((a, b) for (a, b), freq in dfg.items() if a != b)
+    log = read_xes_pm4py(log_path)
+    net, initial_marking, final_marking = alpha_miner.apply(log)
+
+    # Extract relations
+    relations = set()
+    for p in net.places:
+        pre = {arc.source.label for arc in p.in_arcs if hasattr(arc.source, "label") and arc.source.label}
+        post = {arc.target.label for arc in p.out_arcs if hasattr(arc.target, "label") and arc.target.label}
+        for a in pre:
+            for b in post:
+                relations.add((a, b))
+
+    precision, recall, f1, _ = compute_metrics(relations, gold_relations)
+    return {
+        "precision": precision,
+        "recall": recall,
+        "f1": f1,
+        "relations": relations,
+    }
+
+def evaluate_pm4py_heuristics(dataset: str, log_path: str):
+    """Run PM4Py Heuristics Miner (default behavior) and return its metrics vs gold standard."""
+    gold = standards[dataset]
+    gold_relations = gold.direct_succession
+
+    log = read_xes_pm4py(log_path)
+    heu_net = heuristics_miner.apply_heu(log)
+
+    # Extract direct succession relations from dependency matrix (without threshold filtering)
+    relations = set()
+    for src in heu_net.dependency_matrix:
+        for tgt in heu_net.dependency_matrix[src]:
+            if src != tgt:
+                relations.add((src, tgt))
+
+    # Evaluate against gold standard
     precision, recall, f1, _ = compute_metrics(relations, gold_relations)
 
     return {
@@ -48,15 +80,15 @@ def evaluate_pm4py_alpha(dataset: str, log_path: str):
 
 
 def evaluate_custom_alpha(dataset: str, log_path: str, abs_threshold: int = 0, rel_threshold: float = 0.0):
-    """Run Custom Alpha Miner with thresholds and return its metrics vs gold standard."""
+    """Run Custom Alpha Miner (frequency-based) and return its metrics vs gold standard."""
     gold = standards[dataset]
     gold_relations = gold.direct_succession
 
     miner = AlphaMinerFrequencies(abs_threshold=abs_threshold, rel_threshold=rel_threshold)
     miner.run(log_path)
     custom_relations = flatten_pairs(miner.direct_follower)
-    precision, recall, f1, _ = compute_metrics(custom_relations, gold_relations)
 
+    precision, recall, f1, _ = compute_metrics(custom_relations, gold_relations)
     return {
         "precision": precision,
         "recall": recall,
@@ -68,7 +100,7 @@ def evaluate_custom_alpha(dataset: str, log_path: str, abs_threshold: int = 0, r
 if __name__ == "__main__":
 
     ### Configuration ###
-    DATASET = "L1.xes"
+    DATASET = "L7.xes"
     LOG_PATH = f"data/{DATASET}"
     ABS_THRESHOLD = 0
     REL_THRESHOLD = 0.0
@@ -81,22 +113,29 @@ if __name__ == "__main__":
     print(f"Gold Standard ({gold.textbook_figure}): {gold.description}")
     print(f"Gold Standard Relations ({len(gold_relations)}): {gold_relations}\n")
 
-    ### Run both evaluations ###
-    pm4py_results = evaluate_pm4py_alpha(DATASET, LOG_PATH)
+    ### Run evaluations ###
+    alpha_results = evaluate_pm4py_alpha(DATASET, LOG_PATH)
+    heuristics_results = evaluate_pm4py_heuristics(DATASET, LOG_PATH)
     custom_results = evaluate_custom_alpha(DATASET, LOG_PATH, ABS_THRESHOLD, REL_THRESHOLD)
 
     ### Print results ###
     print("=== COMPARISON RESULTS ===")
     print(f"Gold Standard Relations: {len(gold_relations)}")
-    print(f"PM4Py Alpha Miner Relations: {len(pm4py_results['relations'])}")
+    print(f"PM4Py Alpha Miner Relations: {len(alpha_results['relations'])}")
+    print(f"PM4Py Heuristics Miner Relations: {len(heuristics_results['relations'])}")
     print(f"Custom Alpha Miner Relations: {len(custom_results['relations'])}\n")
 
-    print("PM4Py vs Gold Standard:")
-    print(f"  Precision: {pm4py_results['precision']:.2f}")
-    print(f"  Recall:    {pm4py_results['recall']:.2f}")
-    print(f"  F1-Score:  {pm4py_results['f1']:.2f}\n")
+    print("PM4Py Alpha Miner vs Gold Standard:")
+    print(f"  Precision: {alpha_results['precision']:.2f}")
+    print(f"  Recall:    {alpha_results['recall']:.2f}")
+    print(f"  F1-Score:  {alpha_results['f1']:.2f}\n")
 
-    print("Custom Alpha Miner vs Gold Standard:")
+    print("PM4Py Heuristics Miner vs Gold Standard:")
+    print(f"  Precision: {heuristics_results['precision']:.2f}")
+    print(f"  Recall:    {heuristics_results['recall']:.2f}")
+    print(f"  F1-Score:  {heuristics_results['f1']:.2f}\n")
+
+    print("Custom Alpha Miner (Frequencies) vs Gold Standard:")
     print(f"  Precision: {custom_results['precision']:.2f}")
     print(f"  Recall:    {custom_results['recall']:.2f}")
     print(f"  F1-Score:  {custom_results['f1']:.2f}\n")
