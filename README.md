@@ -65,7 +65,7 @@ macOS:
 brew install graphviz
 ```
 
-### 3. Create and populate data folder
+### 5. Create and populate data folder
 
 Create a folder named 'data' in root project directory:
 
