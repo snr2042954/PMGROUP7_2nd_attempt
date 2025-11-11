@@ -67,8 +67,9 @@ def run_full_analysis_for_dataset(dataset: str, abs_values: list[int], rel_value
 
 if __name__ == "__main__":
 
-    abs_values = [1, 2, 3, 4, 5]
-    rel_values = [0, 0.1, 0.2, 0.3, 0.4, 0.5]
+    # total 110 param combos
+    abs_values = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] # 10
+    rel_values = [0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5] # 11
 
     os.makedirs("outputs", exist_ok=True)
 
