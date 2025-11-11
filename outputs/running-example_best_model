@@ -1,0 +1,98 @@
+digraph {
+	I_w [shape=circle]
+	P0 [shape=circle]
+	P1 [shape=circle]
+	P2 [shape=circle]
+	P3 [shape=circle]
+	P4 [shape=circle]
+	P5 [shape=circle]
+	P6 [shape=circle]
+	P7 [shape=circle]
+	P8 [shape=circle]
+	P9 [shape=circle]
+	P10 [shape=circle]
+	P11 [shape=circle]
+	P12 [shape=circle]
+	P13 [shape=circle]
+	P14 [shape=circle]
+	P15 [shape=circle]
+	P16 [shape=circle]
+	P17 [shape=circle]
+	P18 [shape=circle]
+	P19 [shape=circle]
+	P20 [shape=circle]
+	P21 [shape=circle]
+	P22 [shape=circle]
+	O_w [shape=circle]
+	"check ticket" [shape=box]
+	decide [shape=box]
+	"examine casually" [shape=box]
+	"examine thoroughly" [shape=box]
+	"pay compensation" [shape=box]
+	"register request" [shape=box]
+	"reinitiate request" [shape=box]
+	"reject request" [shape=box]
+	I_w -> "register request"
+	"register request" -> P0
+	P0 -> "examine casually"
+	"check ticket" -> P1
+	P1 -> decide
+	decide -> P2
+	P2 -> "reinitiate request"
+	"reinitiate request" -> P3
+	P3 -> "examine thoroughly"
+	decide -> P4
+	P4 -> "pay compensation"
+	"register request" -> P5
+	P5 -> "check ticket"
+	"examine casually" -> P6
+	P6 -> decide
+	"register request" -> P7
+	P7 -> "examine thoroughly"
+	decide -> P8
+	P8 -> "reject request"
+	"reinitiate request" -> P9
+	P9 -> "check ticket"
+	"reinitiate request" -> P10
+	P10 -> "examine casually"
+	"examine thoroughly" -> P11
+	P11 -> decide
+	"register request" -> P12
+	P12 -> "examine casually"
+	P12 -> "check ticket"
+	P12 -> "examine thoroughly"
+	decide -> P13
+	P13 -> "reinitiate request"
+	P13 -> "pay compensation"
+	P13 -> "reject request"
+	"reinitiate request" -> P14
+	P14 -> "examine thoroughly"
+	P14 -> "check ticket"
+	P14 -> "examine casually"
+	decide -> P15
+	P15 -> "pay compensation"
+	P15 -> "reject request"
+	"register request" -> P16
+	P16 -> "check ticket"
+	P16 -> "examine thoroughly"
+	"reinitiate request" -> P17
+	P17 -> "check ticket"
+	P17 -> "examine casually"
+	"register request" -> P18
+	"reinitiate request" -> P18
+	P18 -> "examine casually"
+	"check ticket" -> P19
+	"examine casually" -> P19
+	"examine thoroughly" -> P19
+	P19 -> decide
+	"reinitiate request" -> P20
+	"register request" -> P20
+	P20 -> "examine thoroughly"
+	"register request" -> P21
+	"reinitiate request" -> P21
+	P21 -> "check ticket"
+	"examine casually" -> P22
+	"examine thoroughly" -> P22
+	P22 -> decide
+	"pay compensation" -> O_w
+}

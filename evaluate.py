@@ -53,6 +53,7 @@ def evaluate_pm4py_alpha(dataset: str, log_path: str):
         "relations": relations,
     }
 
+
 def evaluate_pm4py_heuristics(dataset: str, log_path: str):
     """Run PM4Py Heuristics Miner (default behavior) and return its metrics vs gold standard."""
     gold = standards[dataset]

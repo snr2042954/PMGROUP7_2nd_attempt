@@ -10,38 +10,44 @@ digraph {
 	P7 [shape=circle]
 	P8 [shape=circle]
 	P9 [shape=circle]
+	P10 [shape=circle]
+	P11 [shape=circle]
 	O_w [shape=circle]
 	a [shape=box]
 	b [shape=box]
 	c [shape=box]
 	d [shape=box]
 	e [shape=box]
+	f [shape=box]
+	g [shape=box]
 	I_w -> a
 	a -> P0
-	P0 -> e
-	e -> P1
-	P1 -> d
-	a -> P2
-	P2 -> c
-	b -> P3
-	P3 -> d
-	a -> P4
+	P0 -> b
+	b -> P1
+	P1 -> c
+	d -> P2
+	P2 -> e
+	e -> P3
+	P3 -> f
+	f -> P4
 	P4 -> b
-	c -> P5
+	b -> P5
 	P5 -> d
-	a -> P6
+	c -> P6
 	P6 -> e
-	P6 -> c
-	P6 -> b
-	a -> P7
-	P7 -> c
-	P7 -> b
-	e -> P8
+	e -> P7
+	P7 -> g
 	b -> P8
-	c -> P8
+	P8 -> c
 	P8 -> d
-	b -> P9
-	c -> P9
-	P9 -> d
-	d -> O_w
+	e -> P9
+	P9 -> f
+	P9 -> g
+	a -> P10
+	f -> P10
+	P10 -> b
+	d -> P11
+	c -> P11
+	P11 -> e
+	g -> O_w
 }

@@ -1,0 +1,115 @@
+digraph {
+	I_w [shape=circle]
+	P0 [shape=circle]
+	P1 [shape=circle]
+	P2 [shape=circle]
+	P3 [shape=circle]
+	P4 [shape=circle]
+	P5 [shape=circle]
+	P6 [shape=circle]
+	P7 [shape=circle]
+	P8 [shape=circle]
+	P9 [shape=circle]
+	P10 [shape=circle]
+	P11 [shape=circle]
+	P12 [shape=circle]
+	P13 [shape=circle]
+	P14 [shape=circle]
+	P15 [shape=circle]
+	P16 [shape=circle]
+	P17 [shape=circle]
+	P18 [shape=circle]
+	P19 [shape=circle]
+	P20 [shape=circle]
+	P21 [shape=circle]
+	P22 [shape=circle]
+	P23 [shape=circle]
+	P24 [shape=circle]
+	P25 [shape=circle]
+	O_w [shape=circle]
+	A_ACCEPTED [shape=box]
+	A_ACTIVATED [shape=box]
+	A_APPROVED [shape=box]
+	A_CANCELLED [shape=box]
+	A_DECLINED [shape=box]
+	A_FINALIZED [shape=box]
+	A_PARTLYSUBMITTED [shape=box]
+	A_PREACCEPTED [shape=box]
+	A_REGISTERED [shape=box]
+	A_SUBMITTED [shape=box]
+	O_ACCEPTED [shape=box]
+	O_CANCELLED [shape=box]
+	O_CREATED [shape=box]
+	O_DECLINED [shape=box]
+	O_SELECTED [shape=box]
+	O_SENT [shape=box]
+	O_SENT_BACK [shape=box]
+	"W_Afhandelen leads" [shape=box]
+	"W_Beoordelen fraude" [shape=box]
+	"W_Completeren aanvraag" [shape=box]
+	"W_Nabellen incomplete dossiers" [shape=box]
+	"W_Nabellen offertes" [shape=box]
+	"W_Valideren aanvraag" [shape=box]
+	I_w -> A_SUBMITTED
+	A_SUBMITTED -> P0
+	P0 -> A_PARTLYSUBMITTED
+	A_PARTLYSUBMITTED -> P1
+	P1 -> A_PREACCEPTED
+	A_ACCEPTED -> P2
+	P2 -> O_SELECTED
+	A_FINALIZED -> P3
+	P3 -> O_CREATED
+	O_CREATED -> P4
+	P4 -> O_SENT
+	O_SENT -> P5
+	P5 -> "W_Completeren aanvraag"
+	"W_Nabellen offertes" -> P6
+	P6 -> "W_Nabellen offertes"
+	O_SENT_BACK -> P7
+	P7 -> "W_Nabellen offertes"
+	A_ACTIVATED -> P8
+	P8 -> "W_Valideren aanvraag"
+	A_ACCEPTED -> P9
+	P9 -> A_FINALIZED
+	O_SELECTED -> P10
+	P10 -> O_CREATED
+	"W_Completeren aanvraag" -> P11
+	P11 -> "W_Completeren aanvraag"
+	A_PARTLYSUBMITTED -> P12
+	P12 -> A_DECLINED
+	"W_Afhandelen leads" -> P13
+	P13 -> "W_Completeren aanvraag"
+	"W_Nabellen incomplete dossiers" -> P14
+	P14 -> "W_Nabellen incomplete dossiers"
+	O_DECLINED -> P15
+	P15 -> A_DECLINED
+	A_DECLINED -> P16
+	P16 -> "W_Afhandelen leads"
+	A_CANCELLED -> P17
+	P17 -> O_CANCELLED
+	"W_Beoordelen fraude" -> P18
+	P18 -> "W_Beoordelen fraude"
+	A_PARTLYSUBMITTED -> P19
+	P19 -> A_PREACCEPTED
+	P19 -> A_DECLINED
+	A_ACCEPTED -> P20
+	P20 -> O_SELECTED
+	P20 -> A_FINALIZED
+	A_FINALIZED -> P21
+	O_SELECTED -> P21
+	P21 -> O_CREATED
+	O_SENT -> P22
+	"W_Completeren aanvraag" -> P22
+	"W_Afhandelen leads" -> P22
+	P22 -> "W_Completeren aanvraag"
+	"W_Nabellen offertes" -> P23
+	O_SENT_BACK -> P23
+	P23 -> "W_Nabellen offertes"
+	"W_Completeren aanvraag" -> P24
+	"W_Afhandelen leads" -> P24
+	P24 -> "W_Completeren aanvraag"
+	A_PARTLYSUBMITTED -> P25
+	O_DECLINED -> P25
+	P25 -> A_DECLINED
+	"W_Valideren aanvraag" -> O_w
+}

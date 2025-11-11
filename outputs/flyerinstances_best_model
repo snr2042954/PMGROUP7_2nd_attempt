@@ -1,0 +1,20 @@
+digraph {
+	I_w [shape=circle]
+	P0 [shape=circle]
+	P1 [shape=circle]
+	P2 [shape=circle]
+	O_w [shape=circle]
+	"deliver flyer" [shape=box]
+	"design flyer" [shape=box]
+	"print flyer" [shape=box]
+	"receive flyer order" [shape=box]
+	"send draft to customer" [shape=box]
+	I_w -> "receive flyer order"
+	"receive flyer order" -> P0
+	P0 -> "design flyer"
+	"send draft to customer" -> P1
+	P1 -> "print flyer"
+	"print flyer" -> P2
+	P2 -> "deliver flyer"
+	"deliver flyer" -> O_w
+}

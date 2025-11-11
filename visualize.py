@@ -28,7 +28,7 @@ def visualize_model(miner: AlphaMinerFrequencies, output_path="model.dot"):
 
 if __name__ == "__main__":
 
-    miner = AlphaMinerFrequencies(abs_threshold=0, rel_threshold=0)
-    miner.run("data/L1.xes")
+    miner = AlphaMinerFrequencies(abs_threshold=1, rel_threshold=0.4)
+    miner.run("data/BPI_Challenge_2012.xes")
 
     visualize_model(miner)

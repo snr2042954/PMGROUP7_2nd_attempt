@@ -74,9 +74,9 @@ if __name__ == "__main__":
 
     datasets = list(standards.keys())
 
-    # for dataset in datasets:
-    #     run_full_analysis_for_dataset(dataset, abs_values, rel_values)
+    for dataset in datasets:
+        run_full_analysis_for_dataset(dataset, abs_values, rel_values)
 
-    run_full_analysis_for_dataset('BPI_Challenge_2012.xes', abs_values, rel_values)
+    #run_full_analysis_for_dataset('BPI_Challenge_2012.xes', abs_values, rel_values)
 
     print("\n\n🎉 All datasets processed successfully.")

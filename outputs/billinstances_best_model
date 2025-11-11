@@ -1,0 +1,15 @@
+digraph {
+	I_w [shape=circle]
+	P0 [shape=circle]
+	P1 [shape=circle]
+	O_w [shape=circle]
+	"deliver bill" [shape=box]
+	"print bill" [shape=box]
+	"write bill" [shape=box]
+	I_w -> "write bill"
+	"write bill" -> P0
+	P0 -> "print bill"
+	"print bill" -> P1
+	P1 -> "deliver bill"
+	"deliver bill" -> O_w
+}

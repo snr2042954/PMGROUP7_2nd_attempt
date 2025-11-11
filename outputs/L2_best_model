@@ -1,0 +1,71 @@
+digraph {
+	I_w [shape=circle]
+	P0 [shape=circle]
+	P1 [shape=circle]
+	P2 [shape=circle]
+	P3 [shape=circle]
+	P4 [shape=circle]
+	P5 [shape=circle]
+	P6 [shape=circle]
+	P7 [shape=circle]
+	P8 [shape=circle]
+	P9 [shape=circle]
+	P10 [shape=circle]
+	P11 [shape=circle]
+	P12 [shape=circle]
+	P13 [shape=circle]
+	P14 [shape=circle]
+	P15 [shape=circle]
+	P16 [shape=circle]
+	O_w [shape=circle]
+	a [shape=box]
+	b [shape=box]
+	c [shape=box]
+	d [shape=box]
+	e [shape=box]
+	f [shape=box]
+	I_w -> a
+	a -> P0
+	P0 -> c
+	b -> P1
+	P1 -> d
+	b -> P2
+	P2 -> e
+	e -> P3
+	P3 -> f
+	f -> P4
+	P4 -> b
+	c -> P5
+	P5 -> d
+	a -> P6
+	P6 -> b
+	c -> P7
+	P7 -> e
+	f -> P8
+	P8 -> c
+	a -> P9
+	P9 -> c
+	P9 -> b
+	b -> P10
+	P10 -> d
+	P10 -> e
+	f -> P11
+	P11 -> b
+	P11 -> c
+	c -> P12
+	P12 -> d
+	P12 -> e
+	a -> P13
+	f -> P13
+	P13 -> c
+	b -> P14
+	c -> P14
+	P14 -> d
+	b -> P15
+	c -> P15
+	P15 -> e
+	f -> P16
+	a -> P16
+	P16 -> b
+	d -> O_w
+}
