@@ -6,127 +6,127 @@ Dataset: L1.xes
 ============================
 
 === Running experiment for L1.xes ===
-abs=1, rel=0.0 → Custom F1=0.857
-abs=1, rel=0.1 → Custom F1=0.857
-abs=1, rel=0.1 → Custom F1=0.857
-abs=1, rel=0.1 → Custom F1=0.857
-abs=1, rel=0.2 → Custom F1=0.769
-abs=1, rel=0.2 → Custom F1=0.769
-abs=1, rel=0.3 → Custom F1=0.769
-abs=1, rel=0.3 → Custom F1=0.667
-abs=1, rel=0.4 → Custom F1=0.667
-abs=1, rel=0.5 → Custom F1=0.600
-abs=1, rel=0.5 → Custom F1=0.600
-abs=2, rel=0.0 → Custom F1=0.667
-abs=2, rel=0.1 → Custom F1=0.667
-abs=2, rel=0.1 → Custom F1=0.667
-abs=2, rel=0.1 → Custom F1=0.667
-abs=2, rel=0.2 → Custom F1=0.667
-abs=2, rel=0.2 → Custom F1=0.667
-abs=2, rel=0.3 → Custom F1=0.667
-abs=2, rel=0.3 → Custom F1=0.545
-abs=2, rel=0.4 → Custom F1=0.545
-abs=2, rel=0.5 → Custom F1=0.444
-abs=2, rel=0.5 → Custom F1=0.444
-abs=3, rel=0.0 → Custom F1=0.444
-abs=3, rel=0.1 → Custom F1=0.444
-abs=3, rel=0.1 → Custom F1=0.444
-abs=3, rel=0.1 → Custom F1=0.444
-abs=3, rel=0.2 → Custom F1=0.444
-abs=3, rel=0.2 → Custom F1=0.444
-abs=3, rel=0.3 → Custom F1=0.444
-abs=3, rel=0.3 → Custom F1=0.444
-abs=3, rel=0.4 → Custom F1=0.444
-abs=3, rel=0.5 → Custom F1=0.444
-abs=3, rel=0.5 → Custom F1=0.444
-abs=4, rel=0.0 → Custom F1=0.000
-abs=4, rel=0.1 → Custom F1=0.000
-abs=4, rel=0.1 → Custom F1=0.000
-abs=4, rel=0.1 → Custom F1=0.000
-abs=4, rel=0.2 → Custom F1=0.000
-abs=4, rel=0.2 → Custom F1=0.000
-abs=4, rel=0.3 → Custom F1=0.000
-abs=4, rel=0.3 → Custom F1=0.000
-abs=4, rel=0.4 → Custom F1=0.000
-abs=4, rel=0.5 → Custom F1=0.000
-abs=4, rel=0.5 → Custom F1=0.000
-abs=5, rel=0.0 → Custom F1=0.000
-abs=5, rel=0.1 → Custom F1=0.000
-abs=5, rel=0.1 → Custom F1=0.000
-abs=5, rel=0.1 → Custom F1=0.000
-abs=5, rel=0.2 → Custom F1=0.000
-abs=5, rel=0.2 → Custom F1=0.000
-abs=5, rel=0.3 → Custom F1=0.000
-abs=5, rel=0.3 → Custom F1=0.000
-abs=5, rel=0.4 → Custom F1=0.000
-abs=5, rel=0.5 → Custom F1=0.000
-abs=5, rel=0.5 → Custom F1=0.000
-abs=6, rel=0.0 → Custom F1=0.000
-abs=6, rel=0.1 → Custom F1=0.000
-abs=6, rel=0.1 → Custom F1=0.000
-abs=6, rel=0.1 → Custom F1=0.000
-abs=6, rel=0.2 → Custom F1=0.000
-abs=6, rel=0.2 → Custom F1=0.000
-abs=6, rel=0.3 → Custom F1=0.000
-abs=6, rel=0.3 → Custom F1=0.000
-abs=6, rel=0.4 → Custom F1=0.000
-abs=6, rel=0.5 → Custom F1=0.000
-abs=6, rel=0.5 → Custom F1=0.000
-abs=7, rel=0.0 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.2 → Custom F1=0.000
-abs=7, rel=0.2 → Custom F1=0.000
-abs=7, rel=0.3 → Custom F1=0.000
-abs=7, rel=0.3 → Custom F1=0.000
-abs=7, rel=0.4 → Custom F1=0.000
-abs=7, rel=0.5 → Custom F1=0.000
-abs=7, rel=0.5 → Custom F1=0.000
-abs=8, rel=0.0 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.2 → Custom F1=0.000
-abs=8, rel=0.2 → Custom F1=0.000
-abs=8, rel=0.3 → Custom F1=0.000
-abs=8, rel=0.3 → Custom F1=0.000
-abs=8, rel=0.4 → Custom F1=0.000
-abs=8, rel=0.5 → Custom F1=0.000
-abs=8, rel=0.5 → Custom F1=0.000
-abs=9, rel=0.0 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.2 → Custom F1=0.000
-abs=9, rel=0.2 → Custom F1=0.000
-abs=9, rel=0.3 → Custom F1=0.000
-abs=9, rel=0.3 → Custom F1=0.000
-abs=9, rel=0.4 → Custom F1=0.000
-abs=9, rel=0.5 → Custom F1=0.000
-abs=9, rel=0.5 → Custom F1=0.000
-abs=10, rel=0.0 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.2 → Custom F1=0.000
-abs=10, rel=0.2 → Custom F1=0.000
-abs=10, rel=0.3 → Custom F1=0.000
-abs=10, rel=0.3 → Custom F1=0.000
-abs=10, rel=0.4 → Custom F1=0.000
-abs=10, rel=0.5 → Custom F1=0.000
-abs=10, rel=0.5 → Custom F1=0.000
+abs=1, rel=0.00 → Custom F1=0.857
+abs=1, rel=0.05 → Custom F1=0.857
+abs=1, rel=0.10 → Custom F1=0.857
+abs=1, rel=0.15 → Custom F1=0.857
+abs=1, rel=0.20 → Custom F1=0.769
+abs=1, rel=0.25 → Custom F1=0.769
+abs=1, rel=0.30 → Custom F1=0.769
+abs=1, rel=0.35 → Custom F1=0.667
+abs=1, rel=0.40 → Custom F1=0.667
+abs=1, rel=0.45 → Custom F1=0.600
+abs=1, rel=0.50 → Custom F1=0.600
+abs=2, rel=0.00 → Custom F1=0.667
+abs=2, rel=0.05 → Custom F1=0.667
+abs=2, rel=0.10 → Custom F1=0.667
+abs=2, rel=0.15 → Custom F1=0.667
+abs=2, rel=0.20 → Custom F1=0.667
+abs=2, rel=0.25 → Custom F1=0.667
+abs=2, rel=0.30 → Custom F1=0.667
+abs=2, rel=0.35 → Custom F1=0.545
+abs=2, rel=0.40 → Custom F1=0.545
+abs=2, rel=0.45 → Custom F1=0.444
+abs=2, rel=0.50 → Custom F1=0.444
+abs=3, rel=0.00 → Custom F1=0.444
+abs=3, rel=0.05 → Custom F1=0.444
+abs=3, rel=0.10 → Custom F1=0.444
+abs=3, rel=0.15 → Custom F1=0.444
+abs=3, rel=0.20 → Custom F1=0.444
+abs=3, rel=0.25 → Custom F1=0.444
+abs=3, rel=0.30 → Custom F1=0.444
+abs=3, rel=0.35 → Custom F1=0.444
+abs=3, rel=0.40 → Custom F1=0.444
+abs=3, rel=0.45 → Custom F1=0.444
+abs=3, rel=0.50 → Custom F1=0.444
+abs=4, rel=0.00 → Custom F1=0.000
+abs=4, rel=0.05 → Custom F1=0.000
+abs=4, rel=0.10 → Custom F1=0.000
+abs=4, rel=0.15 → Custom F1=0.000
+abs=4, rel=0.20 → Custom F1=0.000
+abs=4, rel=0.25 → Custom F1=0.000
+abs=4, rel=0.30 → Custom F1=0.000
+abs=4, rel=0.35 → Custom F1=0.000
+abs=4, rel=0.40 → Custom F1=0.000
+abs=4, rel=0.45 → Custom F1=0.000
+abs=4, rel=0.50 → Custom F1=0.000
+abs=5, rel=0.00 → Custom F1=0.000
+abs=5, rel=0.05 → Custom F1=0.000
+abs=5, rel=0.10 → Custom F1=0.000
+abs=5, rel=0.15 → Custom F1=0.000
+abs=5, rel=0.20 → Custom F1=0.000
+abs=5, rel=0.25 → Custom F1=0.000
+abs=5, rel=0.30 → Custom F1=0.000
+abs=5, rel=0.35 → Custom F1=0.000
+abs=5, rel=0.40 → Custom F1=0.000
+abs=5, rel=0.45 → Custom F1=0.000
+abs=5, rel=0.50 → Custom F1=0.000
+abs=6, rel=0.00 → Custom F1=0.000
+abs=6, rel=0.05 → Custom F1=0.000
+abs=6, rel=0.10 → Custom F1=0.000
+abs=6, rel=0.15 → Custom F1=0.000
+abs=6, rel=0.20 → Custom F1=0.000
+abs=6, rel=0.25 → Custom F1=0.000
+abs=6, rel=0.30 → Custom F1=0.000
+abs=6, rel=0.35 → Custom F1=0.000
+abs=6, rel=0.40 → Custom F1=0.000
+abs=6, rel=0.45 → Custom F1=0.000
+abs=6, rel=0.50 → Custom F1=0.000
+abs=7, rel=0.00 → Custom F1=0.000
+abs=7, rel=0.05 → Custom F1=0.000
+abs=7, rel=0.10 → Custom F1=0.000
+abs=7, rel=0.15 → Custom F1=0.000
+abs=7, rel=0.20 → Custom F1=0.000
+abs=7, rel=0.25 → Custom F1=0.000
+abs=7, rel=0.30 → Custom F1=0.000
+abs=7, rel=0.35 → Custom F1=0.000
+abs=7, rel=0.40 → Custom F1=0.000
+abs=7, rel=0.45 → Custom F1=0.000
+abs=7, rel=0.50 → Custom F1=0.000
+abs=8, rel=0.00 → Custom F1=0.000
+abs=8, rel=0.05 → Custom F1=0.000
+abs=8, rel=0.10 → Custom F1=0.000
+abs=8, rel=0.15 → Custom F1=0.000
+abs=8, rel=0.20 → Custom F1=0.000
+abs=8, rel=0.25 → Custom F1=0.000
+abs=8, rel=0.30 → Custom F1=0.000
+abs=8, rel=0.35 → Custom F1=0.000
+abs=8, rel=0.40 → Custom F1=0.000
+abs=8, rel=0.45 → Custom F1=0.000
+abs=8, rel=0.50 → Custom F1=0.000
+abs=9, rel=0.00 → Custom F1=0.000
+abs=9, rel=0.05 → Custom F1=0.000
+abs=9, rel=0.10 → Custom F1=0.000
+abs=9, rel=0.15 → Custom F1=0.000
+abs=9, rel=0.20 → Custom F1=0.000
+abs=9, rel=0.25 → Custom F1=0.000
+abs=9, rel=0.30 → Custom F1=0.000
+abs=9, rel=0.35 → Custom F1=0.000
+abs=9, rel=0.40 → Custom F1=0.000
+abs=9, rel=0.45 → Custom F1=0.000
+abs=9, rel=0.50 → Custom F1=0.000
+abs=10, rel=0.00 → Custom F1=0.000
+abs=10, rel=0.05 → Custom F1=0.000
+abs=10, rel=0.10 → Custom F1=0.000
+abs=10, rel=0.15 → Custom F1=0.000
+abs=10, rel=0.20 → Custom F1=0.000
+abs=10, rel=0.25 → Custom F1=0.000
+abs=10, rel=0.30 → Custom F1=0.000
+abs=10, rel=0.35 → Custom F1=0.000
+abs=10, rel=0.40 → Custom F1=0.000
+abs=10, rel=0.45 → Custom F1=0.000
+abs=10, rel=0.50 → Custom F1=0.000
 
 Best configuration for L1.xes: abs=1, rel=0, F1=0.857
 
 Checked 110 parameter combinations.
 Execution time: 0.05 seconds
-parsing log, completed traces :: 100%|██████████| 6/6 [00:00<00:00, 5783.92it/s]
-parsing log, completed traces :: 100%|██████████| 6/6 [00:00<00:00, 3264.90it/s]
+parsing log, completed traces :: 100%|██████████| 6/6 [00:00<00:00, 5828.12it/s]
+parsing log, completed traces :: 100%|██████████| 6/6 [00:00<00:00, 6447.82it/s]
 
 📊 === Evaluation Summary for L1.xes ===
 → Gold standard relations: 6
-→ Best config: abs=1, rel=0.0
+→ Best config: abs=1, rel=0.00
 
 --- Best Custom Miner ---
 Precision: 0.750
@@ -155,127 +155,127 @@ Dataset: L2.xes
 ============================
 
 === Running experiment for L2.xes ===
-abs=1, rel=0.0 → Custom F1=0.900
-abs=1, rel=0.1 → Custom F1=0.900
-abs=1, rel=0.1 → Custom F1=0.900
-abs=1, rel=0.1 → Custom F1=0.900
-abs=1, rel=0.2 → Custom F1=0.842
-abs=1, rel=0.2 → Custom F1=0.778
-abs=1, rel=0.3 → Custom F1=0.706
-abs=1, rel=0.3 → Custom F1=0.625
-abs=1, rel=0.4 → Custom F1=0.533
-abs=1, rel=0.5 → Custom F1=0.533
-abs=1, rel=0.5 → Custom F1=0.462
-abs=2, rel=0.0 → Custom F1=0.900
-abs=2, rel=0.1 → Custom F1=0.900
-abs=2, rel=0.1 → Custom F1=0.900
-abs=2, rel=0.1 → Custom F1=0.900
-abs=2, rel=0.2 → Custom F1=0.842
-abs=2, rel=0.2 → Custom F1=0.778
-abs=2, rel=0.3 → Custom F1=0.706
-abs=2, rel=0.3 → Custom F1=0.625
-abs=2, rel=0.4 → Custom F1=0.533
-abs=2, rel=0.5 → Custom F1=0.533
-abs=2, rel=0.5 → Custom F1=0.462
-abs=3, rel=0.0 → Custom F1=0.842
-abs=3, rel=0.1 → Custom F1=0.842
-abs=3, rel=0.1 → Custom F1=0.842
-abs=3, rel=0.1 → Custom F1=0.842
-abs=3, rel=0.2 → Custom F1=0.778
-abs=3, rel=0.2 → Custom F1=0.706
-abs=3, rel=0.3 → Custom F1=0.706
-abs=3, rel=0.3 → Custom F1=0.625
-abs=3, rel=0.4 → Custom F1=0.533
-abs=3, rel=0.5 → Custom F1=0.533
-abs=3, rel=0.5 → Custom F1=0.462
-abs=4, rel=0.0 → Custom F1=0.778
-abs=4, rel=0.1 → Custom F1=0.778
-abs=4, rel=0.1 → Custom F1=0.778
-abs=4, rel=0.1 → Custom F1=0.778
-abs=4, rel=0.2 → Custom F1=0.778
-abs=4, rel=0.2 → Custom F1=0.706
-abs=4, rel=0.3 → Custom F1=0.706
-abs=4, rel=0.3 → Custom F1=0.625
-abs=4, rel=0.4 → Custom F1=0.533
-abs=4, rel=0.5 → Custom F1=0.533
-abs=4, rel=0.5 → Custom F1=0.462
-abs=5, rel=0.0 → Custom F1=0.706
-abs=5, rel=0.1 → Custom F1=0.706
-abs=5, rel=0.1 → Custom F1=0.706
-abs=5, rel=0.1 → Custom F1=0.706
-abs=5, rel=0.2 → Custom F1=0.706
-abs=5, rel=0.2 → Custom F1=0.706
-abs=5, rel=0.3 → Custom F1=0.706
-abs=5, rel=0.3 → Custom F1=0.625
-abs=5, rel=0.4 → Custom F1=0.533
-abs=5, rel=0.5 → Custom F1=0.533
-abs=5, rel=0.5 → Custom F1=0.462
-abs=6, rel=0.0 → Custom F1=0.625
-abs=6, rel=0.1 → Custom F1=0.625
-abs=6, rel=0.1 → Custom F1=0.625
-abs=6, rel=0.1 → Custom F1=0.625
-abs=6, rel=0.2 → Custom F1=0.625
-abs=6, rel=0.2 → Custom F1=0.625
-abs=6, rel=0.3 → Custom F1=0.625
-abs=6, rel=0.3 → Custom F1=0.533
-abs=6, rel=0.4 → Custom F1=0.429
-abs=6, rel=0.5 → Custom F1=0.429
-abs=6, rel=0.5 → Custom F1=0.333
-abs=7, rel=0.0 → Custom F1=0.429
-abs=7, rel=0.1 → Custom F1=0.429
-abs=7, rel=0.1 → Custom F1=0.429
-abs=7, rel=0.1 → Custom F1=0.429
-abs=7, rel=0.2 → Custom F1=0.429
-abs=7, rel=0.2 → Custom F1=0.429
-abs=7, rel=0.3 → Custom F1=0.429
-abs=7, rel=0.3 → Custom F1=0.429
-abs=7, rel=0.4 → Custom F1=0.308
-abs=7, rel=0.5 → Custom F1=0.308
-abs=7, rel=0.5 → Custom F1=0.333
-abs=8, rel=0.0 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.2 → Custom F1=0.000
-abs=8, rel=0.2 → Custom F1=0.000
-abs=8, rel=0.3 → Custom F1=0.000
-abs=8, rel=0.3 → Custom F1=0.000
-abs=8, rel=0.4 → Custom F1=0.000
-abs=8, rel=0.5 → Custom F1=0.000
-abs=8, rel=0.5 → Custom F1=0.000
-abs=9, rel=0.0 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.2 → Custom F1=0.000
-abs=9, rel=0.2 → Custom F1=0.000
-abs=9, rel=0.3 → Custom F1=0.000
-abs=9, rel=0.3 → Custom F1=0.000
-abs=9, rel=0.4 → Custom F1=0.000
-abs=9, rel=0.5 → Custom F1=0.000
-abs=9, rel=0.5 → Custom F1=0.000
-abs=10, rel=0.0 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.2 → Custom F1=0.000
-abs=10, rel=0.2 → Custom F1=0.000
-abs=10, rel=0.3 → Custom F1=0.000
-abs=10, rel=0.3 → Custom F1=0.000
-abs=10, rel=0.4 → Custom F1=0.000
-abs=10, rel=0.5 → Custom F1=0.000
-abs=10, rel=0.5 → Custom F1=0.000
+abs=1, rel=0.00 → Custom F1=0.900
+abs=1, rel=0.05 → Custom F1=0.900
+abs=1, rel=0.10 → Custom F1=0.900
+abs=1, rel=0.15 → Custom F1=0.900
+abs=1, rel=0.20 → Custom F1=0.842
+abs=1, rel=0.25 → Custom F1=0.778
+abs=1, rel=0.30 → Custom F1=0.706
+abs=1, rel=0.35 → Custom F1=0.625
+abs=1, rel=0.40 → Custom F1=0.533
+abs=1, rel=0.45 → Custom F1=0.533
+abs=1, rel=0.50 → Custom F1=0.462
+abs=2, rel=0.00 → Custom F1=0.900
+abs=2, rel=0.05 → Custom F1=0.900
+abs=2, rel=0.10 → Custom F1=0.900
+abs=2, rel=0.15 → Custom F1=0.900
+abs=2, rel=0.20 → Custom F1=0.842
+abs=2, rel=0.25 → Custom F1=0.778
+abs=2, rel=0.30 → Custom F1=0.706
+abs=2, rel=0.35 → Custom F1=0.625
+abs=2, rel=0.40 → Custom F1=0.533
+abs=2, rel=0.45 → Custom F1=0.533
+abs=2, rel=0.50 → Custom F1=0.462
+abs=3, rel=0.00 → Custom F1=0.842
+abs=3, rel=0.05 → Custom F1=0.842
+abs=3, rel=0.10 → Custom F1=0.842
+abs=3, rel=0.15 → Custom F1=0.842
+abs=3, rel=0.20 → Custom F1=0.778
+abs=3, rel=0.25 → Custom F1=0.706
+abs=3, rel=0.30 → Custom F1=0.706
+abs=3, rel=0.35 → Custom F1=0.625
+abs=3, rel=0.40 → Custom F1=0.533
+abs=3, rel=0.45 → Custom F1=0.533
+abs=3, rel=0.50 → Custom F1=0.462
+abs=4, rel=0.00 → Custom F1=0.778
+abs=4, rel=0.05 → Custom F1=0.778
+abs=4, rel=0.10 → Custom F1=0.778
+abs=4, rel=0.15 → Custom F1=0.778
+abs=4, rel=0.20 → Custom F1=0.778
+abs=4, rel=0.25 → Custom F1=0.706
+abs=4, rel=0.30 → Custom F1=0.706
+abs=4, rel=0.35 → Custom F1=0.625
+abs=4, rel=0.40 → Custom F1=0.533
+abs=4, rel=0.45 → Custom F1=0.533
+abs=4, rel=0.50 → Custom F1=0.462
+abs=5, rel=0.00 → Custom F1=0.706
+abs=5, rel=0.05 → Custom F1=0.706
+abs=5, rel=0.10 → Custom F1=0.706
+abs=5, rel=0.15 → Custom F1=0.706
+abs=5, rel=0.20 → Custom F1=0.706
+abs=5, rel=0.25 → Custom F1=0.706
+abs=5, rel=0.30 → Custom F1=0.706
+abs=5, rel=0.35 → Custom F1=0.625
+abs=5, rel=0.40 → Custom F1=0.533
+abs=5, rel=0.45 → Custom F1=0.533
+abs=5, rel=0.50 → Custom F1=0.462
+abs=6, rel=0.00 → Custom F1=0.625
+abs=6, rel=0.05 → Custom F1=0.625
+abs=6, rel=0.10 → Custom F1=0.625
+abs=6, rel=0.15 → Custom F1=0.625
+abs=6, rel=0.20 → Custom F1=0.625
+abs=6, rel=0.25 → Custom F1=0.625
+abs=6, rel=0.30 → Custom F1=0.625
+abs=6, rel=0.35 → Custom F1=0.533
+abs=6, rel=0.40 → Custom F1=0.429
+abs=6, rel=0.45 → Custom F1=0.429
+abs=6, rel=0.50 → Custom F1=0.333
+abs=7, rel=0.00 → Custom F1=0.429
+abs=7, rel=0.05 → Custom F1=0.429
+abs=7, rel=0.10 → Custom F1=0.429
+abs=7, rel=0.15 → Custom F1=0.429
+abs=7, rel=0.20 → Custom F1=0.429
+abs=7, rel=0.25 → Custom F1=0.429
+abs=7, rel=0.30 → Custom F1=0.429
+abs=7, rel=0.35 → Custom F1=0.429
+abs=7, rel=0.40 → Custom F1=0.308
+abs=7, rel=0.45 → Custom F1=0.308
+abs=7, rel=0.50 → Custom F1=0.333
+abs=8, rel=0.00 → Custom F1=0.000
+abs=8, rel=0.05 → Custom F1=0.000
+abs=8, rel=0.10 → Custom F1=0.000
+abs=8, rel=0.15 → Custom F1=0.000
+abs=8, rel=0.20 → Custom F1=0.000
+abs=8, rel=0.25 → Custom F1=0.000
+abs=8, rel=0.30 → Custom F1=0.000
+abs=8, rel=0.35 → Custom F1=0.000
+abs=8, rel=0.40 → Custom F1=0.000
+abs=8, rel=0.45 → Custom F1=0.000
+abs=8, rel=0.50 → Custom F1=0.000
+abs=9, rel=0.00 → Custom F1=0.000
+abs=9, rel=0.05 → Custom F1=0.000
+abs=9, rel=0.10 → Custom F1=0.000
+abs=9, rel=0.15 → Custom F1=0.000
+abs=9, rel=0.20 → Custom F1=0.000
+abs=9, rel=0.25 → Custom F1=0.000
+abs=9, rel=0.30 → Custom F1=0.000
+abs=9, rel=0.35 → Custom F1=0.000
+abs=9, rel=0.40 → Custom F1=0.000
+abs=9, rel=0.45 → Custom F1=0.000
+abs=9, rel=0.50 → Custom F1=0.000
+abs=10, rel=0.00 → Custom F1=0.000
+abs=10, rel=0.05 → Custom F1=0.000
+abs=10, rel=0.10 → Custom F1=0.000
+abs=10, rel=0.15 → Custom F1=0.000
+abs=10, rel=0.20 → Custom F1=0.000
+abs=10, rel=0.25 → Custom F1=0.000
+abs=10, rel=0.30 → Custom F1=0.000
+abs=10, rel=0.35 → Custom F1=0.000
+abs=10, rel=0.40 → Custom F1=0.000
+abs=10, rel=0.45 → Custom F1=0.000
+abs=10, rel=0.50 → Custom F1=0.000
 
 Best configuration for L2.xes: abs=1, rel=0, F1=0.900
 
 Checked 110 parameter combinations.
-Execution time: 0.22 seconds
-parsing log, completed traces :: 100%|██████████| 13/13 [00:00<00:00, 1253.99it/s]
-parsing log, completed traces :: 100%|██████████| 13/13 [00:00<00:00, 3328.41it/s]
+Execution time: 0.10 seconds
+parsing log, completed traces :: 100%|██████████| 13/13 [00:00<00:00, 4990.02it/s]
+parsing log, completed traces :: 100%|██████████| 13/13 [00:00<00:00, 5018.03it/s]
 
 📊 === Evaluation Summary for L2.xes ===
 → Gold standard relations: 9
-→ Best config: abs=1, rel=0.0
+→ Best config: abs=1, rel=0.00
 
 --- Best Custom Miner ---
 Precision: 0.818
@@ -304,125 +304,125 @@ Dataset: L3.xes
 ============================
 
 === Running experiment for L3.xes ===
-abs=1, rel=0.0 → Custom F1=0.889
-abs=1, rel=0.1 → Custom F1=0.889
-abs=1, rel=0.1 → Custom F1=0.889
-abs=1, rel=0.1 → Custom F1=0.889
-abs=1, rel=0.2 → Custom F1=0.889
-abs=1, rel=0.2 → Custom F1=0.889
-abs=1, rel=0.3 → Custom F1=0.889
-abs=1, rel=0.3 → Custom F1=0.889
-abs=1, rel=0.4 → Custom F1=0.889
-abs=1, rel=0.5 → Custom F1=0.714
-abs=1, rel=0.5 → Custom F1=0.714
-abs=2, rel=0.0 → Custom F1=0.889
-abs=2, rel=0.1 → Custom F1=0.889
-abs=2, rel=0.1 → Custom F1=0.889
-abs=2, rel=0.1 → Custom F1=0.889
-abs=2, rel=0.2 → Custom F1=0.889
-abs=2, rel=0.2 → Custom F1=0.889
-abs=2, rel=0.3 → Custom F1=0.889
-abs=2, rel=0.3 → Custom F1=0.889
-abs=2, rel=0.4 → Custom F1=0.889
-abs=2, rel=0.5 → Custom F1=0.714
-abs=2, rel=0.5 → Custom F1=0.714
-abs=3, rel=0.0 → Custom F1=0.889
-abs=3, rel=0.1 → Custom F1=0.889
-abs=3, rel=0.1 → Custom F1=0.889
-abs=3, rel=0.1 → Custom F1=0.889
-abs=3, rel=0.2 → Custom F1=0.889
-abs=3, rel=0.2 → Custom F1=0.889
-abs=3, rel=0.3 → Custom F1=0.889
-abs=3, rel=0.3 → Custom F1=0.889
-abs=3, rel=0.4 → Custom F1=0.889
-abs=3, rel=0.5 → Custom F1=0.714
-abs=3, rel=0.5 → Custom F1=0.714
-abs=4, rel=0.0 → Custom F1=0.615
-abs=4, rel=0.1 → Custom F1=0.615
-abs=4, rel=0.1 → Custom F1=0.615
-abs=4, rel=0.1 → Custom F1=0.615
-abs=4, rel=0.2 → Custom F1=0.615
-abs=4, rel=0.2 → Custom F1=0.615
-abs=4, rel=0.3 → Custom F1=0.615
-abs=4, rel=0.3 → Custom F1=0.615
-abs=4, rel=0.4 → Custom F1=0.615
-abs=4, rel=0.5 → Custom F1=0.615
-abs=4, rel=0.5 → Custom F1=0.615
-abs=5, rel=0.0 → Custom F1=0.000
-abs=5, rel=0.1 → Custom F1=0.000
-abs=5, rel=0.1 → Custom F1=0.000
-abs=5, rel=0.1 → Custom F1=0.000
-abs=5, rel=0.2 → Custom F1=0.000
-abs=5, rel=0.2 → Custom F1=0.000
-abs=5, rel=0.3 → Custom F1=0.000
-abs=5, rel=0.3 → Custom F1=0.000
-abs=5, rel=0.4 → Custom F1=0.000
-abs=5, rel=0.5 → Custom F1=0.000
-abs=5, rel=0.5 → Custom F1=0.000
-abs=6, rel=0.0 → Custom F1=0.000
-abs=6, rel=0.1 → Custom F1=0.000
-abs=6, rel=0.1 → Custom F1=0.000
-abs=6, rel=0.1 → Custom F1=0.000
-abs=6, rel=0.2 → Custom F1=0.000
-abs=6, rel=0.2 → Custom F1=0.000
-abs=6, rel=0.3 → Custom F1=0.000
-abs=6, rel=0.3 → Custom F1=0.000
-abs=6, rel=0.4 → Custom F1=0.000
-abs=6, rel=0.5 → Custom F1=0.000
-abs=6, rel=0.5 → Custom F1=0.000
-abs=7, rel=0.0 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.2 → Custom F1=0.000
-abs=7, rel=0.2 → Custom F1=0.000
-abs=7, rel=0.3 → Custom F1=0.000
-abs=7, rel=0.3 → Custom F1=0.000
-abs=7, rel=0.4 → Custom F1=0.000
-abs=7, rel=0.5 → Custom F1=0.000
-abs=7, rel=0.5 → Custom F1=0.000
-abs=8, rel=0.0 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.2 → Custom F1=0.000
-abs=8, rel=0.2 → Custom F1=0.000
-abs=8, rel=0.3 → Custom F1=0.000
-abs=8, rel=0.3 → Custom F1=0.000
-abs=8, rel=0.4 → Custom F1=0.000
-abs=8, rel=0.5 → Custom F1=0.000
-abs=8, rel=0.5 → Custom F1=0.000
-abs=9, rel=0.0 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.2 → Custom F1=0.000
-abs=9, rel=0.2 → Custom F1=0.000
-abs=9, rel=0.3 → Custom F1=0.000
-abs=9, rel=0.3 → Custom F1=0.000
-abs=9, rel=0.4 → Custom F1=0.000
-abs=9, rel=0.5 → Custom F1=0.000
-abs=9, rel=0.5 → Custom F1=0.000
-abs=10, rel=0.0 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.2 → Custom F1=0.000
-abs=10, rel=0.2 → Custom F1=0.000
-abs=10, rel=0.3 → Custom F1=0.000
-abs=10, rel=0.3 → Custom F1=0.000
-abs=10, rel=0.4 → Custom F1=0.000
-abs=10, rel=0.5 → Custom F1=0.000
-abs=10, rel=0.5 → Custom F1=0.000
+abs=1, rel=0.00 → Custom F1=0.889
+abs=1, rel=0.05 → Custom F1=0.889
+abs=1, rel=0.10 → Custom F1=0.889
+abs=1, rel=0.15 → Custom F1=0.889
+abs=1, rel=0.20 → Custom F1=0.889
+abs=1, rel=0.25 → Custom F1=0.889
+abs=1, rel=0.30 → Custom F1=0.889
+abs=1, rel=0.35 → Custom F1=0.889
+abs=1, rel=0.40 → Custom F1=0.889
+abs=1, rel=0.45 → Custom F1=0.714
+abs=1, rel=0.50 → Custom F1=0.714
+abs=2, rel=0.00 → Custom F1=0.889
+abs=2, rel=0.05 → Custom F1=0.889
+abs=2, rel=0.10 → Custom F1=0.889
+abs=2, rel=0.15 → Custom F1=0.889
+abs=2, rel=0.20 → Custom F1=0.889
+abs=2, rel=0.25 → Custom F1=0.889
+abs=2, rel=0.30 → Custom F1=0.889
+abs=2, rel=0.35 → Custom F1=0.889
+abs=2, rel=0.40 → Custom F1=0.889
+abs=2, rel=0.45 → Custom F1=0.714
+abs=2, rel=0.50 → Custom F1=0.714
+abs=3, rel=0.00 → Custom F1=0.889
+abs=3, rel=0.05 → Custom F1=0.889
+abs=3, rel=0.10 → Custom F1=0.889
+abs=3, rel=0.15 → Custom F1=0.889
+abs=3, rel=0.20 → Custom F1=0.889
+abs=3, rel=0.25 → Custom F1=0.889
+abs=3, rel=0.30 → Custom F1=0.889
+abs=3, rel=0.35 → Custom F1=0.889
+abs=3, rel=0.40 → Custom F1=0.889
+abs=3, rel=0.45 → Custom F1=0.714
+abs=3, rel=0.50 → Custom F1=0.714
+abs=4, rel=0.00 → Custom F1=0.615
+abs=4, rel=0.05 → Custom F1=0.615
+abs=4, rel=0.10 → Custom F1=0.615
+abs=4, rel=0.15 → Custom F1=0.615
+abs=4, rel=0.20 → Custom F1=0.615
+abs=4, rel=0.25 → Custom F1=0.615
+abs=4, rel=0.30 → Custom F1=0.615
+abs=4, rel=0.35 → Custom F1=0.615
+abs=4, rel=0.40 → Custom F1=0.615
+abs=4, rel=0.45 → Custom F1=0.615
+abs=4, rel=0.50 → Custom F1=0.615
+abs=5, rel=0.00 → Custom F1=0.000
+abs=5, rel=0.05 → Custom F1=0.000
+abs=5, rel=0.10 → Custom F1=0.000
+abs=5, rel=0.15 → Custom F1=0.000
+abs=5, rel=0.20 → Custom F1=0.000
+abs=5, rel=0.25 → Custom F1=0.000
+abs=5, rel=0.30 → Custom F1=0.000
+abs=5, rel=0.35 → Custom F1=0.000
+abs=5, rel=0.40 → Custom F1=0.000
+abs=5, rel=0.45 → Custom F1=0.000
+abs=5, rel=0.50 → Custom F1=0.000
+abs=6, rel=0.00 → Custom F1=0.000
+abs=6, rel=0.05 → Custom F1=0.000
+abs=6, rel=0.10 → Custom F1=0.000
+abs=6, rel=0.15 → Custom F1=0.000
+abs=6, rel=0.20 → Custom F1=0.000
+abs=6, rel=0.25 → Custom F1=0.000
+abs=6, rel=0.30 → Custom F1=0.000
+abs=6, rel=0.35 → Custom F1=0.000
+abs=6, rel=0.40 → Custom F1=0.000
+abs=6, rel=0.45 → Custom F1=0.000
+abs=6, rel=0.50 → Custom F1=0.000
+abs=7, rel=0.00 → Custom F1=0.000
+abs=7, rel=0.05 → Custom F1=0.000
+abs=7, rel=0.10 → Custom F1=0.000
+abs=7, rel=0.15 → Custom F1=0.000
+abs=7, rel=0.20 → Custom F1=0.000
+abs=7, rel=0.25 → Custom F1=0.000
+abs=7, rel=0.30 → Custom F1=0.000
+abs=7, rel=0.35 → Custom F1=0.000
+abs=7, rel=0.40 → Custom F1=0.000
+abs=7, rel=0.45 → Custom F1=0.000
+abs=7, rel=0.50 → Custom F1=0.000
+abs=8, rel=0.00 → Custom F1=0.000
+abs=8, rel=0.05 → Custom F1=0.000
+abs=8, rel=0.10 → Custom F1=0.000
+abs=8, rel=0.15 → Custom F1=0.000
+abs=8, rel=0.20 → Custom F1=0.000
+abs=8, rel=0.25 → Custom F1=0.000
+abs=8, rel=0.30 → Custom F1=0.000
+abs=8, rel=0.35 → Custom F1=0.000
+abs=8, rel=0.40 → Custom F1=0.000
+abs=8, rel=0.45 → Custom F1=0.000
+abs=8, rel=0.50 → Custom F1=0.000
+abs=9, rel=0.00 → Custom F1=0.000
+abs=9, rel=0.05 → Custom F1=0.000
+abs=9, rel=0.10 → Custom F1=0.000
+abs=9, rel=0.15 → Custom F1=0.000
+abs=9, rel=0.20 → Custom F1=0.000
+abs=9, rel=0.25 → Custom F1=0.000
+abs=9, rel=0.30 → Custom F1=0.000
+abs=9, rel=0.35 → Custom F1=0.000
+abs=9, rel=0.40 → Custom F1=0.000
+abs=9, rel=0.45 → Custom F1=0.000
+abs=9, rel=0.50 → Custom F1=0.000
+abs=10, rel=0.00 → Custom F1=0.000
+abs=10, rel=0.05 → Custom F1=0.000
+abs=10, rel=0.10 → Custom F1=0.000
+abs=10, rel=0.15 → Custom F1=0.000
+abs=10, rel=0.20 → Custom F1=0.000
+abs=10, rel=0.25 → Custom F1=0.000
+abs=10, rel=0.30 → Custom F1=0.000
+abs=10, rel=0.35 → Custom F1=0.000
+abs=10, rel=0.40 → Custom F1=0.000
+abs=10, rel=0.45 → Custom F1=0.000
+abs=10, rel=0.50 → Custom F1=0.000
 
 Best configuration for L3.xes: abs=1, rel=0, F1=0.889
 
 Checked 110 parameter combinations.
-Execution time: 0.10 seconds
+Execution time: 0.07 seconds
 
 📊 === Evaluation Summary for L3.xes ===
 → Gold standard relations: 8
-→ Best config: abs=1, rel=0.0
+→ Best config: abs=1, rel=0.00
 
 --- Best Custom Miner ---
 Precision: 0.800
@@ -443,8 +443,8 @@ F1 Score:  1.000
 Precision: 0.800
 Recall:    1.000
 F1 Score:  0.889
-parsing log, completed traces :: 100%|██████████| 4/4 [00:00<00:00, 2119.14it/s]
-parsing log, completed traces :: 100%|██████████| 4/4 [00:00<00:00, 2744.51it/s]
+parsing log, completed traces :: 100%|██████████| 4/4 [00:00<00:00, 2912.71it/s]
+parsing log, completed traces :: 100%|██████████| 4/4 [00:00<00:00, 2928.98it/s]
 Model visualized and saved to outputs/L3_best_model.png
 
 
@@ -453,127 +453,127 @@ Dataset: L4.xes
 ============================
 
 === Running experiment for L4.xes ===
-abs=1, rel=0.0 → Custom F1=1.000
-abs=1, rel=0.1 → Custom F1=1.000
-abs=1, rel=0.1 → Custom F1=1.000
-abs=1, rel=0.1 → Custom F1=1.000
-abs=1, rel=0.2 → Custom F1=1.000
-abs=1, rel=0.2 → Custom F1=1.000
-abs=1, rel=0.3 → Custom F1=1.000
-abs=1, rel=0.3 → Custom F1=1.000
-abs=1, rel=0.4 → Custom F1=1.000
-abs=1, rel=0.5 → Custom F1=0.857
-abs=1, rel=0.5 → Custom F1=0.857
-abs=2, rel=0.0 → Custom F1=1.000
-abs=2, rel=0.1 → Custom F1=1.000
-abs=2, rel=0.1 → Custom F1=1.000
-abs=2, rel=0.1 → Custom F1=1.000
-abs=2, rel=0.2 → Custom F1=1.000
-abs=2, rel=0.2 → Custom F1=1.000
-abs=2, rel=0.3 → Custom F1=1.000
-abs=2, rel=0.3 → Custom F1=1.000
-abs=2, rel=0.4 → Custom F1=1.000
-abs=2, rel=0.5 → Custom F1=0.857
-abs=2, rel=0.5 → Custom F1=0.857
-abs=3, rel=0.0 → Custom F1=1.000
-abs=3, rel=0.1 → Custom F1=1.000
-abs=3, rel=0.1 → Custom F1=1.000
-abs=3, rel=0.1 → Custom F1=1.000
-abs=3, rel=0.2 → Custom F1=1.000
-abs=3, rel=0.2 → Custom F1=1.000
-abs=3, rel=0.3 → Custom F1=1.000
-abs=3, rel=0.3 → Custom F1=1.000
-abs=3, rel=0.4 → Custom F1=1.000
-abs=3, rel=0.5 → Custom F1=0.857
-abs=3, rel=0.5 → Custom F1=0.857
-abs=4, rel=0.0 → Custom F1=1.000
-abs=4, rel=0.1 → Custom F1=1.000
-abs=4, rel=0.1 → Custom F1=1.000
-abs=4, rel=0.1 → Custom F1=1.000
-abs=4, rel=0.2 → Custom F1=1.000
-abs=4, rel=0.2 → Custom F1=1.000
-abs=4, rel=0.3 → Custom F1=1.000
-abs=4, rel=0.3 → Custom F1=1.000
-abs=4, rel=0.4 → Custom F1=1.000
-abs=4, rel=0.5 → Custom F1=0.857
-abs=4, rel=0.5 → Custom F1=0.857
-abs=5, rel=0.0 → Custom F1=1.000
-abs=5, rel=0.1 → Custom F1=1.000
-abs=5, rel=0.1 → Custom F1=1.000
-abs=5, rel=0.1 → Custom F1=1.000
-abs=5, rel=0.2 → Custom F1=1.000
-abs=5, rel=0.2 → Custom F1=1.000
-abs=5, rel=0.3 → Custom F1=1.000
-abs=5, rel=0.3 → Custom F1=1.000
-abs=5, rel=0.4 → Custom F1=1.000
-abs=5, rel=0.5 → Custom F1=0.857
-abs=5, rel=0.5 → Custom F1=0.857
-abs=6, rel=0.0 → Custom F1=1.000
-abs=6, rel=0.1 → Custom F1=1.000
-abs=6, rel=0.1 → Custom F1=1.000
-abs=6, rel=0.1 → Custom F1=1.000
-abs=6, rel=0.2 → Custom F1=1.000
-abs=6, rel=0.2 → Custom F1=1.000
-abs=6, rel=0.3 → Custom F1=1.000
-abs=6, rel=0.3 → Custom F1=1.000
-abs=6, rel=0.4 → Custom F1=1.000
-abs=6, rel=0.5 → Custom F1=0.857
-abs=6, rel=0.5 → Custom F1=0.857
-abs=7, rel=0.0 → Custom F1=1.000
-abs=7, rel=0.1 → Custom F1=1.000
-abs=7, rel=0.1 → Custom F1=1.000
-abs=7, rel=0.1 → Custom F1=1.000
-abs=7, rel=0.2 → Custom F1=1.000
-abs=7, rel=0.2 → Custom F1=1.000
-abs=7, rel=0.3 → Custom F1=1.000
-abs=7, rel=0.3 → Custom F1=1.000
-abs=7, rel=0.4 → Custom F1=1.000
-abs=7, rel=0.5 → Custom F1=0.857
-abs=7, rel=0.5 → Custom F1=0.857
-abs=8, rel=0.0 → Custom F1=1.000
-abs=8, rel=0.1 → Custom F1=1.000
-abs=8, rel=0.1 → Custom F1=1.000
-abs=8, rel=0.1 → Custom F1=1.000
-abs=8, rel=0.2 → Custom F1=1.000
-abs=8, rel=0.2 → Custom F1=1.000
-abs=8, rel=0.3 → Custom F1=1.000
-abs=8, rel=0.3 → Custom F1=1.000
-abs=8, rel=0.4 → Custom F1=1.000
-abs=8, rel=0.5 → Custom F1=0.857
-abs=8, rel=0.5 → Custom F1=0.857
-abs=9, rel=0.0 → Custom F1=1.000
-abs=9, rel=0.1 → Custom F1=1.000
-abs=9, rel=0.1 → Custom F1=1.000
-abs=9, rel=0.1 → Custom F1=1.000
-abs=9, rel=0.2 → Custom F1=1.000
-abs=9, rel=0.2 → Custom F1=1.000
-abs=9, rel=0.3 → Custom F1=1.000
-abs=9, rel=0.3 → Custom F1=1.000
-abs=9, rel=0.4 → Custom F1=1.000
-abs=9, rel=0.5 → Custom F1=0.857
-abs=9, rel=0.5 → Custom F1=0.857
-abs=10, rel=0.0 → Custom F1=1.000
-abs=10, rel=0.1 → Custom F1=1.000
-abs=10, rel=0.1 → Custom F1=1.000
-abs=10, rel=0.1 → Custom F1=1.000
-abs=10, rel=0.2 → Custom F1=1.000
-abs=10, rel=0.2 → Custom F1=1.000
-abs=10, rel=0.3 → Custom F1=1.000
-abs=10, rel=0.3 → Custom F1=1.000
-abs=10, rel=0.4 → Custom F1=1.000
-abs=10, rel=0.5 → Custom F1=0.857
-abs=10, rel=0.5 → Custom F1=0.857
+abs=1, rel=0.00 → Custom F1=1.000
+abs=1, rel=0.05 → Custom F1=1.000
+abs=1, rel=0.10 → Custom F1=1.000
+abs=1, rel=0.15 → Custom F1=1.000
+abs=1, rel=0.20 → Custom F1=1.000
+abs=1, rel=0.25 → Custom F1=1.000
+abs=1, rel=0.30 → Custom F1=1.000
+abs=1, rel=0.35 → Custom F1=1.000
+abs=1, rel=0.40 → Custom F1=1.000
+abs=1, rel=0.45 → Custom F1=0.857
+abs=1, rel=0.50 → Custom F1=0.857
+abs=2, rel=0.00 → Custom F1=1.000
+abs=2, rel=0.05 → Custom F1=1.000
+abs=2, rel=0.10 → Custom F1=1.000
+abs=2, rel=0.15 → Custom F1=1.000
+abs=2, rel=0.20 → Custom F1=1.000
+abs=2, rel=0.25 → Custom F1=1.000
+abs=2, rel=0.30 → Custom F1=1.000
+abs=2, rel=0.35 → Custom F1=1.000
+abs=2, rel=0.40 → Custom F1=1.000
+abs=2, rel=0.45 → Custom F1=0.857
+abs=2, rel=0.50 → Custom F1=0.857
+abs=3, rel=0.00 → Custom F1=1.000
+abs=3, rel=0.05 → Custom F1=1.000
+abs=3, rel=0.10 → Custom F1=1.000
+abs=3, rel=0.15 → Custom F1=1.000
+abs=3, rel=0.20 → Custom F1=1.000
+abs=3, rel=0.25 → Custom F1=1.000
+abs=3, rel=0.30 → Custom F1=1.000
+abs=3, rel=0.35 → Custom F1=1.000
+abs=3, rel=0.40 → Custom F1=1.000
+abs=3, rel=0.45 → Custom F1=0.857
+abs=3, rel=0.50 → Custom F1=0.857
+abs=4, rel=0.00 → Custom F1=1.000
+abs=4, rel=0.05 → Custom F1=1.000
+abs=4, rel=0.10 → Custom F1=1.000
+abs=4, rel=0.15 → Custom F1=1.000
+abs=4, rel=0.20 → Custom F1=1.000
+abs=4, rel=0.25 → Custom F1=1.000
+abs=4, rel=0.30 → Custom F1=1.000
+abs=4, rel=0.35 → Custom F1=1.000
+abs=4, rel=0.40 → Custom F1=1.000
+abs=4, rel=0.45 → Custom F1=0.857
+abs=4, rel=0.50 → Custom F1=0.857
+abs=5, rel=0.00 → Custom F1=1.000
+abs=5, rel=0.05 → Custom F1=1.000
+abs=5, rel=0.10 → Custom F1=1.000
+abs=5, rel=0.15 → Custom F1=1.000
+abs=5, rel=0.20 → Custom F1=1.000
+abs=5, rel=0.25 → Custom F1=1.000
+abs=5, rel=0.30 → Custom F1=1.000
+abs=5, rel=0.35 → Custom F1=1.000
+abs=5, rel=0.40 → Custom F1=1.000
+abs=5, rel=0.45 → Custom F1=0.857
+abs=5, rel=0.50 → Custom F1=0.857
+abs=6, rel=0.00 → Custom F1=1.000
+abs=6, rel=0.05 → Custom F1=1.000
+abs=6, rel=0.10 → Custom F1=1.000
+abs=6, rel=0.15 → Custom F1=1.000
+abs=6, rel=0.20 → Custom F1=1.000
+abs=6, rel=0.25 → Custom F1=1.000
+abs=6, rel=0.30 → Custom F1=1.000
+abs=6, rel=0.35 → Custom F1=1.000
+abs=6, rel=0.40 → Custom F1=1.000
+abs=6, rel=0.45 → Custom F1=0.857
+abs=6, rel=0.50 → Custom F1=0.857
+abs=7, rel=0.00 → Custom F1=1.000
+abs=7, rel=0.05 → Custom F1=1.000
+abs=7, rel=0.10 → Custom F1=1.000
+abs=7, rel=0.15 → Custom F1=1.000
+abs=7, rel=0.20 → Custom F1=1.000
+abs=7, rel=0.25 → Custom F1=1.000
+abs=7, rel=0.30 → Custom F1=1.000
+abs=7, rel=0.35 → Custom F1=1.000
+abs=7, rel=0.40 → Custom F1=1.000
+abs=7, rel=0.45 → Custom F1=0.857
+abs=7, rel=0.50 → Custom F1=0.857
+abs=8, rel=0.00 → Custom F1=1.000
+abs=8, rel=0.05 → Custom F1=1.000
+abs=8, rel=0.10 → Custom F1=1.000
+abs=8, rel=0.15 → Custom F1=1.000
+abs=8, rel=0.20 → Custom F1=1.000
+abs=8, rel=0.25 → Custom F1=1.000
+abs=8, rel=0.30 → Custom F1=1.000
+abs=8, rel=0.35 → Custom F1=1.000
+abs=8, rel=0.40 → Custom F1=1.000
+abs=8, rel=0.45 → Custom F1=0.857
+abs=8, rel=0.50 → Custom F1=0.857
+abs=9, rel=0.00 → Custom F1=1.000
+abs=9, rel=0.05 → Custom F1=1.000
+abs=9, rel=0.10 → Custom F1=1.000
+abs=9, rel=0.15 → Custom F1=1.000
+abs=9, rel=0.20 → Custom F1=1.000
+abs=9, rel=0.25 → Custom F1=1.000
+abs=9, rel=0.30 → Custom F1=1.000
+abs=9, rel=0.35 → Custom F1=1.000
+abs=9, rel=0.40 → Custom F1=1.000
+abs=9, rel=0.45 → Custom F1=0.857
+abs=9, rel=0.50 → Custom F1=0.857
+abs=10, rel=0.00 → Custom F1=1.000
+abs=10, rel=0.05 → Custom F1=1.000
+abs=10, rel=0.10 → Custom F1=1.000
+abs=10, rel=0.15 → Custom F1=1.000
+abs=10, rel=0.20 → Custom F1=1.000
+abs=10, rel=0.25 → Custom F1=1.000
+abs=10, rel=0.30 → Custom F1=1.000
+abs=10, rel=0.35 → Custom F1=1.000
+abs=10, rel=0.40 → Custom F1=1.000
+abs=10, rel=0.45 → Custom F1=0.857
+abs=10, rel=0.50 → Custom F1=0.857
 
 Best configuration for L4.xes: abs=1, rel=0, F1=1.000
 
 Checked 110 parameter combinations.
-Execution time: 1.44 seconds
-parsing log, completed traces :: 100%|██████████| 147/147 [00:00<00:00, 2994.69it/s]
-parsing log, completed traces :: 100%|██████████| 147/147 [00:00<00:00, 8377.67it/s]
+Execution time: 0.62 seconds
+parsing log, completed traces :: 100%|██████████| 147/147 [00:00<00:00, 14346.01it/s]
+parsing log, completed traces :: 100%|██████████| 147/147 [00:00<00:00, 14422.86it/s]
 
 📊 === Evaluation Summary for L4.xes ===
 → Gold standard relations: 4
-→ Best config: abs=1, rel=0.0
+→ Best config: abs=1, rel=0.00
 
 --- Best Custom Miner ---
 Precision: 1.000
@@ -602,127 +602,127 @@ Dataset: L5.xes
 ============================
 
 === Running experiment for L5.xes ===
-abs=1, rel=0.0 → Custom F1=0.700
-abs=1, rel=0.1 → Custom F1=0.700
-abs=1, rel=0.1 → Custom F1=0.700
-abs=1, rel=0.1 → Custom F1=0.667
-abs=1, rel=0.2 → Custom F1=0.750
-abs=1, rel=0.2 → Custom F1=0.714
-abs=1, rel=0.3 → Custom F1=0.714
-abs=1, rel=0.3 → Custom F1=0.667
-abs=1, rel=0.4 → Custom F1=0.667
-abs=1, rel=0.5 → Custom F1=0.667
-abs=1, rel=0.5 → Custom F1=0.545
-abs=2, rel=0.0 → Custom F1=0.700
-abs=2, rel=0.1 → Custom F1=0.700
-abs=2, rel=0.1 → Custom F1=0.700
-abs=2, rel=0.1 → Custom F1=0.667
-abs=2, rel=0.2 → Custom F1=0.750
-abs=2, rel=0.2 → Custom F1=0.714
-abs=2, rel=0.3 → Custom F1=0.714
-abs=2, rel=0.3 → Custom F1=0.667
-abs=2, rel=0.4 → Custom F1=0.667
-abs=2, rel=0.5 → Custom F1=0.667
-abs=2, rel=0.5 → Custom F1=0.545
-abs=3, rel=0.0 → Custom F1=0.706
-abs=3, rel=0.1 → Custom F1=0.706
-abs=3, rel=0.1 → Custom F1=0.706
-abs=3, rel=0.1 → Custom F1=0.706
-abs=3, rel=0.2 → Custom F1=0.750
-abs=3, rel=0.2 → Custom F1=0.714
-abs=3, rel=0.3 → Custom F1=0.714
-abs=3, rel=0.3 → Custom F1=0.667
-abs=3, rel=0.4 → Custom F1=0.667
-abs=3, rel=0.5 → Custom F1=0.667
-abs=3, rel=0.5 → Custom F1=0.545
-abs=4, rel=0.0 → Custom F1=0.667
-abs=4, rel=0.1 → Custom F1=0.667
-abs=4, rel=0.1 → Custom F1=0.667
-abs=4, rel=0.1 → Custom F1=0.667
-abs=4, rel=0.2 → Custom F1=0.714
-abs=4, rel=0.2 → Custom F1=0.714
-abs=4, rel=0.3 → Custom F1=0.714
-abs=4, rel=0.3 → Custom F1=0.667
-abs=4, rel=0.4 → Custom F1=0.667
-abs=4, rel=0.5 → Custom F1=0.667
-abs=4, rel=0.5 → Custom F1=0.545
-abs=5, rel=0.0 → Custom F1=0.714
-abs=5, rel=0.1 → Custom F1=0.714
-abs=5, rel=0.1 → Custom F1=0.714
-abs=5, rel=0.1 → Custom F1=0.714
-abs=5, rel=0.2 → Custom F1=0.769
-abs=5, rel=0.2 → Custom F1=0.769
-abs=5, rel=0.3 → Custom F1=0.769
-abs=5, rel=0.3 → Custom F1=0.667
-abs=5, rel=0.4 → Custom F1=0.667
-abs=5, rel=0.5 → Custom F1=0.667
-abs=5, rel=0.5 → Custom F1=0.545
-abs=6, rel=0.0 → Custom F1=0.769
-abs=6, rel=0.1 → Custom F1=0.769
-abs=6, rel=0.1 → Custom F1=0.769
-abs=6, rel=0.1 → Custom F1=0.769
-abs=6, rel=0.2 → Custom F1=0.769
-abs=6, rel=0.2 → Custom F1=0.769
-abs=6, rel=0.3 → Custom F1=0.769
-abs=6, rel=0.3 → Custom F1=0.667
-abs=6, rel=0.4 → Custom F1=0.667
-abs=6, rel=0.5 → Custom F1=0.667
-abs=6, rel=0.5 → Custom F1=0.545
-abs=7, rel=0.0 → Custom F1=0.769
-abs=7, rel=0.1 → Custom F1=0.769
-abs=7, rel=0.1 → Custom F1=0.769
-abs=7, rel=0.1 → Custom F1=0.769
-abs=7, rel=0.2 → Custom F1=0.769
-abs=7, rel=0.2 → Custom F1=0.769
-abs=7, rel=0.3 → Custom F1=0.769
-abs=7, rel=0.3 → Custom F1=0.667
-abs=7, rel=0.4 → Custom F1=0.667
-abs=7, rel=0.5 → Custom F1=0.667
-abs=7, rel=0.5 → Custom F1=0.545
-abs=8, rel=0.0 → Custom F1=0.833
-abs=8, rel=0.1 → Custom F1=0.833
-abs=8, rel=0.1 → Custom F1=0.833
-abs=8, rel=0.1 → Custom F1=0.833
-abs=8, rel=0.2 → Custom F1=0.833
-abs=8, rel=0.2 → Custom F1=0.833
-abs=8, rel=0.3 → Custom F1=0.833
-abs=8, rel=0.3 → Custom F1=0.727
-abs=8, rel=0.4 → Custom F1=0.727
-abs=8, rel=0.5 → Custom F1=0.727
-abs=8, rel=0.5 → Custom F1=0.600
-abs=9, rel=0.0 → Custom F1=0.727
-abs=9, rel=0.1 → Custom F1=0.727
-abs=9, rel=0.1 → Custom F1=0.727
-abs=9, rel=0.1 → Custom F1=0.727
-abs=9, rel=0.2 → Custom F1=0.727
-abs=9, rel=0.2 → Custom F1=0.727
-abs=9, rel=0.3 → Custom F1=0.727
-abs=9, rel=0.3 → Custom F1=0.600
-abs=9, rel=0.4 → Custom F1=0.600
-abs=9, rel=0.5 → Custom F1=0.600
-abs=9, rel=0.5 → Custom F1=0.444
-abs=10, rel=0.0 → Custom F1=0.600
-abs=10, rel=0.1 → Custom F1=0.600
-abs=10, rel=0.1 → Custom F1=0.600
-abs=10, rel=0.1 → Custom F1=0.600
-abs=10, rel=0.2 → Custom F1=0.600
-abs=10, rel=0.2 → Custom F1=0.600
-abs=10, rel=0.3 → Custom F1=0.600
-abs=10, rel=0.3 → Custom F1=0.600
-abs=10, rel=0.4 → Custom F1=0.600
-abs=10, rel=0.5 → Custom F1=0.600
-abs=10, rel=0.5 → Custom F1=0.444
+abs=1, rel=0.00 → Custom F1=0.700
+abs=1, rel=0.05 → Custom F1=0.700
+abs=1, rel=0.10 → Custom F1=0.700
+abs=1, rel=0.15 → Custom F1=0.667
+abs=1, rel=0.20 → Custom F1=0.750
+abs=1, rel=0.25 → Custom F1=0.714
+abs=1, rel=0.30 → Custom F1=0.714
+abs=1, rel=0.35 → Custom F1=0.667
+abs=1, rel=0.40 → Custom F1=0.667
+abs=1, rel=0.45 → Custom F1=0.667
+abs=1, rel=0.50 → Custom F1=0.545
+abs=2, rel=0.00 → Custom F1=0.700
+abs=2, rel=0.05 → Custom F1=0.700
+abs=2, rel=0.10 → Custom F1=0.700
+abs=2, rel=0.15 → Custom F1=0.667
+abs=2, rel=0.20 → Custom F1=0.750
+abs=2, rel=0.25 → Custom F1=0.714
+abs=2, rel=0.30 → Custom F1=0.714
+abs=2, rel=0.35 → Custom F1=0.667
+abs=2, rel=0.40 → Custom F1=0.667
+abs=2, rel=0.45 → Custom F1=0.667
+abs=2, rel=0.50 → Custom F1=0.545
+abs=3, rel=0.00 → Custom F1=0.706
+abs=3, rel=0.05 → Custom F1=0.706
+abs=3, rel=0.10 → Custom F1=0.706
+abs=3, rel=0.15 → Custom F1=0.706
+abs=3, rel=0.20 → Custom F1=0.750
+abs=3, rel=0.25 → Custom F1=0.714
+abs=3, rel=0.30 → Custom F1=0.714
+abs=3, rel=0.35 → Custom F1=0.667
+abs=3, rel=0.40 → Custom F1=0.667
+abs=3, rel=0.45 → Custom F1=0.667
+abs=3, rel=0.50 → Custom F1=0.545
+abs=4, rel=0.00 → Custom F1=0.667
+abs=4, rel=0.05 → Custom F1=0.667
+abs=4, rel=0.10 → Custom F1=0.667
+abs=4, rel=0.15 → Custom F1=0.667
+abs=4, rel=0.20 → Custom F1=0.714
+abs=4, rel=0.25 → Custom F1=0.714
+abs=4, rel=0.30 → Custom F1=0.714
+abs=4, rel=0.35 → Custom F1=0.667
+abs=4, rel=0.40 → Custom F1=0.667
+abs=4, rel=0.45 → Custom F1=0.667
+abs=4, rel=0.50 → Custom F1=0.545
+abs=5, rel=0.00 → Custom F1=0.714
+abs=5, rel=0.05 → Custom F1=0.714
+abs=5, rel=0.10 → Custom F1=0.714
+abs=5, rel=0.15 → Custom F1=0.714
+abs=5, rel=0.20 → Custom F1=0.769
+abs=5, rel=0.25 → Custom F1=0.769
+abs=5, rel=0.30 → Custom F1=0.769
+abs=5, rel=0.35 → Custom F1=0.667
+abs=5, rel=0.40 → Custom F1=0.667
+abs=5, rel=0.45 → Custom F1=0.667
+abs=5, rel=0.50 → Custom F1=0.545
+abs=6, rel=0.00 → Custom F1=0.769
+abs=6, rel=0.05 → Custom F1=0.769
+abs=6, rel=0.10 → Custom F1=0.769
+abs=6, rel=0.15 → Custom F1=0.769
+abs=6, rel=0.20 → Custom F1=0.769
+abs=6, rel=0.25 → Custom F1=0.769
+abs=6, rel=0.30 → Custom F1=0.769
+abs=6, rel=0.35 → Custom F1=0.667
+abs=6, rel=0.40 → Custom F1=0.667
+abs=6, rel=0.45 → Custom F1=0.667
+abs=6, rel=0.50 → Custom F1=0.545
+abs=7, rel=0.00 → Custom F1=0.769
+abs=7, rel=0.05 → Custom F1=0.769
+abs=7, rel=0.10 → Custom F1=0.769
+abs=7, rel=0.15 → Custom F1=0.769
+abs=7, rel=0.20 → Custom F1=0.769
+abs=7, rel=0.25 → Custom F1=0.769
+abs=7, rel=0.30 → Custom F1=0.769
+abs=7, rel=0.35 → Custom F1=0.667
+abs=7, rel=0.40 → Custom F1=0.667
+abs=7, rel=0.45 → Custom F1=0.667
+abs=7, rel=0.50 → Custom F1=0.545
+abs=8, rel=0.00 → Custom F1=0.833
+abs=8, rel=0.05 → Custom F1=0.833
+abs=8, rel=0.10 → Custom F1=0.833
+abs=8, rel=0.15 → Custom F1=0.833
+abs=8, rel=0.20 → Custom F1=0.833
+abs=8, rel=0.25 → Custom F1=0.833
+abs=8, rel=0.30 → Custom F1=0.833
+abs=8, rel=0.35 → Custom F1=0.727
+abs=8, rel=0.40 → Custom F1=0.727
+abs=8, rel=0.45 → Custom F1=0.727
+abs=8, rel=0.50 → Custom F1=0.600
+abs=9, rel=0.00 → Custom F1=0.727
+abs=9, rel=0.05 → Custom F1=0.727
+abs=9, rel=0.10 → Custom F1=0.727
+abs=9, rel=0.15 → Custom F1=0.727
+abs=9, rel=0.20 → Custom F1=0.727
+abs=9, rel=0.25 → Custom F1=0.727
+abs=9, rel=0.30 → Custom F1=0.727
+abs=9, rel=0.35 → Custom F1=0.600
+abs=9, rel=0.40 → Custom F1=0.600
+abs=9, rel=0.45 → Custom F1=0.600
+abs=9, rel=0.50 → Custom F1=0.444
+abs=10, rel=0.00 → Custom F1=0.600
+abs=10, rel=0.05 → Custom F1=0.600
+abs=10, rel=0.10 → Custom F1=0.600
+abs=10, rel=0.15 → Custom F1=0.600
+abs=10, rel=0.20 → Custom F1=0.600
+abs=10, rel=0.25 → Custom F1=0.600
+abs=10, rel=0.30 → Custom F1=0.600
+abs=10, rel=0.35 → Custom F1=0.600
+abs=10, rel=0.40 → Custom F1=0.600
+abs=10, rel=0.45 → Custom F1=0.600
+abs=10, rel=0.50 → Custom F1=0.444
 
 Best configuration for L5.xes: abs=8, rel=0, F1=0.833
 
 Checked 110 parameter combinations.
-Execution time: 0.21 seconds
-parsing log, completed traces :: 100%|██████████| 14/14 [00:00<00:00, 2293.67it/s]
-parsing log, completed traces :: 100%|██████████| 14/14 [00:00<00:00, 3951.30it/s]
+Execution time: 0.12 seconds
+parsing log, completed traces :: 100%|██████████| 14/14 [00:00<00:00, 4719.14it/s]
+parsing log, completed traces :: 100%|██████████| 14/14 [00:00<00:00, 4730.16it/s]
 
 📊 === Evaluation Summary for L5.xes ===
 → Gold standard relations: 7
-→ Best config: abs=8, rel=0.0
+→ Best config: abs=8, rel=0.00
 
 --- Best Custom Miner ---
 Precision: 1.000
@@ -751,127 +751,125 @@ Dataset: L6.xes
 ============================
 
 === Running experiment for L6.xes ===
-abs=1, rel=0.0 → Custom F1=0.800
-abs=1, rel=0.1 → Custom F1=0.800
-abs=1, rel=0.1 → Custom F1=0.800
-abs=1, rel=0.1 → Custom F1=0.800
-abs=1, rel=0.2 → Custom F1=0.800
-abs=1, rel=0.2 → Custom F1=0.800
-abs=1, rel=0.3 → Custom F1=0.800
-abs=1, rel=0.3 → Custom F1=0.706
-abs=1, rel=0.4 → Custom F1=0.706
-abs=1, rel=0.5 → Custom F1=0.571
-abs=1, rel=0.5 → Custom F1=0.571
-abs=2, rel=0.0 → Custom F1=0.800
-abs=2, rel=0.1 → Custom F1=0.800
-abs=2, rel=0.1 → Custom F1=0.800
-abs=2, rel=0.1 → Custom F1=0.800
-abs=2, rel=0.2 → Custom F1=0.800
-abs=2, rel=0.2 → Custom F1=0.800
-abs=2, rel=0.3 → Custom F1=0.800
-abs=2, rel=0.3 → Custom F1=0.706
-abs=2, rel=0.4 → Custom F1=0.706
-abs=2, rel=0.5 → Custom F1=0.571
-abs=2, rel=0.5 → Custom F1=0.571
-abs=3, rel=0.0 → Custom F1=0.571
-abs=3, rel=0.1 → Custom F1=0.571
-abs=3, rel=0.1 → Custom F1=0.571
-abs=3, rel=0.1 → Custom F1=0.571
-abs=3, rel=0.2 → Custom F1=0.571
-abs=3, rel=0.2 → Custom F1=0.571
-abs=3, rel=0.3 → Custom F1=0.571
-abs=3, rel=0.3 → Custom F1=0.571
-abs=3, rel=0.4 → Custom F1=0.571
-abs=3, rel=0.5 → Custom F1=0.571
-abs=3, rel=0.5 → Custom F1=0.571
-abs=4, rel=0.0 → Custom F1=0.364
-abs=4, rel=0.1 → Custom F1=0.364
-abs=4, rel=0.1 → Custom F1=0.364
-abs=4, rel=0.1 → Custom F1=0.364
-abs=4, rel=0.2 → Custom F1=0.364
-abs=4, rel=0.2 → Custom F1=0.364
-abs=4, rel=0.3 → Custom F1=0.364
-abs=4, rel=0.3 → Custom F1=0.364
-abs=4, rel=0.4 → Custom F1=0.364
-abs=4, rel=0.5 → Custom F1=0.364
-abs=4, rel=0.5 → Custom F1=0.364
-abs=5, rel=0.0 → Custom F1=0.000
-abs=5, rel=0.1 → Custom F1=0.000
-abs=5, rel=0.1 → Custom F1=0.000
-abs=5, rel=0.1 → Custom F1=0.000
-abs=5, rel=0.2 → Custom F1=0.000
-abs=5, rel=0.2 → Custom F1=0.000
-abs=5, rel=0.3 → Custom F1=0.000
-abs=5, rel=0.3 → Custom F1=0.000
-abs=5, rel=0.4 → Custom F1=0.000
-abs=5, rel=0.5 → Custom F1=0.000
-abs=5, rel=0.5 → Custom F1=0.000
-abs=6, rel=0.0 → Custom F1=0.000
-abs=6, rel=0.1 → Custom F1=0.000
-abs=6, rel=0.1 → Custom F1=0.000
-abs=6, rel=0.1 → Custom F1=0.000
-abs=6, rel=0.2 → Custom F1=0.000
-abs=6, rel=0.2 → Custom F1=0.000
-abs=6, rel=0.3 → Custom F1=0.000
-abs=6, rel=0.3 → Custom F1=0.000
-abs=6, rel=0.4 → Custom F1=0.000
-abs=6, rel=0.5 → Custom F1=0.000
-abs=6, rel=0.5 → Custom F1=0.000
-abs=7, rel=0.0 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.2 → Custom F1=0.000
-abs=7, rel=0.2 → Custom F1=0.000
-abs=7, rel=0.3 → Custom F1=0.000
-abs=7, rel=0.3 → Custom F1=0.000
-abs=7, rel=0.4 → Custom F1=0.000
-abs=7, rel=0.5 → Custom F1=0.000
-abs=7, rel=0.5 → Custom F1=0.000
-abs=8, rel=0.0 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.2 → Custom F1=0.000
-abs=8, rel=0.2 → Custom F1=0.000
-abs=8, rel=0.3 → Custom F1=0.000
-abs=8, rel=0.3 → Custom F1=0.000
-abs=8, rel=0.4 → Custom F1=0.000
-abs=8, rel=0.5 → Custom F1=0.000
-abs=8, rel=0.5 → Custom F1=0.000
-abs=9, rel=0.0 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.2 → Custom F1=0.000
-abs=9, rel=0.2 → Custom F1=0.000
-abs=9, rel=0.3 → Custom F1=0.000
-abs=9, rel=0.3 → Custom F1=0.000
-abs=9, rel=0.4 → Custom F1=0.000
-abs=9, rel=0.5 → Custom F1=0.000
-abs=9, rel=0.5 → Custom F1=0.000
-abs=10, rel=0.0 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.2 → Custom F1=0.000
-abs=10, rel=0.2 → Custom F1=0.000
-abs=10, rel=0.3 → Custom F1=0.000
-abs=10, rel=0.3 → Custom F1=0.000
-abs=10, rel=0.4 → Custom F1=0.000
-abs=10, rel=0.5 → Custom F1=0.000
-abs=10, rel=0.5 → Custom F1=0.000
+abs=1, rel=0.00 → Custom F1=0.800
+abs=1, rel=0.05 → Custom F1=0.800
+abs=1, rel=0.10 → Custom F1=0.800
+abs=1, rel=0.15 → Custom F1=0.800
+abs=1, rel=0.20 → Custom F1=0.800
+abs=1, rel=0.25 → Custom F1=0.800
+abs=1, rel=0.30 → Custom F1=0.800
+abs=1, rel=0.35 → Custom F1=0.706
+abs=1, rel=0.40 → Custom F1=0.706
+abs=1, rel=0.45 → Custom F1=0.571
+abs=1, rel=0.50 → Custom F1=0.571
+abs=2, rel=0.00 → Custom F1=0.800
+abs=2, rel=0.05 → Custom F1=0.800
+abs=2, rel=0.10 → Custom F1=0.800
+abs=2, rel=0.15 → Custom F1=0.800
+abs=2, rel=0.20 → Custom F1=0.800
+abs=2, rel=0.25 → Custom F1=0.800
+abs=2, rel=0.30 → Custom F1=0.800
+abs=2, rel=0.35 → Custom F1=0.706
+abs=2, rel=0.40 → Custom F1=0.706
+abs=2, rel=0.45 → Custom F1=0.571
+abs=2, rel=0.50 → Custom F1=0.571
+abs=3, rel=0.00 → Custom F1=0.571
+abs=3, rel=0.05 → Custom F1=0.571
+abs=3, rel=0.10 → Custom F1=0.571
+abs=3, rel=0.15 → Custom F1=0.571
+abs=3, rel=0.20 → Custom F1=0.571
+abs=3, rel=0.25 → Custom F1=0.571
+abs=3, rel=0.30 → Custom F1=0.571
+abs=3, rel=0.35 → Custom F1=0.571
+abs=3, rel=0.40 → Custom F1=0.571
+abs=3, rel=0.45 → Custom F1=0.571
+abs=3, rel=0.50 → Custom F1=0.571
+abs=4, rel=0.00 → Custom F1=0.364
+abs=4, rel=0.05 → Custom F1=0.364
+abs=4, rel=0.10 → Custom F1=0.364
+abs=4, rel=0.15 → Custom F1=0.364
+abs=4, rel=0.20 → Custom F1=0.364
+abs=4, rel=0.25 → Custom F1=0.364
+abs=4, rel=0.30 → Custom F1=0.364
+abs=4, rel=0.35 → Custom F1=0.364
+abs=4, rel=0.40 → Custom F1=0.364
+abs=4, rel=0.45 → Custom F1=0.364
+abs=4, rel=0.50 → Custom F1=0.364
+abs=5, rel=0.00 → Custom F1=0.000
+abs=5, rel=0.05 → Custom F1=0.000
+abs=5, rel=0.10 → Custom F1=0.000
+abs=5, rel=0.15 → Custom F1=0.000
+abs=5, rel=0.20 → Custom F1=0.000
+abs=5, rel=0.25 → Custom F1=0.000
+abs=5, rel=0.30 → Custom F1=0.000
+abs=5, rel=0.35 → Custom F1=0.000
+abs=5, rel=0.40 → Custom F1=0.000
+abs=5, rel=0.45 → Custom F1=0.000
+abs=5, rel=0.50 → Custom F1=0.000
+abs=6, rel=0.00 → Custom F1=0.000
+abs=6, rel=0.05 → Custom F1=0.000
+abs=6, rel=0.10 → Custom F1=0.000
+abs=6, rel=0.15 → Custom F1=0.000
+abs=6, rel=0.20 → Custom F1=0.000
+abs=6, rel=0.25 → Custom F1=0.000
+abs=6, rel=0.30 → Custom F1=0.000
+abs=6, rel=0.35 → Custom F1=0.000
+abs=6, rel=0.40 → Custom F1=0.000
+abs=6, rel=0.45 → Custom F1=0.000
+abs=6, rel=0.50 → Custom F1=0.000
+abs=7, rel=0.00 → Custom F1=0.000
+abs=7, rel=0.05 → Custom F1=0.000
+abs=7, rel=0.10 → Custom F1=0.000
+abs=7, rel=0.15 → Custom F1=0.000
+abs=7, rel=0.20 → Custom F1=0.000
+abs=7, rel=0.25 → Custom F1=0.000
+abs=7, rel=0.30 → Custom F1=0.000
+abs=7, rel=0.35 → Custom F1=0.000
+abs=7, rel=0.40 → Custom F1=0.000
+abs=7, rel=0.45 → Custom F1=0.000
+abs=7, rel=0.50 → Custom F1=0.000
+abs=8, rel=0.00 → Custom F1=0.000
+abs=8, rel=0.05 → Custom F1=0.000
+abs=8, rel=0.10 → Custom F1=0.000
+abs=8, rel=0.15 → Custom F1=0.000
+abs=8, rel=0.20 → Custom F1=0.000
+abs=8, rel=0.25 → Custom F1=0.000
+abs=8, rel=0.30 → Custom F1=0.000
+abs=8, rel=0.35 → Custom F1=0.000
+abs=8, rel=0.40 → Custom F1=0.000
+abs=8, rel=0.45 → Custom F1=0.000
+abs=8, rel=0.50 → Custom F1=0.000
+abs=9, rel=0.00 → Custom F1=0.000
+abs=9, rel=0.05 → Custom F1=0.000
+abs=9, rel=0.10 → Custom F1=0.000
+abs=9, rel=0.15 → Custom F1=0.000
+abs=9, rel=0.20 → Custom F1=0.000
+abs=9, rel=0.25 → Custom F1=0.000
+abs=9, rel=0.30 → Custom F1=0.000
+abs=9, rel=0.35 → Custom F1=0.000
+abs=9, rel=0.40 → Custom F1=0.000
+abs=9, rel=0.45 → Custom F1=0.000
+abs=9, rel=0.50 → Custom F1=0.000
+abs=10, rel=0.00 → Custom F1=0.000
+abs=10, rel=0.05 → Custom F1=0.000
+abs=10, rel=0.10 → Custom F1=0.000
+abs=10, rel=0.15 → Custom F1=0.000
+abs=10, rel=0.20 → Custom F1=0.000
+abs=10, rel=0.25 → Custom F1=0.000
+abs=10, rel=0.30 → Custom F1=0.000
+abs=10, rel=0.35 → Custom F1=0.000
+abs=10, rel=0.40 → Custom F1=0.000
+abs=10, rel=0.45 → Custom F1=0.000
+abs=10, rel=0.50 → Custom F1=0.000
 
 Best configuration for L6.xes: abs=1, rel=0, F1=0.800
 
 Checked 110 parameter combinations.
-Execution time: 0.15 seconds
-parsing log, completed traces :: 100%|██████████| 11/11 [00:00<00:00, 5454.23it/s]
-parsing log, completed traces :: 100%|██████████| 11/11 [00:00<00:00, 5035.18it/s]
+Execution time: 0.06 seconds
 
 📊 === Evaluation Summary for L6.xes ===
 → Gold standard relations: 8
-→ Best config: abs=1, rel=0.0
+→ Best config: abs=1, rel=0.00
 
 --- Best Custom Miner ---
 Precision: 0.667
@@ -892,6 +890,8 @@ F1 Score:  1.000
 Precision: 0.667
 Recall:    1.000
 F1 Score:  0.800
+parsing log, completed traces :: 100%|██████████| 11/11 [00:00<00:00, 6659.55it/s]
+parsing log, completed traces :: 100%|██████████| 11/11 [00:00<00:00, 8786.39it/s]
 Model visualized and saved to outputs/L6_best_model.png
 
 
@@ -900,127 +900,125 @@ Dataset: L7.xes
 ============================
 
 === Running experiment for L7.xes ===
-abs=1, rel=0.0 → Custom F1=1.000
-abs=1, rel=0.1 → Custom F1=1.000
-abs=1, rel=0.1 → Custom F1=1.000
-abs=1, rel=0.1 → Custom F1=1.000
-abs=1, rel=0.2 → Custom F1=1.000
-abs=1, rel=0.2 → Custom F1=1.000
-abs=1, rel=0.3 → Custom F1=0.857
-abs=1, rel=0.3 → Custom F1=0.857
-abs=1, rel=0.4 → Custom F1=0.857
-abs=1, rel=0.5 → Custom F1=0.857
-abs=1, rel=0.5 → Custom F1=0.667
-abs=2, rel=0.0 → Custom F1=1.000
-abs=2, rel=0.1 → Custom F1=1.000
-abs=2, rel=0.1 → Custom F1=1.000
-abs=2, rel=0.1 → Custom F1=1.000
-abs=2, rel=0.2 → Custom F1=1.000
-abs=2, rel=0.2 → Custom F1=1.000
-abs=2, rel=0.3 → Custom F1=0.857
-abs=2, rel=0.3 → Custom F1=0.857
-abs=2, rel=0.4 → Custom F1=0.857
-abs=2, rel=0.5 → Custom F1=0.857
-abs=2, rel=0.5 → Custom F1=0.667
-abs=3, rel=0.0 → Custom F1=0.857
-abs=3, rel=0.1 → Custom F1=0.857
-abs=3, rel=0.1 → Custom F1=0.857
-abs=3, rel=0.1 → Custom F1=0.857
-abs=3, rel=0.2 → Custom F1=0.857
-abs=3, rel=0.2 → Custom F1=0.857
-abs=3, rel=0.3 → Custom F1=0.857
-abs=3, rel=0.3 → Custom F1=0.857
-abs=3, rel=0.4 → Custom F1=0.857
-abs=3, rel=0.5 → Custom F1=0.857
-abs=3, rel=0.5 → Custom F1=0.667
-abs=4, rel=0.0 → Custom F1=0.857
-abs=4, rel=0.1 → Custom F1=0.857
-abs=4, rel=0.1 → Custom F1=0.857
-abs=4, rel=0.1 → Custom F1=0.857
-abs=4, rel=0.2 → Custom F1=0.857
-abs=4, rel=0.2 → Custom F1=0.857
-abs=4, rel=0.3 → Custom F1=0.857
-abs=4, rel=0.3 → Custom F1=0.857
-abs=4, rel=0.4 → Custom F1=0.857
-abs=4, rel=0.5 → Custom F1=0.857
-abs=4, rel=0.5 → Custom F1=0.667
-abs=5, rel=0.0 → Custom F1=0.857
-abs=5, rel=0.1 → Custom F1=0.857
-abs=5, rel=0.1 → Custom F1=0.857
-abs=5, rel=0.1 → Custom F1=0.857
-abs=5, rel=0.2 → Custom F1=0.857
-abs=5, rel=0.2 → Custom F1=0.857
-abs=5, rel=0.3 → Custom F1=0.857
-abs=5, rel=0.3 → Custom F1=0.857
-abs=5, rel=0.4 → Custom F1=0.857
-abs=5, rel=0.5 → Custom F1=0.857
-abs=5, rel=0.5 → Custom F1=0.667
-abs=6, rel=0.0 → Custom F1=0.667
-abs=6, rel=0.1 → Custom F1=0.667
-abs=6, rel=0.1 → Custom F1=0.667
-abs=6, rel=0.1 → Custom F1=0.667
-abs=6, rel=0.2 → Custom F1=0.667
-abs=6, rel=0.2 → Custom F1=0.667
-abs=6, rel=0.3 → Custom F1=0.667
-abs=6, rel=0.3 → Custom F1=0.667
-abs=6, rel=0.4 → Custom F1=0.667
-abs=6, rel=0.5 → Custom F1=0.667
-abs=6, rel=0.5 → Custom F1=0.667
-abs=7, rel=0.0 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.2 → Custom F1=0.000
-abs=7, rel=0.2 → Custom F1=0.000
-abs=7, rel=0.3 → Custom F1=0.000
-abs=7, rel=0.3 → Custom F1=0.000
-abs=7, rel=0.4 → Custom F1=0.000
-abs=7, rel=0.5 → Custom F1=0.000
-abs=7, rel=0.5 → Custom F1=0.000
-abs=8, rel=0.0 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.2 → Custom F1=0.000
-abs=8, rel=0.2 → Custom F1=0.000
-abs=8, rel=0.3 → Custom F1=0.000
-abs=8, rel=0.3 → Custom F1=0.000
-abs=8, rel=0.4 → Custom F1=0.000
-abs=8, rel=0.5 → Custom F1=0.000
-abs=8, rel=0.5 → Custom F1=0.000
-abs=9, rel=0.0 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.2 → Custom F1=0.000
-abs=9, rel=0.2 → Custom F1=0.000
-abs=9, rel=0.3 → Custom F1=0.000
-abs=9, rel=0.3 → Custom F1=0.000
-abs=9, rel=0.4 → Custom F1=0.000
-abs=9, rel=0.5 → Custom F1=0.000
-abs=9, rel=0.5 → Custom F1=0.000
-abs=10, rel=0.0 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.2 → Custom F1=0.000
-abs=10, rel=0.2 → Custom F1=0.000
-abs=10, rel=0.3 → Custom F1=0.000
-abs=10, rel=0.3 → Custom F1=0.000
-abs=10, rel=0.4 → Custom F1=0.000
-abs=10, rel=0.5 → Custom F1=0.000
-abs=10, rel=0.5 → Custom F1=0.000
+abs=1, rel=0.00 → Custom F1=1.000
+abs=1, rel=0.05 → Custom F1=1.000
+abs=1, rel=0.10 → Custom F1=1.000
+abs=1, rel=0.15 → Custom F1=1.000
+abs=1, rel=0.20 → Custom F1=1.000
+abs=1, rel=0.25 → Custom F1=1.000
+abs=1, rel=0.30 → Custom F1=0.857
+abs=1, rel=0.35 → Custom F1=0.857
+abs=1, rel=0.40 → Custom F1=0.857
+abs=1, rel=0.45 → Custom F1=0.857
+abs=1, rel=0.50 → Custom F1=0.667
+abs=2, rel=0.00 → Custom F1=1.000
+abs=2, rel=0.05 → Custom F1=1.000
+abs=2, rel=0.10 → Custom F1=1.000
+abs=2, rel=0.15 → Custom F1=1.000
+abs=2, rel=0.20 → Custom F1=1.000
+abs=2, rel=0.25 → Custom F1=1.000
+abs=2, rel=0.30 → Custom F1=0.857
+abs=2, rel=0.35 → Custom F1=0.857
+abs=2, rel=0.40 → Custom F1=0.857
+abs=2, rel=0.45 → Custom F1=0.857
+abs=2, rel=0.50 → Custom F1=0.667
+abs=3, rel=0.00 → Custom F1=0.857
+abs=3, rel=0.05 → Custom F1=0.857
+abs=3, rel=0.10 → Custom F1=0.857
+abs=3, rel=0.15 → Custom F1=0.857
+abs=3, rel=0.20 → Custom F1=0.857
+abs=3, rel=0.25 → Custom F1=0.857
+abs=3, rel=0.30 → Custom F1=0.857
+abs=3, rel=0.35 → Custom F1=0.857
+abs=3, rel=0.40 → Custom F1=0.857
+abs=3, rel=0.45 → Custom F1=0.857
+abs=3, rel=0.50 → Custom F1=0.667
+abs=4, rel=0.00 → Custom F1=0.857
+abs=4, rel=0.05 → Custom F1=0.857
+abs=4, rel=0.10 → Custom F1=0.857
+abs=4, rel=0.15 → Custom F1=0.857
+abs=4, rel=0.20 → Custom F1=0.857
+abs=4, rel=0.25 → Custom F1=0.857
+abs=4, rel=0.30 → Custom F1=0.857
+abs=4, rel=0.35 → Custom F1=0.857
+abs=4, rel=0.40 → Custom F1=0.857
+abs=4, rel=0.45 → Custom F1=0.857
+abs=4, rel=0.50 → Custom F1=0.667
+abs=5, rel=0.00 → Custom F1=0.857
+abs=5, rel=0.05 → Custom F1=0.857
+abs=5, rel=0.10 → Custom F1=0.857
+abs=5, rel=0.15 → Custom F1=0.857
+abs=5, rel=0.20 → Custom F1=0.857
+abs=5, rel=0.25 → Custom F1=0.857
+abs=5, rel=0.30 → Custom F1=0.857
+abs=5, rel=0.35 → Custom F1=0.857
+abs=5, rel=0.40 → Custom F1=0.857
+abs=5, rel=0.45 → Custom F1=0.857
+abs=5, rel=0.50 → Custom F1=0.667
+abs=6, rel=0.00 → Custom F1=0.667
+abs=6, rel=0.05 → Custom F1=0.667
+abs=6, rel=0.10 → Custom F1=0.667
+abs=6, rel=0.15 → Custom F1=0.667
+abs=6, rel=0.20 → Custom F1=0.667
+abs=6, rel=0.25 → Custom F1=0.667
+abs=6, rel=0.30 → Custom F1=0.667
+abs=6, rel=0.35 → Custom F1=0.667
+abs=6, rel=0.40 → Custom F1=0.667
+abs=6, rel=0.45 → Custom F1=0.667
+abs=6, rel=0.50 → Custom F1=0.667
+abs=7, rel=0.00 → Custom F1=0.000
+abs=7, rel=0.05 → Custom F1=0.000
+abs=7, rel=0.10 → Custom F1=0.000
+abs=7, rel=0.15 → Custom F1=0.000
+abs=7, rel=0.20 → Custom F1=0.000
+abs=7, rel=0.25 → Custom F1=0.000
+abs=7, rel=0.30 → Custom F1=0.000
+abs=7, rel=0.35 → Custom F1=0.000
+abs=7, rel=0.40 → Custom F1=0.000
+abs=7, rel=0.45 → Custom F1=0.000
+abs=7, rel=0.50 → Custom F1=0.000
+abs=8, rel=0.00 → Custom F1=0.000
+abs=8, rel=0.05 → Custom F1=0.000
+abs=8, rel=0.10 → Custom F1=0.000
+abs=8, rel=0.15 → Custom F1=0.000
+abs=8, rel=0.20 → Custom F1=0.000
+abs=8, rel=0.25 → Custom F1=0.000
+abs=8, rel=0.30 → Custom F1=0.000
+abs=8, rel=0.35 → Custom F1=0.000
+abs=8, rel=0.40 → Custom F1=0.000
+abs=8, rel=0.45 → Custom F1=0.000
+abs=8, rel=0.50 → Custom F1=0.000
+abs=9, rel=0.00 → Custom F1=0.000
+abs=9, rel=0.05 → Custom F1=0.000
+abs=9, rel=0.10 → Custom F1=0.000
+abs=9, rel=0.15 → Custom F1=0.000
+abs=9, rel=0.20 → Custom F1=0.000
+abs=9, rel=0.25 → Custom F1=0.000
+abs=9, rel=0.30 → Custom F1=0.000
+abs=9, rel=0.35 → Custom F1=0.000
+abs=9, rel=0.40 → Custom F1=0.000
+abs=9, rel=0.45 → Custom F1=0.000
+abs=9, rel=0.50 → Custom F1=0.000
+abs=10, rel=0.00 → Custom F1=0.000
+abs=10, rel=0.05 → Custom F1=0.000
+abs=10, rel=0.10 → Custom F1=0.000
+abs=10, rel=0.15 → Custom F1=0.000
+abs=10, rel=0.20 → Custom F1=0.000
+abs=10, rel=0.25 → Custom F1=0.000
+abs=10, rel=0.30 → Custom F1=0.000
+abs=10, rel=0.35 → Custom F1=0.000
+abs=10, rel=0.40 → Custom F1=0.000
+abs=10, rel=0.45 → Custom F1=0.000
+abs=10, rel=0.50 → Custom F1=0.000
 
 Best configuration for L7.xes: abs=1, rel=0, F1=1.000
 
 Checked 110 parameter combinations.
-Execution time: 0.08 seconds
-parsing log, completed traces :: 100%|██████████| 8/8 [00:00<00:00, 3544.36it/s]
-parsing log, completed traces :: 100%|██████████| 8/8 [00:00<00:00, 6157.91it/s]
+Execution time: 0.05 seconds
 
 📊 === Evaluation Summary for L7.xes ===
 → Gold standard relations: 4
-→ Best config: abs=1, rel=0.0
+→ Best config: abs=1, rel=0.00
 
 --- Best Custom Miner ---
 Precision: 1.000
@@ -1041,6 +1039,8 @@ F1 Score:  0.400
 Precision: 1.000
 Recall:    0.750
 F1 Score:  0.857
+parsing log, completed traces :: 100%|██████████| 8/8 [00:00<00:00, 7353.59it/s]
+parsing log, completed traces :: 100%|██████████| 8/8 [00:00<00:00, 7518.36it/s]
 Model visualized and saved to outputs/L7_best_model.png
 
 
@@ -1049,137 +1049,137 @@ Dataset: running-example.xes
 ============================
 
 === Running experiment for running-example.xes ===
-abs=1, rel=0.0 → Custom F1=0.000
-abs=1, rel=0.1 → Custom F1=0.000
-abs=1, rel=0.1 → Custom F1=0.000
-abs=1, rel=0.1 → Custom F1=0.000
-abs=1, rel=0.2 → Custom F1=0.000
-abs=1, rel=0.2 → Custom F1=0.000
-abs=1, rel=0.3 → Custom F1=0.000
-abs=1, rel=0.3 → Custom F1=0.000
-abs=1, rel=0.4 → Custom F1=0.000
-abs=1, rel=0.5 → Custom F1=0.000
-abs=1, rel=0.5 → Custom F1=0.000
-abs=2, rel=0.0 → Custom F1=0.000
-abs=2, rel=0.1 → Custom F1=0.000
-abs=2, rel=0.1 → Custom F1=0.000
-abs=2, rel=0.1 → Custom F1=0.000
-abs=2, rel=0.2 → Custom F1=0.000
-abs=2, rel=0.2 → Custom F1=0.000
-abs=2, rel=0.3 → Custom F1=0.000
-abs=2, rel=0.3 → Custom F1=0.000
-abs=2, rel=0.4 → Custom F1=0.000
-abs=2, rel=0.5 → Custom F1=0.000
-abs=2, rel=0.5 → Custom F1=0.000
-abs=3, rel=0.0 → Custom F1=0.000
-abs=3, rel=0.1 → Custom F1=0.000
-abs=3, rel=0.1 → Custom F1=0.000
-abs=3, rel=0.1 → Custom F1=0.000
-abs=3, rel=0.2 → Custom F1=0.000
-abs=3, rel=0.2 → Custom F1=0.000
-abs=3, rel=0.3 → Custom F1=0.000
-abs=3, rel=0.3 → Custom F1=0.000
-abs=3, rel=0.4 → Custom F1=0.000
-abs=3, rel=0.5 → Custom F1=0.000
-abs=3, rel=0.5 → Custom F1=0.000
-abs=4, rel=0.0 → Custom F1=0.000
-abs=4, rel=0.1 → Custom F1=0.000
-abs=4, rel=0.1 → Custom F1=0.000
-abs=4, rel=0.1 → Custom F1=0.000
-abs=4, rel=0.2 → Custom F1=0.000
-abs=4, rel=0.2 → Custom F1=0.000
-abs=4, rel=0.3 → Custom F1=0.000
-abs=4, rel=0.3 → Custom F1=0.000
-abs=4, rel=0.4 → Custom F1=0.000
-abs=4, rel=0.5 → Custom F1=0.000
-abs=4, rel=0.5 → Custom F1=0.000
-abs=5, rel=0.0 → Custom F1=0.000
-abs=5, rel=0.1 → Custom F1=0.000
-abs=5, rel=0.1 → Custom F1=0.000
-abs=5, rel=0.1 → Custom F1=0.000
-abs=5, rel=0.2 → Custom F1=0.000
-abs=5, rel=0.2 → Custom F1=0.000
-abs=5, rel=0.3 → Custom F1=0.000
-abs=5, rel=0.3 → Custom F1=0.000
-abs=5, rel=0.4 → Custom F1=0.000
-abs=5, rel=0.5 → Custom F1=0.000
-abs=5, rel=0.5 → Custom F1=0.000
-abs=6, rel=0.0 → Custom F1=0.000
-abs=6, rel=0.1 → Custom F1=0.000
-abs=6, rel=0.1 → Custom F1=0.000
-abs=6, rel=0.1 → Custom F1=0.000
-abs=6, rel=0.2 → Custom F1=0.000
-abs=6, rel=0.2 → Custom F1=0.000
-abs=6, rel=0.3 → Custom F1=0.000
-abs=6, rel=0.3 → Custom F1=0.000
-abs=6, rel=0.4 → Custom F1=0.000
-abs=6, rel=0.5 → Custom F1=0.000
-abs=6, rel=0.5 → Custom F1=0.000
-abs=7, rel=0.0 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.2 → Custom F1=0.000
-abs=7, rel=0.2 → Custom F1=0.000
-abs=7, rel=0.3 → Custom F1=0.000
-abs=7, rel=0.3 → Custom F1=0.000
-abs=7, rel=0.4 → Custom F1=0.000
-abs=7, rel=0.5 → Custom F1=0.000
-abs=7, rel=0.5 → Custom F1=0.000
-abs=8, rel=0.0 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.2 → Custom F1=0.000
-abs=8, rel=0.2 → Custom F1=0.000
-abs=8, rel=0.3 → Custom F1=0.000
-abs=8, rel=0.3 → Custom F1=0.000
-abs=8, rel=0.4 → Custom F1=0.000
-abs=8, rel=0.5 → Custom F1=0.000
-abs=8, rel=0.5 → Custom F1=0.000
-abs=9, rel=0.0 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.2 → Custom F1=0.000
-abs=9, rel=0.2 → Custom F1=0.000
-abs=9, rel=0.3 → Custom F1=0.000
-abs=9, rel=0.3 → Custom F1=0.000
-abs=9, rel=0.4 → Custom F1=0.000
-abs=9, rel=0.5 → Custom F1=0.000
-abs=9, rel=0.5 → Custom F1=0.000
-abs=10, rel=0.0 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.2 → Custom F1=0.000
-abs=10, rel=0.2 → Custom F1=0.000
-abs=10, rel=0.3 → Custom F1=0.000
-abs=10, rel=0.3 → Custom F1=0.000
-abs=10, rel=0.4 → Custom F1=0.000
-abs=10, rel=0.5 → Custom F1=0.000
-abs=10, rel=0.5 → Custom F1=0.000
+abs=1, rel=0.00 → Custom F1=0.769
+abs=1, rel=0.05 → Custom F1=0.769
+abs=1, rel=0.10 → Custom F1=0.769
+abs=1, rel=0.15 → Custom F1=0.800
+abs=1, rel=0.20 → Custom F1=0.750
+abs=1, rel=0.25 → Custom F1=0.783
+abs=1, rel=0.30 → Custom F1=0.783
+abs=1, rel=0.35 → Custom F1=0.286
+abs=1, rel=0.40 → Custom F1=0.286
+abs=1, rel=0.45 → Custom F1=0.286
+abs=1, rel=0.50 → Custom F1=0.286
+abs=2, rel=0.00 → Custom F1=0.700
+abs=2, rel=0.05 → Custom F1=0.700
+abs=2, rel=0.10 → Custom F1=0.700
+abs=2, rel=0.15 → Custom F1=0.700
+abs=2, rel=0.20 → Custom F1=0.700
+abs=2, rel=0.25 → Custom F1=0.737
+abs=2, rel=0.30 → Custom F1=0.737
+abs=2, rel=0.35 → Custom F1=0.286
+abs=2, rel=0.40 → Custom F1=0.286
+abs=2, rel=0.45 → Custom F1=0.286
+abs=2, rel=0.50 → Custom F1=0.286
+abs=3, rel=0.00 → Custom F1=0.625
+abs=3, rel=0.05 → Custom F1=0.625
+abs=3, rel=0.10 → Custom F1=0.625
+abs=3, rel=0.15 → Custom F1=0.625
+abs=3, rel=0.20 → Custom F1=0.625
+abs=3, rel=0.25 → Custom F1=0.625
+abs=3, rel=0.30 → Custom F1=0.625
+abs=3, rel=0.35 → Custom F1=0.308
+abs=3, rel=0.40 → Custom F1=0.308
+abs=3, rel=0.45 → Custom F1=0.308
+abs=3, rel=0.50 → Custom F1=0.308
+abs=4, rel=0.00 → Custom F1=0.167
+abs=4, rel=0.05 → Custom F1=0.167
+abs=4, rel=0.10 → Custom F1=0.167
+abs=4, rel=0.15 → Custom F1=0.167
+abs=4, rel=0.20 → Custom F1=0.167
+abs=4, rel=0.25 → Custom F1=0.167
+abs=4, rel=0.30 → Custom F1=0.167
+abs=4, rel=0.35 → Custom F1=0.167
+abs=4, rel=0.40 → Custom F1=0.167
+abs=4, rel=0.45 → Custom F1=0.167
+abs=4, rel=0.50 → Custom F1=0.167
+abs=5, rel=0.00 → Custom F1=0.182
+abs=5, rel=0.05 → Custom F1=0.182
+abs=5, rel=0.10 → Custom F1=0.182
+abs=5, rel=0.15 → Custom F1=0.182
+abs=5, rel=0.20 → Custom F1=0.182
+abs=5, rel=0.25 → Custom F1=0.182
+abs=5, rel=0.30 → Custom F1=0.182
+abs=5, rel=0.35 → Custom F1=0.182
+abs=5, rel=0.40 → Custom F1=0.182
+abs=5, rel=0.45 → Custom F1=0.182
+abs=5, rel=0.50 → Custom F1=0.182
+abs=6, rel=0.00 → Custom F1=0.182
+abs=6, rel=0.05 → Custom F1=0.182
+abs=6, rel=0.10 → Custom F1=0.182
+abs=6, rel=0.15 → Custom F1=0.182
+abs=6, rel=0.20 → Custom F1=0.182
+abs=6, rel=0.25 → Custom F1=0.182
+abs=6, rel=0.30 → Custom F1=0.182
+abs=6, rel=0.35 → Custom F1=0.182
+abs=6, rel=0.40 → Custom F1=0.182
+abs=6, rel=0.45 → Custom F1=0.182
+abs=6, rel=0.50 → Custom F1=0.182
+abs=7, rel=0.00 → Custom F1=0.000
+abs=7, rel=0.05 → Custom F1=0.000
+abs=7, rel=0.10 → Custom F1=0.000
+abs=7, rel=0.15 → Custom F1=0.000
+abs=7, rel=0.20 → Custom F1=0.000
+abs=7, rel=0.25 → Custom F1=0.000
+abs=7, rel=0.30 → Custom F1=0.000
+abs=7, rel=0.35 → Custom F1=0.000
+abs=7, rel=0.40 → Custom F1=0.000
+abs=7, rel=0.45 → Custom F1=0.000
+abs=7, rel=0.50 → Custom F1=0.000
+abs=8, rel=0.00 → Custom F1=0.000
+abs=8, rel=0.05 → Custom F1=0.000
+abs=8, rel=0.10 → Custom F1=0.000
+abs=8, rel=0.15 → Custom F1=0.000
+abs=8, rel=0.20 → Custom F1=0.000
+abs=8, rel=0.25 → Custom F1=0.000
+abs=8, rel=0.30 → Custom F1=0.000
+abs=8, rel=0.35 → Custom F1=0.000
+abs=8, rel=0.40 → Custom F1=0.000
+abs=8, rel=0.45 → Custom F1=0.000
+abs=8, rel=0.50 → Custom F1=0.000
+abs=9, rel=0.00 → Custom F1=0.000
+abs=9, rel=0.05 → Custom F1=0.000
+abs=9, rel=0.10 → Custom F1=0.000
+abs=9, rel=0.15 → Custom F1=0.000
+abs=9, rel=0.20 → Custom F1=0.000
+abs=9, rel=0.25 → Custom F1=0.000
+abs=9, rel=0.30 → Custom F1=0.000
+abs=9, rel=0.35 → Custom F1=0.000
+abs=9, rel=0.40 → Custom F1=0.000
+abs=9, rel=0.45 → Custom F1=0.000
+abs=9, rel=0.50 → Custom F1=0.000
+abs=10, rel=0.00 → Custom F1=0.000
+abs=10, rel=0.05 → Custom F1=0.000
+abs=10, rel=0.10 → Custom F1=0.000
+abs=10, rel=0.15 → Custom F1=0.000
+abs=10, rel=0.20 → Custom F1=0.000
+abs=10, rel=0.25 → Custom F1=0.000
+abs=10, rel=0.30 → Custom F1=0.000
+abs=10, rel=0.35 → Custom F1=0.000
+abs=10, rel=0.40 → Custom F1=0.000
+abs=10, rel=0.45 → Custom F1=0.000
+abs=10, rel=0.50 → Custom F1=0.000
 
-Best configuration for running-example.xes: abs=1, rel=0, F1=0.000
+Best configuration for running-example.xes: abs=1, rel=0.15, F1=0.800
 
 Checked 110 parameter combinations.
-Execution time: 0.18 seconds
-parsing log, completed traces :: 100%|██████████| 6/6 [00:00<00:00, 3243.44it/s]
-parsing log, completed traces :: 100%|██████████| 6/6 [00:00<00:00, 828.97it/s]
+Execution time: 0.09 seconds
+parsing log, completed traces :: 100%|██████████| 6/6 [00:00<00:00, 3090.49it/s]
+parsing log, completed traces :: 100%|██████████| 6/6 [00:00<00:00, 3017.12it/s]
 
 📊 === Evaluation Summary for running-example.xes ===
 → Gold standard relations: 10
-→ Best config: abs=1, rel=0.0
+→ Best config: abs=1, rel=0.15
 
 --- Best Custom Miner ---
-Precision: 0.000
-Recall:    0.000
-F1 Score:  0.000
+Precision: 0.667
+Recall:    1.000
+F1 Score:  0.800
 
 --- Default (0, 0) Custom Miner ---
-Precision: 0.000
-Recall:    0.000
-F1 Score:  0.000
+Precision: 0.625
+Recall:    1.000
+F1 Score:  0.769
 
 --- PM4Py Alpha Miner ---
 Precision: 0.833
@@ -1198,137 +1198,137 @@ Dataset: billinstances.xes
 ============================
 
 === Running experiment for billinstances.xes ===
-abs=1, rel=0.0 → Custom F1=0.000
-abs=1, rel=0.1 → Custom F1=0.000
-abs=1, rel=0.1 → Custom F1=0.000
-abs=1, rel=0.1 → Custom F1=0.000
-abs=1, rel=0.2 → Custom F1=0.000
-abs=1, rel=0.2 → Custom F1=0.000
-abs=1, rel=0.3 → Custom F1=0.000
-abs=1, rel=0.3 → Custom F1=0.000
-abs=1, rel=0.4 → Custom F1=0.000
-abs=1, rel=0.5 → Custom F1=0.000
-abs=1, rel=0.5 → Custom F1=0.000
-abs=2, rel=0.0 → Custom F1=0.000
-abs=2, rel=0.1 → Custom F1=0.000
-abs=2, rel=0.1 → Custom F1=0.000
-abs=2, rel=0.1 → Custom F1=0.000
-abs=2, rel=0.2 → Custom F1=0.000
-abs=2, rel=0.2 → Custom F1=0.000
-abs=2, rel=0.3 → Custom F1=0.000
-abs=2, rel=0.3 → Custom F1=0.000
-abs=2, rel=0.4 → Custom F1=0.000
-abs=2, rel=0.5 → Custom F1=0.000
-abs=2, rel=0.5 → Custom F1=0.000
-abs=3, rel=0.0 → Custom F1=0.000
-abs=3, rel=0.1 → Custom F1=0.000
-abs=3, rel=0.1 → Custom F1=0.000
-abs=3, rel=0.1 → Custom F1=0.000
-abs=3, rel=0.2 → Custom F1=0.000
-abs=3, rel=0.2 → Custom F1=0.000
-abs=3, rel=0.3 → Custom F1=0.000
-abs=3, rel=0.3 → Custom F1=0.000
-abs=3, rel=0.4 → Custom F1=0.000
-abs=3, rel=0.5 → Custom F1=0.000
-abs=3, rel=0.5 → Custom F1=0.000
-abs=4, rel=0.0 → Custom F1=0.000
-abs=4, rel=0.1 → Custom F1=0.000
-abs=4, rel=0.1 → Custom F1=0.000
-abs=4, rel=0.1 → Custom F1=0.000
-abs=4, rel=0.2 → Custom F1=0.000
-abs=4, rel=0.2 → Custom F1=0.000
-abs=4, rel=0.3 → Custom F1=0.000
-abs=4, rel=0.3 → Custom F1=0.000
-abs=4, rel=0.4 → Custom F1=0.000
-abs=4, rel=0.5 → Custom F1=0.000
-abs=4, rel=0.5 → Custom F1=0.000
-abs=5, rel=0.0 → Custom F1=0.000
-abs=5, rel=0.1 → Custom F1=0.000
-abs=5, rel=0.1 → Custom F1=0.000
-abs=5, rel=0.1 → Custom F1=0.000
-abs=5, rel=0.2 → Custom F1=0.000
-abs=5, rel=0.2 → Custom F1=0.000
-abs=5, rel=0.3 → Custom F1=0.000
-abs=5, rel=0.3 → Custom F1=0.000
-abs=5, rel=0.4 → Custom F1=0.000
-abs=5, rel=0.5 → Custom F1=0.000
-abs=5, rel=0.5 → Custom F1=0.000
-abs=6, rel=0.0 → Custom F1=0.000
-abs=6, rel=0.1 → Custom F1=0.000
-abs=6, rel=0.1 → Custom F1=0.000
-abs=6, rel=0.1 → Custom F1=0.000
-abs=6, rel=0.2 → Custom F1=0.000
-abs=6, rel=0.2 → Custom F1=0.000
-abs=6, rel=0.3 → Custom F1=0.000
-abs=6, rel=0.3 → Custom F1=0.000
-abs=6, rel=0.4 → Custom F1=0.000
-abs=6, rel=0.5 → Custom F1=0.000
-abs=6, rel=0.5 → Custom F1=0.000
-abs=7, rel=0.0 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.2 → Custom F1=0.000
-abs=7, rel=0.2 → Custom F1=0.000
-abs=7, rel=0.3 → Custom F1=0.000
-abs=7, rel=0.3 → Custom F1=0.000
-abs=7, rel=0.4 → Custom F1=0.000
-abs=7, rel=0.5 → Custom F1=0.000
-abs=7, rel=0.5 → Custom F1=0.000
-abs=8, rel=0.0 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.2 → Custom F1=0.000
-abs=8, rel=0.2 → Custom F1=0.000
-abs=8, rel=0.3 → Custom F1=0.000
-abs=8, rel=0.3 → Custom F1=0.000
-abs=8, rel=0.4 → Custom F1=0.000
-abs=8, rel=0.5 → Custom F1=0.000
-abs=8, rel=0.5 → Custom F1=0.000
-abs=9, rel=0.0 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.2 → Custom F1=0.000
-abs=9, rel=0.2 → Custom F1=0.000
-abs=9, rel=0.3 → Custom F1=0.000
-abs=9, rel=0.3 → Custom F1=0.000
-abs=9, rel=0.4 → Custom F1=0.000
-abs=9, rel=0.5 → Custom F1=0.000
-abs=9, rel=0.5 → Custom F1=0.000
-abs=10, rel=0.0 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.2 → Custom F1=0.000
-abs=10, rel=0.2 → Custom F1=0.000
-abs=10, rel=0.3 → Custom F1=0.000
-abs=10, rel=0.3 → Custom F1=0.000
-abs=10, rel=0.4 → Custom F1=0.000
-abs=10, rel=0.5 → Custom F1=0.000
-abs=10, rel=0.5 → Custom F1=0.000
+abs=1, rel=0.00 → Custom F1=1.000
+abs=1, rel=0.05 → Custom F1=1.000
+abs=1, rel=0.10 → Custom F1=1.000
+abs=1, rel=0.15 → Custom F1=1.000
+abs=1, rel=0.20 → Custom F1=1.000
+abs=1, rel=0.25 → Custom F1=1.000
+abs=1, rel=0.30 → Custom F1=1.000
+abs=1, rel=0.35 → Custom F1=1.000
+abs=1, rel=0.40 → Custom F1=1.000
+abs=1, rel=0.45 → Custom F1=1.000
+abs=1, rel=0.50 → Custom F1=1.000
+abs=2, rel=0.00 → Custom F1=1.000
+abs=2, rel=0.05 → Custom F1=1.000
+abs=2, rel=0.10 → Custom F1=1.000
+abs=2, rel=0.15 → Custom F1=1.000
+abs=2, rel=0.20 → Custom F1=1.000
+abs=2, rel=0.25 → Custom F1=1.000
+abs=2, rel=0.30 → Custom F1=1.000
+abs=2, rel=0.35 → Custom F1=1.000
+abs=2, rel=0.40 → Custom F1=1.000
+abs=2, rel=0.45 → Custom F1=1.000
+abs=2, rel=0.50 → Custom F1=1.000
+abs=3, rel=0.00 → Custom F1=1.000
+abs=3, rel=0.05 → Custom F1=1.000
+abs=3, rel=0.10 → Custom F1=1.000
+abs=3, rel=0.15 → Custom F1=1.000
+abs=3, rel=0.20 → Custom F1=1.000
+abs=3, rel=0.25 → Custom F1=1.000
+abs=3, rel=0.30 → Custom F1=1.000
+abs=3, rel=0.35 → Custom F1=1.000
+abs=3, rel=0.40 → Custom F1=1.000
+abs=3, rel=0.45 → Custom F1=1.000
+abs=3, rel=0.50 → Custom F1=1.000
+abs=4, rel=0.00 → Custom F1=1.000
+abs=4, rel=0.05 → Custom F1=1.000
+abs=4, rel=0.10 → Custom F1=1.000
+abs=4, rel=0.15 → Custom F1=1.000
+abs=4, rel=0.20 → Custom F1=1.000
+abs=4, rel=0.25 → Custom F1=1.000
+abs=4, rel=0.30 → Custom F1=1.000
+abs=4, rel=0.35 → Custom F1=1.000
+abs=4, rel=0.40 → Custom F1=1.000
+abs=4, rel=0.45 → Custom F1=1.000
+abs=4, rel=0.50 → Custom F1=1.000
+abs=5, rel=0.00 → Custom F1=1.000
+abs=5, rel=0.05 → Custom F1=1.000
+abs=5, rel=0.10 → Custom F1=1.000
+abs=5, rel=0.15 → Custom F1=1.000
+abs=5, rel=0.20 → Custom F1=1.000
+abs=5, rel=0.25 → Custom F1=1.000
+abs=5, rel=0.30 → Custom F1=1.000
+abs=5, rel=0.35 → Custom F1=1.000
+abs=5, rel=0.40 → Custom F1=1.000
+abs=5, rel=0.45 → Custom F1=1.000
+abs=5, rel=0.50 → Custom F1=1.000
+abs=6, rel=0.00 → Custom F1=1.000
+abs=6, rel=0.05 → Custom F1=1.000
+abs=6, rel=0.10 → Custom F1=1.000
+abs=6, rel=0.15 → Custom F1=1.000
+abs=6, rel=0.20 → Custom F1=1.000
+abs=6, rel=0.25 → Custom F1=1.000
+abs=6, rel=0.30 → Custom F1=1.000
+abs=6, rel=0.35 → Custom F1=1.000
+abs=6, rel=0.40 → Custom F1=1.000
+abs=6, rel=0.45 → Custom F1=1.000
+abs=6, rel=0.50 → Custom F1=1.000
+abs=7, rel=0.00 → Custom F1=1.000
+abs=7, rel=0.05 → Custom F1=1.000
+abs=7, rel=0.10 → Custom F1=1.000
+abs=7, rel=0.15 → Custom F1=1.000
+abs=7, rel=0.20 → Custom F1=1.000
+abs=7, rel=0.25 → Custom F1=1.000
+abs=7, rel=0.30 → Custom F1=1.000
+abs=7, rel=0.35 → Custom F1=1.000
+abs=7, rel=0.40 → Custom F1=1.000
+abs=7, rel=0.45 → Custom F1=1.000
+abs=7, rel=0.50 → Custom F1=1.000
+abs=8, rel=0.00 → Custom F1=1.000
+abs=8, rel=0.05 → Custom F1=1.000
+abs=8, rel=0.10 → Custom F1=1.000
+abs=8, rel=0.15 → Custom F1=1.000
+abs=8, rel=0.20 → Custom F1=1.000
+abs=8, rel=0.25 → Custom F1=1.000
+abs=8, rel=0.30 → Custom F1=1.000
+abs=8, rel=0.35 → Custom F1=1.000
+abs=8, rel=0.40 → Custom F1=1.000
+abs=8, rel=0.45 → Custom F1=1.000
+abs=8, rel=0.50 → Custom F1=1.000
+abs=9, rel=0.00 → Custom F1=1.000
+abs=9, rel=0.05 → Custom F1=1.000
+abs=9, rel=0.10 → Custom F1=1.000
+abs=9, rel=0.15 → Custom F1=1.000
+abs=9, rel=0.20 → Custom F1=1.000
+abs=9, rel=0.25 → Custom F1=1.000
+abs=9, rel=0.30 → Custom F1=1.000
+abs=9, rel=0.35 → Custom F1=1.000
+abs=9, rel=0.40 → Custom F1=1.000
+abs=9, rel=0.45 → Custom F1=1.000
+abs=9, rel=0.50 → Custom F1=1.000
+abs=10, rel=0.00 → Custom F1=1.000
+abs=10, rel=0.05 → Custom F1=1.000
+abs=10, rel=0.10 → Custom F1=1.000
+abs=10, rel=0.15 → Custom F1=1.000
+abs=10, rel=0.20 → Custom F1=1.000
+abs=10, rel=0.25 → Custom F1=1.000
+abs=10, rel=0.30 → Custom F1=1.000
+abs=10, rel=0.35 → Custom F1=1.000
+abs=10, rel=0.40 → Custom F1=1.000
+abs=10, rel=0.45 → Custom F1=1.000
+abs=10, rel=0.50 → Custom F1=1.000
 
-Best configuration for billinstances.xes: abs=1, rel=0, F1=0.000
+Best configuration for billinstances.xes: abs=1, rel=0, F1=1.000
 
 Checked 110 parameter combinations.
-Execution time: 25.56 seconds
-parsing log, completed traces :: 100%|██████████| 1800/1800 [00:00<00:00, 3298.68it/s]
-parsing log, completed traces :: 100%|██████████| 1800/1800 [00:00<00:00, 3172.93it/s]
+Execution time: 18.23 seconds
+parsing log, completed traces :: 100%|██████████| 1800/1800 [00:00<00:00, 4119.39it/s]
+parsing log, completed traces :: 100%|██████████| 1800/1800 [00:00<00:00, 4275.05it/s]
 
 📊 === Evaluation Summary for billinstances.xes ===
 → Gold standard relations: 2
-→ Best config: abs=1, rel=0.0
+→ Best config: abs=1, rel=0.00
 
 --- Best Custom Miner ---
-Precision: 0.000
-Recall:    0.000
-F1 Score:  0.000
+Precision: 1.000
+Recall:    1.000
+F1 Score:  1.000
 
 --- Default (0, 0) Custom Miner ---
-Precision: 0.000
-Recall:    0.000
-F1 Score:  0.000
+Precision: 1.000
+Recall:    1.000
+F1 Score:  1.000
 
 --- PM4Py Alpha Miner ---
 Precision: 1.000
@@ -1347,137 +1347,137 @@ Dataset: posterinstances.xes
 ============================
 
 === Running experiment for posterinstances.xes ===
-abs=1, rel=0.0 → Custom F1=0.000
-abs=1, rel=0.1 → Custom F1=0.000
-abs=1, rel=0.1 → Custom F1=0.000
-abs=1, rel=0.1 → Custom F1=0.000
-abs=1, rel=0.2 → Custom F1=0.000
-abs=1, rel=0.2 → Custom F1=0.000
-abs=1, rel=0.3 → Custom F1=0.000
-abs=1, rel=0.3 → Custom F1=0.000
-abs=1, rel=0.4 → Custom F1=0.000
-abs=1, rel=0.5 → Custom F1=0.000
-abs=1, rel=0.5 → Custom F1=0.000
-abs=2, rel=0.0 → Custom F1=0.000
-abs=2, rel=0.1 → Custom F1=0.000
-abs=2, rel=0.1 → Custom F1=0.000
-abs=2, rel=0.1 → Custom F1=0.000
-abs=2, rel=0.2 → Custom F1=0.000
-abs=2, rel=0.2 → Custom F1=0.000
-abs=2, rel=0.3 → Custom F1=0.000
-abs=2, rel=0.3 → Custom F1=0.000
-abs=2, rel=0.4 → Custom F1=0.000
-abs=2, rel=0.5 → Custom F1=0.000
-abs=2, rel=0.5 → Custom F1=0.000
-abs=3, rel=0.0 → Custom F1=0.000
-abs=3, rel=0.1 → Custom F1=0.000
-abs=3, rel=0.1 → Custom F1=0.000
-abs=3, rel=0.1 → Custom F1=0.000
-abs=3, rel=0.2 → Custom F1=0.000
-abs=3, rel=0.2 → Custom F1=0.000
-abs=3, rel=0.3 → Custom F1=0.000
-abs=3, rel=0.3 → Custom F1=0.000
-abs=3, rel=0.4 → Custom F1=0.000
-abs=3, rel=0.5 → Custom F1=0.000
-abs=3, rel=0.5 → Custom F1=0.000
-abs=4, rel=0.0 → Custom F1=0.000
-abs=4, rel=0.1 → Custom F1=0.000
-abs=4, rel=0.1 → Custom F1=0.000
-abs=4, rel=0.1 → Custom F1=0.000
-abs=4, rel=0.2 → Custom F1=0.000
-abs=4, rel=0.2 → Custom F1=0.000
-abs=4, rel=0.3 → Custom F1=0.000
-abs=4, rel=0.3 → Custom F1=0.000
-abs=4, rel=0.4 → Custom F1=0.000
-abs=4, rel=0.5 → Custom F1=0.000
-abs=4, rel=0.5 → Custom F1=0.000
-abs=5, rel=0.0 → Custom F1=0.000
-abs=5, rel=0.1 → Custom F1=0.000
-abs=5, rel=0.1 → Custom F1=0.000
-abs=5, rel=0.1 → Custom F1=0.000
-abs=5, rel=0.2 → Custom F1=0.000
-abs=5, rel=0.2 → Custom F1=0.000
-abs=5, rel=0.3 → Custom F1=0.000
-abs=5, rel=0.3 → Custom F1=0.000
-abs=5, rel=0.4 → Custom F1=0.000
-abs=5, rel=0.5 → Custom F1=0.000
-abs=5, rel=0.5 → Custom F1=0.000
-abs=6, rel=0.0 → Custom F1=0.000
-abs=6, rel=0.1 → Custom F1=0.000
-abs=6, rel=0.1 → Custom F1=0.000
-abs=6, rel=0.1 → Custom F1=0.000
-abs=6, rel=0.2 → Custom F1=0.000
-abs=6, rel=0.2 → Custom F1=0.000
-abs=6, rel=0.3 → Custom F1=0.000
-abs=6, rel=0.3 → Custom F1=0.000
-abs=6, rel=0.4 → Custom F1=0.000
-abs=6, rel=0.5 → Custom F1=0.000
-abs=6, rel=0.5 → Custom F1=0.000
-abs=7, rel=0.0 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.2 → Custom F1=0.000
-abs=7, rel=0.2 → Custom F1=0.000
-abs=7, rel=0.3 → Custom F1=0.000
-abs=7, rel=0.3 → Custom F1=0.000
-abs=7, rel=0.4 → Custom F1=0.000
-abs=7, rel=0.5 → Custom F1=0.000
-abs=7, rel=0.5 → Custom F1=0.000
-abs=8, rel=0.0 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.2 → Custom F1=0.000
-abs=8, rel=0.2 → Custom F1=0.000
-abs=8, rel=0.3 → Custom F1=0.000
-abs=8, rel=0.3 → Custom F1=0.000
-abs=8, rel=0.4 → Custom F1=0.000
-abs=8, rel=0.5 → Custom F1=0.000
-abs=8, rel=0.5 → Custom F1=0.000
-abs=9, rel=0.0 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.2 → Custom F1=0.000
-abs=9, rel=0.2 → Custom F1=0.000
-abs=9, rel=0.3 → Custom F1=0.000
-abs=9, rel=0.3 → Custom F1=0.000
-abs=9, rel=0.4 → Custom F1=0.000
-abs=9, rel=0.5 → Custom F1=0.000
-abs=9, rel=0.5 → Custom F1=0.000
-abs=10, rel=0.0 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.2 → Custom F1=0.000
-abs=10, rel=0.2 → Custom F1=0.000
-abs=10, rel=0.3 → Custom F1=0.000
-abs=10, rel=0.3 → Custom F1=0.000
-abs=10, rel=0.4 → Custom F1=0.000
-abs=10, rel=0.5 → Custom F1=0.000
-abs=10, rel=0.5 → Custom F1=0.000
+abs=1, rel=0.00 → Custom F1=1.000
+abs=1, rel=0.05 → Custom F1=1.000
+abs=1, rel=0.10 → Custom F1=1.000
+abs=1, rel=0.15 → Custom F1=1.000
+abs=1, rel=0.20 → Custom F1=1.000
+abs=1, rel=0.25 → Custom F1=1.000
+abs=1, rel=0.30 → Custom F1=1.000
+abs=1, rel=0.35 → Custom F1=1.000
+abs=1, rel=0.40 → Custom F1=1.000
+abs=1, rel=0.45 → Custom F1=1.000
+abs=1, rel=0.50 → Custom F1=1.000
+abs=2, rel=0.00 → Custom F1=1.000
+abs=2, rel=0.05 → Custom F1=1.000
+abs=2, rel=0.10 → Custom F1=1.000
+abs=2, rel=0.15 → Custom F1=1.000
+abs=2, rel=0.20 → Custom F1=1.000
+abs=2, rel=0.25 → Custom F1=1.000
+abs=2, rel=0.30 → Custom F1=1.000
+abs=2, rel=0.35 → Custom F1=1.000
+abs=2, rel=0.40 → Custom F1=1.000
+abs=2, rel=0.45 → Custom F1=1.000
+abs=2, rel=0.50 → Custom F1=1.000
+abs=3, rel=0.00 → Custom F1=1.000
+abs=3, rel=0.05 → Custom F1=1.000
+abs=3, rel=0.10 → Custom F1=1.000
+abs=3, rel=0.15 → Custom F1=1.000
+abs=3, rel=0.20 → Custom F1=1.000
+abs=3, rel=0.25 → Custom F1=1.000
+abs=3, rel=0.30 → Custom F1=1.000
+abs=3, rel=0.35 → Custom F1=1.000
+abs=3, rel=0.40 → Custom F1=1.000
+abs=3, rel=0.45 → Custom F1=1.000
+abs=3, rel=0.50 → Custom F1=1.000
+abs=4, rel=0.00 → Custom F1=1.000
+abs=4, rel=0.05 → Custom F1=1.000
+abs=4, rel=0.10 → Custom F1=1.000
+abs=4, rel=0.15 → Custom F1=1.000
+abs=4, rel=0.20 → Custom F1=1.000
+abs=4, rel=0.25 → Custom F1=1.000
+abs=4, rel=0.30 → Custom F1=1.000
+abs=4, rel=0.35 → Custom F1=1.000
+abs=4, rel=0.40 → Custom F1=1.000
+abs=4, rel=0.45 → Custom F1=1.000
+abs=4, rel=0.50 → Custom F1=1.000
+abs=5, rel=0.00 → Custom F1=1.000
+abs=5, rel=0.05 → Custom F1=1.000
+abs=5, rel=0.10 → Custom F1=1.000
+abs=5, rel=0.15 → Custom F1=1.000
+abs=5, rel=0.20 → Custom F1=1.000
+abs=5, rel=0.25 → Custom F1=1.000
+abs=5, rel=0.30 → Custom F1=1.000
+abs=5, rel=0.35 → Custom F1=1.000
+abs=5, rel=0.40 → Custom F1=1.000
+abs=5, rel=0.45 → Custom F1=1.000
+abs=5, rel=0.50 → Custom F1=1.000
+abs=6, rel=0.00 → Custom F1=1.000
+abs=6, rel=0.05 → Custom F1=1.000
+abs=6, rel=0.10 → Custom F1=1.000
+abs=6, rel=0.15 → Custom F1=1.000
+abs=6, rel=0.20 → Custom F1=1.000
+abs=6, rel=0.25 → Custom F1=1.000
+abs=6, rel=0.30 → Custom F1=1.000
+abs=6, rel=0.35 → Custom F1=1.000
+abs=6, rel=0.40 → Custom F1=1.000
+abs=6, rel=0.45 → Custom F1=1.000
+abs=6, rel=0.50 → Custom F1=1.000
+abs=7, rel=0.00 → Custom F1=1.000
+abs=7, rel=0.05 → Custom F1=1.000
+abs=7, rel=0.10 → Custom F1=1.000
+abs=7, rel=0.15 → Custom F1=1.000
+abs=7, rel=0.20 → Custom F1=1.000
+abs=7, rel=0.25 → Custom F1=1.000
+abs=7, rel=0.30 → Custom F1=1.000
+abs=7, rel=0.35 → Custom F1=1.000
+abs=7, rel=0.40 → Custom F1=1.000
+abs=7, rel=0.45 → Custom F1=1.000
+abs=7, rel=0.50 → Custom F1=1.000
+abs=8, rel=0.00 → Custom F1=1.000
+abs=8, rel=0.05 → Custom F1=1.000
+abs=8, rel=0.10 → Custom F1=1.000
+abs=8, rel=0.15 → Custom F1=1.000
+abs=8, rel=0.20 → Custom F1=1.000
+abs=8, rel=0.25 → Custom F1=1.000
+abs=8, rel=0.30 → Custom F1=1.000
+abs=8, rel=0.35 → Custom F1=1.000
+abs=8, rel=0.40 → Custom F1=1.000
+abs=8, rel=0.45 → Custom F1=1.000
+abs=8, rel=0.50 → Custom F1=1.000
+abs=9, rel=0.00 → Custom F1=1.000
+abs=9, rel=0.05 → Custom F1=1.000
+abs=9, rel=0.10 → Custom F1=1.000
+abs=9, rel=0.15 → Custom F1=1.000
+abs=9, rel=0.20 → Custom F1=1.000
+abs=9, rel=0.25 → Custom F1=1.000
+abs=9, rel=0.30 → Custom F1=1.000
+abs=9, rel=0.35 → Custom F1=1.000
+abs=9, rel=0.40 → Custom F1=1.000
+abs=9, rel=0.45 → Custom F1=1.000
+abs=9, rel=0.50 → Custom F1=1.000
+abs=10, rel=0.00 → Custom F1=1.000
+abs=10, rel=0.05 → Custom F1=1.000
+abs=10, rel=0.10 → Custom F1=1.000
+abs=10, rel=0.15 → Custom F1=1.000
+abs=10, rel=0.20 → Custom F1=1.000
+abs=10, rel=0.25 → Custom F1=1.000
+abs=10, rel=0.30 → Custom F1=1.000
+abs=10, rel=0.35 → Custom F1=1.000
+abs=10, rel=0.40 → Custom F1=1.000
+abs=10, rel=0.45 → Custom F1=1.000
+abs=10, rel=0.50 → Custom F1=1.000
 
-Best configuration for posterinstances.xes: abs=1, rel=0, F1=0.000
+Best configuration for posterinstances.xes: abs=1, rel=0, F1=1.000
 
 Checked 110 parameter combinations.
-Execution time: 21.79 seconds
-parsing log, completed traces :: 100%|██████████| 900/900 [00:00<00:00, 2067.68it/s]
-parsing log, completed traces :: 100%|██████████| 900/900 [00:00<00:00, 1815.31it/s]
+Execution time: 11.75 seconds
+parsing log, completed traces :: 100%|██████████| 900/900 [00:00<00:00, 3299.30it/s]
+parsing log, completed traces :: 100%|██████████| 900/900 [00:00<00:00, 2938.54it/s]
 
 📊 === Evaluation Summary for posterinstances.xes ===
 → Gold standard relations: 3
-→ Best config: abs=1, rel=0.0
+→ Best config: abs=1, rel=0.00
 
 --- Best Custom Miner ---
-Precision: 0.000
-Recall:    0.000
-F1 Score:  0.000
+Precision: 1.000
+Recall:    1.000
+F1 Score:  1.000
 
 --- Default (0, 0) Custom Miner ---
-Precision: 0.000
-Recall:    0.000
-F1 Score:  0.000
+Precision: 1.000
+Recall:    1.000
+F1 Score:  1.000
 
 --- PM4Py Alpha Miner ---
 Precision: 1.000
@@ -1496,137 +1496,137 @@ Dataset: flyerinstances.xes
 ============================
 
 === Running experiment for flyerinstances.xes ===
-abs=1, rel=0.0 → Custom F1=0.000
-abs=1, rel=0.1 → Custom F1=0.000
-abs=1, rel=0.1 → Custom F1=0.000
-abs=1, rel=0.1 → Custom F1=0.000
-abs=1, rel=0.2 → Custom F1=0.000
-abs=1, rel=0.2 → Custom F1=0.000
-abs=1, rel=0.3 → Custom F1=0.000
-abs=1, rel=0.3 → Custom F1=0.000
-abs=1, rel=0.4 → Custom F1=0.000
-abs=1, rel=0.5 → Custom F1=0.000
-abs=1, rel=0.5 → Custom F1=0.000
-abs=2, rel=0.0 → Custom F1=0.000
-abs=2, rel=0.1 → Custom F1=0.000
-abs=2, rel=0.1 → Custom F1=0.000
-abs=2, rel=0.1 → Custom F1=0.000
-abs=2, rel=0.2 → Custom F1=0.000
-abs=2, rel=0.2 → Custom F1=0.000
-abs=2, rel=0.3 → Custom F1=0.000
-abs=2, rel=0.3 → Custom F1=0.000
-abs=2, rel=0.4 → Custom F1=0.000
-abs=2, rel=0.5 → Custom F1=0.000
-abs=2, rel=0.5 → Custom F1=0.000
-abs=3, rel=0.0 → Custom F1=0.000
-abs=3, rel=0.1 → Custom F1=0.000
-abs=3, rel=0.1 → Custom F1=0.000
-abs=3, rel=0.1 → Custom F1=0.000
-abs=3, rel=0.2 → Custom F1=0.000
-abs=3, rel=0.2 → Custom F1=0.000
-abs=3, rel=0.3 → Custom F1=0.000
-abs=3, rel=0.3 → Custom F1=0.000
-abs=3, rel=0.4 → Custom F1=0.000
-abs=3, rel=0.5 → Custom F1=0.000
-abs=3, rel=0.5 → Custom F1=0.000
-abs=4, rel=0.0 → Custom F1=0.000
-abs=4, rel=0.1 → Custom F1=0.000
-abs=4, rel=0.1 → Custom F1=0.000
-abs=4, rel=0.1 → Custom F1=0.000
-abs=4, rel=0.2 → Custom F1=0.000
-abs=4, rel=0.2 → Custom F1=0.000
-abs=4, rel=0.3 → Custom F1=0.000
-abs=4, rel=0.3 → Custom F1=0.000
-abs=4, rel=0.4 → Custom F1=0.000
-abs=4, rel=0.5 → Custom F1=0.000
-abs=4, rel=0.5 → Custom F1=0.000
-abs=5, rel=0.0 → Custom F1=0.000
-abs=5, rel=0.1 → Custom F1=0.000
-abs=5, rel=0.1 → Custom F1=0.000
-abs=5, rel=0.1 → Custom F1=0.000
-abs=5, rel=0.2 → Custom F1=0.000
-abs=5, rel=0.2 → Custom F1=0.000
-abs=5, rel=0.3 → Custom F1=0.000
-abs=5, rel=0.3 → Custom F1=0.000
-abs=5, rel=0.4 → Custom F1=0.000
-abs=5, rel=0.5 → Custom F1=0.000
-abs=5, rel=0.5 → Custom F1=0.000
-abs=6, rel=0.0 → Custom F1=0.000
-abs=6, rel=0.1 → Custom F1=0.000
-abs=6, rel=0.1 → Custom F1=0.000
-abs=6, rel=0.1 → Custom F1=0.000
-abs=6, rel=0.2 → Custom F1=0.000
-abs=6, rel=0.2 → Custom F1=0.000
-abs=6, rel=0.3 → Custom F1=0.000
-abs=6, rel=0.3 → Custom F1=0.000
-abs=6, rel=0.4 → Custom F1=0.000
-abs=6, rel=0.5 → Custom F1=0.000
-abs=6, rel=0.5 → Custom F1=0.000
-abs=7, rel=0.0 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.1 → Custom F1=0.000
-abs=7, rel=0.2 → Custom F1=0.000
-abs=7, rel=0.2 → Custom F1=0.000
-abs=7, rel=0.3 → Custom F1=0.000
-abs=7, rel=0.3 → Custom F1=0.000
-abs=7, rel=0.4 → Custom F1=0.000
-abs=7, rel=0.5 → Custom F1=0.000
-abs=7, rel=0.5 → Custom F1=0.000
-abs=8, rel=0.0 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.1 → Custom F1=0.000
-abs=8, rel=0.2 → Custom F1=0.000
-abs=8, rel=0.2 → Custom F1=0.000
-abs=8, rel=0.3 → Custom F1=0.000
-abs=8, rel=0.3 → Custom F1=0.000
-abs=8, rel=0.4 → Custom F1=0.000
-abs=8, rel=0.5 → Custom F1=0.000
-abs=8, rel=0.5 → Custom F1=0.000
-abs=9, rel=0.0 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.1 → Custom F1=0.000
-abs=9, rel=0.2 → Custom F1=0.000
-abs=9, rel=0.2 → Custom F1=0.000
-abs=9, rel=0.3 → Custom F1=0.000
-abs=9, rel=0.3 → Custom F1=0.000
-abs=9, rel=0.4 → Custom F1=0.000
-abs=9, rel=0.5 → Custom F1=0.000
-abs=9, rel=0.5 → Custom F1=0.000
-abs=10, rel=0.0 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.1 → Custom F1=0.000
-abs=10, rel=0.2 → Custom F1=0.000
-abs=10, rel=0.2 → Custom F1=0.000
-abs=10, rel=0.3 → Custom F1=0.000
-abs=10, rel=0.3 → Custom F1=0.000
-abs=10, rel=0.4 → Custom F1=0.000
-abs=10, rel=0.5 → Custom F1=0.000
-abs=10, rel=0.5 → Custom F1=0.000
+abs=1, rel=0.00 → Custom F1=1.000
+abs=1, rel=0.05 → Custom F1=1.000
+abs=1, rel=0.10 → Custom F1=1.000
+abs=1, rel=0.15 → Custom F1=1.000
+abs=1, rel=0.20 → Custom F1=1.000
+abs=1, rel=0.25 → Custom F1=1.000
+abs=1, rel=0.30 → Custom F1=1.000
+abs=1, rel=0.35 → Custom F1=1.000
+abs=1, rel=0.40 → Custom F1=1.000
+abs=1, rel=0.45 → Custom F1=1.000
+abs=1, rel=0.50 → Custom F1=0.889
+abs=2, rel=0.00 → Custom F1=1.000
+abs=2, rel=0.05 → Custom F1=1.000
+abs=2, rel=0.10 → Custom F1=1.000
+abs=2, rel=0.15 → Custom F1=1.000
+abs=2, rel=0.20 → Custom F1=1.000
+abs=2, rel=0.25 → Custom F1=1.000
+abs=2, rel=0.30 → Custom F1=1.000
+abs=2, rel=0.35 → Custom F1=1.000
+abs=2, rel=0.40 → Custom F1=1.000
+abs=2, rel=0.45 → Custom F1=1.000
+abs=2, rel=0.50 → Custom F1=0.889
+abs=3, rel=0.00 → Custom F1=1.000
+abs=3, rel=0.05 → Custom F1=1.000
+abs=3, rel=0.10 → Custom F1=1.000
+abs=3, rel=0.15 → Custom F1=1.000
+abs=3, rel=0.20 → Custom F1=1.000
+abs=3, rel=0.25 → Custom F1=1.000
+abs=3, rel=0.30 → Custom F1=1.000
+abs=3, rel=0.35 → Custom F1=1.000
+abs=3, rel=0.40 → Custom F1=1.000
+abs=3, rel=0.45 → Custom F1=1.000
+abs=3, rel=0.50 → Custom F1=0.889
+abs=4, rel=0.00 → Custom F1=1.000
+abs=4, rel=0.05 → Custom F1=1.000
+abs=4, rel=0.10 → Custom F1=1.000
+abs=4, rel=0.15 → Custom F1=1.000
+abs=4, rel=0.20 → Custom F1=1.000
+abs=4, rel=0.25 → Custom F1=1.000
+abs=4, rel=0.30 → Custom F1=1.000
+abs=4, rel=0.35 → Custom F1=1.000
+abs=4, rel=0.40 → Custom F1=1.000
+abs=4, rel=0.45 → Custom F1=1.000
+abs=4, rel=0.50 → Custom F1=0.889
+abs=5, rel=0.00 → Custom F1=1.000
+abs=5, rel=0.05 → Custom F1=1.000
+abs=5, rel=0.10 → Custom F1=1.000
+abs=5, rel=0.15 → Custom F1=1.000
+abs=5, rel=0.20 → Custom F1=1.000
+abs=5, rel=0.25 → Custom F1=1.000
+abs=5, rel=0.30 → Custom F1=1.000
+abs=5, rel=0.35 → Custom F1=1.000
+abs=5, rel=0.40 → Custom F1=1.000
+abs=5, rel=0.45 → Custom F1=1.000
+abs=5, rel=0.50 → Custom F1=0.889
+abs=6, rel=0.00 → Custom F1=1.000
+abs=6, rel=0.05 → Custom F1=1.000
+abs=6, rel=0.10 → Custom F1=1.000
+abs=6, rel=0.15 → Custom F1=1.000
+abs=6, rel=0.20 → Custom F1=1.000
+abs=6, rel=0.25 → Custom F1=1.000
+abs=6, rel=0.30 → Custom F1=1.000
+abs=6, rel=0.35 → Custom F1=1.000
+abs=6, rel=0.40 → Custom F1=1.000
+abs=6, rel=0.45 → Custom F1=1.000
+abs=6, rel=0.50 → Custom F1=0.889
+abs=7, rel=0.00 → Custom F1=1.000
+abs=7, rel=0.05 → Custom F1=1.000
+abs=7, rel=0.10 → Custom F1=1.000
+abs=7, rel=0.15 → Custom F1=1.000
+abs=7, rel=0.20 → Custom F1=1.000
+abs=7, rel=0.25 → Custom F1=1.000
+abs=7, rel=0.30 → Custom F1=1.000
+abs=7, rel=0.35 → Custom F1=1.000
+abs=7, rel=0.40 → Custom F1=1.000
+abs=7, rel=0.45 → Custom F1=1.000
+abs=7, rel=0.50 → Custom F1=0.889
+abs=8, rel=0.00 → Custom F1=1.000
+abs=8, rel=0.05 → Custom F1=1.000
+abs=8, rel=0.10 → Custom F1=1.000
+abs=8, rel=0.15 → Custom F1=1.000
+abs=8, rel=0.20 → Custom F1=1.000
+abs=8, rel=0.25 → Custom F1=1.000
+abs=8, rel=0.30 → Custom F1=1.000
+abs=8, rel=0.35 → Custom F1=1.000
+abs=8, rel=0.40 → Custom F1=1.000
+abs=8, rel=0.45 → Custom F1=1.000
+abs=8, rel=0.50 → Custom F1=0.889
+abs=9, rel=0.00 → Custom F1=1.000
+abs=9, rel=0.05 → Custom F1=1.000
+abs=9, rel=0.10 → Custom F1=1.000
+abs=9, rel=0.15 → Custom F1=1.000
+abs=9, rel=0.20 → Custom F1=1.000
+abs=9, rel=0.25 → Custom F1=1.000
+abs=9, rel=0.30 → Custom F1=1.000
+abs=9, rel=0.35 → Custom F1=1.000
+abs=9, rel=0.40 → Custom F1=1.000
+abs=9, rel=0.45 → Custom F1=1.000
+abs=9, rel=0.50 → Custom F1=0.889
+abs=10, rel=0.00 → Custom F1=1.000
+abs=10, rel=0.05 → Custom F1=1.000
+abs=10, rel=0.10 → Custom F1=1.000
+abs=10, rel=0.15 → Custom F1=1.000
+abs=10, rel=0.20 → Custom F1=1.000
+abs=10, rel=0.25 → Custom F1=1.000
+abs=10, rel=0.30 → Custom F1=1.000
+abs=10, rel=0.35 → Custom F1=1.000
+abs=10, rel=0.40 → Custom F1=1.000
+abs=10, rel=0.45 → Custom F1=1.000
+abs=10, rel=0.50 → Custom F1=0.889
 
-Best configuration for flyerinstances.xes: abs=1, rel=0, F1=0.000
+Best configuration for flyerinstances.xes: abs=1, rel=0, F1=1.000
 
 Checked 110 parameter combinations.
-Execution time: 27.92 seconds
-parsing log, completed traces :: 100%|██████████| 900/900 [00:00<00:00, 1227.91it/s]
-parsing log, completed traces :: 100%|██████████| 900/900 [00:00<00:00, 1345.10it/s]
+Execution time: 19.14 seconds
+parsing log, completed traces :: 100%|██████████| 900/900 [00:00<00:00, 1906.22it/s]
+parsing log, completed traces :: 100%|██████████| 900/900 [00:00<00:00, 2043.98it/s]
 
 📊 === Evaluation Summary for flyerinstances.xes ===
 → Gold standard relations: 5
-→ Best config: abs=1, rel=0.0
+→ Best config: abs=1, rel=0.00
 
 --- Best Custom Miner ---
-Precision: 0.000
-Recall:    0.000
-F1 Score:  0.000
+Precision: 1.000
+Recall:    1.000
+F1 Score:  1.000
 
 --- Default (0, 0) Custom Miner ---
-Precision: 0.000
-Recall:    0.000
-F1 Score:  0.000
+Precision: 1.000
+Recall:    1.000
+F1 Score:  1.000
 
 --- PM4Py Alpha Miner ---
 Precision: 1.000
@@ -1645,137 +1645,137 @@ Dataset: BPI_Challenge_2012.xes
 ============================
 
 === Running experiment for BPI_Challenge_2012.xes ===
-abs=1, rel=0.0 → Custom F1=0.114
-abs=1, rel=0.1 → Custom F1=0.180
-abs=1, rel=0.1 → Custom F1=0.203
-abs=1, rel=0.1 → Custom F1=0.229
-abs=1, rel=0.2 → Custom F1=0.242
-abs=1, rel=0.2 → Custom F1=0.271
-abs=1, rel=0.3 → Custom F1=0.308
-abs=1, rel=0.3 → Custom F1=0.348
-abs=1, rel=0.4 → Custom F1=0.390
-abs=1, rel=0.5 → Custom F1=0.312
-abs=1, rel=0.5 → Custom F1=0.312
-abs=2, rel=0.0 → Custom F1=0.118
-abs=2, rel=0.1 → Custom F1=0.180
-abs=2, rel=0.1 → Custom F1=0.203
-abs=2, rel=0.1 → Custom F1=0.229
-abs=2, rel=0.2 → Custom F1=0.242
-abs=2, rel=0.2 → Custom F1=0.271
-abs=2, rel=0.3 → Custom F1=0.308
-abs=2, rel=0.3 → Custom F1=0.348
-abs=2, rel=0.4 → Custom F1=0.390
-abs=2, rel=0.5 → Custom F1=0.312
-abs=2, rel=0.5 → Custom F1=0.312
-abs=3, rel=0.0 → Custom F1=0.119
-abs=3, rel=0.1 → Custom F1=0.180
-abs=3, rel=0.1 → Custom F1=0.203
-abs=3, rel=0.1 → Custom F1=0.229
-abs=3, rel=0.2 → Custom F1=0.242
-abs=3, rel=0.2 → Custom F1=0.271
-abs=3, rel=0.3 → Custom F1=0.308
-abs=3, rel=0.3 → Custom F1=0.348
-abs=3, rel=0.4 → Custom F1=0.390
-abs=3, rel=0.5 → Custom F1=0.312
-abs=3, rel=0.5 → Custom F1=0.312
-abs=4, rel=0.0 → Custom F1=0.121
-abs=4, rel=0.1 → Custom F1=0.180
-abs=4, rel=0.1 → Custom F1=0.203
-abs=4, rel=0.1 → Custom F1=0.229
-abs=4, rel=0.2 → Custom F1=0.242
-abs=4, rel=0.2 → Custom F1=0.271
-abs=4, rel=0.3 → Custom F1=0.308
-abs=4, rel=0.3 → Custom F1=0.348
-abs=4, rel=0.4 → Custom F1=0.390
-abs=4, rel=0.5 → Custom F1=0.312
-abs=4, rel=0.5 → Custom F1=0.312
-abs=5, rel=0.0 → Custom F1=0.122
-abs=5, rel=0.1 → Custom F1=0.180
-abs=5, rel=0.1 → Custom F1=0.203
-abs=5, rel=0.1 → Custom F1=0.229
-abs=5, rel=0.2 → Custom F1=0.242
-abs=5, rel=0.2 → Custom F1=0.271
-abs=5, rel=0.3 → Custom F1=0.308
-abs=5, rel=0.3 → Custom F1=0.348
-abs=5, rel=0.4 → Custom F1=0.390
-abs=5, rel=0.5 → Custom F1=0.312
-abs=5, rel=0.5 → Custom F1=0.312
-abs=6, rel=0.0 → Custom F1=0.122
-abs=6, rel=0.1 → Custom F1=0.180
-abs=6, rel=0.1 → Custom F1=0.203
-abs=6, rel=0.1 → Custom F1=0.229
-abs=6, rel=0.2 → Custom F1=0.242
-abs=6, rel=0.2 → Custom F1=0.271
-abs=6, rel=0.3 → Custom F1=0.308
-abs=6, rel=0.3 → Custom F1=0.348
-abs=6, rel=0.4 → Custom F1=0.390
-abs=6, rel=0.5 → Custom F1=0.312
-abs=6, rel=0.5 → Custom F1=0.312
-abs=7, rel=0.0 → Custom F1=0.123
-abs=7, rel=0.1 → Custom F1=0.180
-abs=7, rel=0.1 → Custom F1=0.203
-abs=7, rel=0.1 → Custom F1=0.229
-abs=7, rel=0.2 → Custom F1=0.242
-abs=7, rel=0.2 → Custom F1=0.271
-abs=7, rel=0.3 → Custom F1=0.308
-abs=7, rel=0.3 → Custom F1=0.348
-abs=7, rel=0.4 → Custom F1=0.390
-abs=7, rel=0.5 → Custom F1=0.312
-abs=7, rel=0.5 → Custom F1=0.312
-abs=8, rel=0.0 → Custom F1=0.123
-abs=8, rel=0.1 → Custom F1=0.180
-abs=8, rel=0.1 → Custom F1=0.203
-abs=8, rel=0.1 → Custom F1=0.229
-abs=8, rel=0.2 → Custom F1=0.242
-abs=8, rel=0.2 → Custom F1=0.271
-abs=8, rel=0.3 → Custom F1=0.308
-abs=8, rel=0.3 → Custom F1=0.348
-abs=8, rel=0.4 → Custom F1=0.390
-abs=8, rel=0.5 → Custom F1=0.312
-abs=8, rel=0.5 → Custom F1=0.312
-abs=9, rel=0.0 → Custom F1=0.123
-abs=9, rel=0.1 → Custom F1=0.180
-abs=9, rel=0.1 → Custom F1=0.203
-abs=9, rel=0.1 → Custom F1=0.229
-abs=9, rel=0.2 → Custom F1=0.242
-abs=9, rel=0.2 → Custom F1=0.271
-abs=9, rel=0.3 → Custom F1=0.308
-abs=9, rel=0.3 → Custom F1=0.348
-abs=9, rel=0.4 → Custom F1=0.390
-abs=9, rel=0.5 → Custom F1=0.312
-abs=9, rel=0.5 → Custom F1=0.312
-abs=10, rel=0.0 → Custom F1=0.124
-abs=10, rel=0.1 → Custom F1=0.180
-abs=10, rel=0.1 → Custom F1=0.203
-abs=10, rel=0.1 → Custom F1=0.229
-abs=10, rel=0.2 → Custom F1=0.242
-abs=10, rel=0.2 → Custom F1=0.271
-abs=10, rel=0.3 → Custom F1=0.308
-abs=10, rel=0.3 → Custom F1=0.348
-abs=10, rel=0.4 → Custom F1=0.390
-abs=10, rel=0.5 → Custom F1=0.312
-abs=10, rel=0.5 → Custom F1=0.312
+abs=1, rel=0.00 → Custom F1=0.152
+abs=1, rel=0.05 → Custom F1=0.225
+abs=1, rel=0.10 → Custom F1=0.253
+abs=1, rel=0.15 → Custom F1=0.257
+abs=1, rel=0.20 → Custom F1=0.273
+abs=1, rel=0.25 → Custom F1=0.305
+abs=1, rel=0.30 → Custom F1=0.346
+abs=1, rel=0.35 → Custom F1=0.391
+abs=1, rel=0.40 → Custom F1=0.390
+abs=1, rel=0.45 → Custom F1=0.312
+abs=1, rel=0.50 → Custom F1=0.312
+abs=2, rel=0.00 → Custom F1=0.158
+abs=2, rel=0.05 → Custom F1=0.225
+abs=2, rel=0.10 → Custom F1=0.253
+abs=2, rel=0.15 → Custom F1=0.257
+abs=2, rel=0.20 → Custom F1=0.273
+abs=2, rel=0.25 → Custom F1=0.305
+abs=2, rel=0.30 → Custom F1=0.346
+abs=2, rel=0.35 → Custom F1=0.391
+abs=2, rel=0.40 → Custom F1=0.390
+abs=2, rel=0.45 → Custom F1=0.312
+abs=2, rel=0.50 → Custom F1=0.312
+abs=3, rel=0.00 → Custom F1=0.159
+abs=3, rel=0.05 → Custom F1=0.225
+abs=3, rel=0.10 → Custom F1=0.253
+abs=3, rel=0.15 → Custom F1=0.257
+abs=3, rel=0.20 → Custom F1=0.273
+abs=3, rel=0.25 → Custom F1=0.305
+abs=3, rel=0.30 → Custom F1=0.346
+abs=3, rel=0.35 → Custom F1=0.391
+abs=3, rel=0.40 → Custom F1=0.390
+abs=3, rel=0.45 → Custom F1=0.312
+abs=3, rel=0.50 → Custom F1=0.312
+abs=4, rel=0.00 → Custom F1=0.161
+abs=4, rel=0.05 → Custom F1=0.225
+abs=4, rel=0.10 → Custom F1=0.253
+abs=4, rel=0.15 → Custom F1=0.257
+abs=4, rel=0.20 → Custom F1=0.273
+abs=4, rel=0.25 → Custom F1=0.305
+abs=4, rel=0.30 → Custom F1=0.346
+abs=4, rel=0.35 → Custom F1=0.391
+abs=4, rel=0.40 → Custom F1=0.390
+abs=4, rel=0.45 → Custom F1=0.312
+abs=4, rel=0.50 → Custom F1=0.312
+abs=5, rel=0.00 → Custom F1=0.162
+abs=5, rel=0.05 → Custom F1=0.225
+abs=5, rel=0.10 → Custom F1=0.253
+abs=5, rel=0.15 → Custom F1=0.257
+abs=5, rel=0.20 → Custom F1=0.273
+abs=5, rel=0.25 → Custom F1=0.305
+abs=5, rel=0.30 → Custom F1=0.346
+abs=5, rel=0.35 → Custom F1=0.391
+abs=5, rel=0.40 → Custom F1=0.390
+abs=5, rel=0.45 → Custom F1=0.312
+abs=5, rel=0.50 → Custom F1=0.312
+abs=6, rel=0.00 → Custom F1=0.163
+abs=6, rel=0.05 → Custom F1=0.225
+abs=6, rel=0.10 → Custom F1=0.253
+abs=6, rel=0.15 → Custom F1=0.257
+abs=6, rel=0.20 → Custom F1=0.273
+abs=6, rel=0.25 → Custom F1=0.305
+abs=6, rel=0.30 → Custom F1=0.346
+abs=6, rel=0.35 → Custom F1=0.391
+abs=6, rel=0.40 → Custom F1=0.390
+abs=6, rel=0.45 → Custom F1=0.312
+abs=6, rel=0.50 → Custom F1=0.312
+abs=7, rel=0.00 → Custom F1=0.164
+abs=7, rel=0.05 → Custom F1=0.225
+abs=7, rel=0.10 → Custom F1=0.253
+abs=7, rel=0.15 → Custom F1=0.257
+abs=7, rel=0.20 → Custom F1=0.273
+abs=7, rel=0.25 → Custom F1=0.305
+abs=7, rel=0.30 → Custom F1=0.346
+abs=7, rel=0.35 → Custom F1=0.391
+abs=7, rel=0.40 → Custom F1=0.390
+abs=7, rel=0.45 → Custom F1=0.312
+abs=7, rel=0.50 → Custom F1=0.312
+abs=8, rel=0.00 → Custom F1=0.164
+abs=8, rel=0.05 → Custom F1=0.225
+abs=8, rel=0.10 → Custom F1=0.253
+abs=8, rel=0.15 → Custom F1=0.257
+abs=8, rel=0.20 → Custom F1=0.273
+abs=8, rel=0.25 → Custom F1=0.305
+abs=8, rel=0.30 → Custom F1=0.346
+abs=8, rel=0.35 → Custom F1=0.391
+abs=8, rel=0.40 → Custom F1=0.390
+abs=8, rel=0.45 → Custom F1=0.312
+abs=8, rel=0.50 → Custom F1=0.312
+abs=9, rel=0.00 → Custom F1=0.164
+abs=9, rel=0.05 → Custom F1=0.225
+abs=9, rel=0.10 → Custom F1=0.253
+abs=9, rel=0.15 → Custom F1=0.257
+abs=9, rel=0.20 → Custom F1=0.273
+abs=9, rel=0.25 → Custom F1=0.305
+abs=9, rel=0.30 → Custom F1=0.346
+abs=9, rel=0.35 → Custom F1=0.391
+abs=9, rel=0.40 → Custom F1=0.390
+abs=9, rel=0.45 → Custom F1=0.312
+abs=9, rel=0.50 → Custom F1=0.312
+abs=10, rel=0.00 → Custom F1=0.166
+abs=10, rel=0.05 → Custom F1=0.225
+abs=10, rel=0.10 → Custom F1=0.253
+abs=10, rel=0.15 → Custom F1=0.257
+abs=10, rel=0.20 → Custom F1=0.273
+abs=10, rel=0.25 → Custom F1=0.305
+abs=10, rel=0.30 → Custom F1=0.346
+abs=10, rel=0.35 → Custom F1=0.391
+abs=10, rel=0.40 → Custom F1=0.390
+abs=10, rel=0.45 → Custom F1=0.312
+abs=10, rel=0.50 → Custom F1=0.312
 
-Best configuration for BPI_Challenge_2012.xes: abs=1, rel=0.4, F1=0.390
+Best configuration for BPI_Challenge_2012.xes: abs=1, rel=0.35, F1=0.391
 
 Checked 110 parameter combinations.
-Execution time: 360.26 seconds
-parsing log, completed traces :: 100%|██████████| 13087/13087 [00:07<00:00, 1789.78it/s]
-parsing log, completed traces :: 100%|██████████| 13087/13087 [00:07<00:00, 1833.82it/s]
+Execution time: 345.38 seconds
+parsing log, completed traces :: 100%|██████████| 13087/13087 [00:07<00:00, 1644.60it/s]
+parsing log, completed traces :: 100%|██████████| 13087/13087 [00:07<00:00, 1646.45it/s]
 
 📊 === Evaluation Summary for BPI_Challenge_2012.xes ===
 → Gold standard relations: 20
-→ Best config: abs=1, rel=0.4
+→ Best config: abs=1, rel=0.35
 
 --- Best Custom Miner ---
-Precision: 0.381
-Recall:    0.400
-F1 Score:  0.390
+Precision: 0.346
+Recall:    0.450
+F1 Score:  0.391
 
 --- Default (0, 0) Custom Miner ---
-Precision: 0.065
-Recall:    0.450
-F1 Score:  0.114
+Precision: 0.087
+Recall:    0.600
+F1 Score:  0.152
 
 --- PM4Py Alpha Miner ---
 Precision: 0.643
