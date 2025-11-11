@@ -29,22 +29,51 @@ and evaluates the discovered relations against textbook **gold standard models**
 
 ## Installation
 
-### 1. Set up virtual environment
+### 1. Clone this repository
 
 ```bash
-python -m venv .venv
-.venv\Scripts\Activate.ps1
+git clone https://github.com/snr2042954/PMGROUP7_2nd_attempt/tree/main
+cd PMGROUP7_2nd_attempt
 ```
 
-### 2. Install dependencies
+### 2. Set up virtual environment
+
+```bash
+# Windows (PowerShell)
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+
+# macOS / Linux
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
+### 4. Install Graphviz
+
+Windows:
+Download and install from https://graphviz.org/download/
+Then add C:\Program Files\Graphviz\bin to your PATH (logout/login or restart shell).
+
+macOS:
+```bash
+brew install graphviz
+```
+
 ### 3. Create and populate data folder
 
-Create a folder named 'data' in root project directory. Fill with all .xes files
+Create a folder named 'data' in root project directory:
+
+```bash
+mkdir -p data
+```
+
+Fill data folder with all .xes files manually
 
 ## Run Experiments
 
@@ -62,7 +91,11 @@ python grid_search.py
 ```
 
 Performs a grid search over combinations of absolute and relative thresholds for one dataset,
-printing precision, recall, and F1 for each configuration.
+printing precision, recall, and F1 for each configuration (default: L1.xes).
+
+Uses a smaller grid for testing purposes:
+abs_values = [0,1,2,3]
+rel_values = [0.1,0.2,0.3]
 
 ### Run all datasets automatically
 

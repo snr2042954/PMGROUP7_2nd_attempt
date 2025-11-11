@@ -133,7 +133,7 @@ def evaluate_custom_alpha(dataset: str, log_path: str, abs_threshold: int = 0, r
 if __name__ == "__main__":
 
     ### Configuration ###
-    DATASET = "running-example.xes"
+    DATASET = "L1.xes"
     LOG_PATH = f"data/{DATASET}"
     ABS_THRESHOLD = 0
     REL_THRESHOLD = 0.0
