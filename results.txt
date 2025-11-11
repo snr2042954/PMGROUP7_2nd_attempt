@@ -1,4 +1,5 @@
-C:\Users\20203927\Documents\GitHub\PMGROUP7_2nd_attempt\.venv\Scripts\python.exe C:\Users\20203927\Documents\GitHub\PMGROUP7_2nd_attempt\main.py
+/opt/anaconda3/lib/python3.9/site-packages/pm4py/util/dt_parsing/parser.py:82: UserWarning: ISO8601 strings are not fully supported with strpfromiso for Python versions below 3.11
+  warnings.warn(
 
 
 ============================
@@ -120,9 +121,9 @@ abs=10, rel=0.50 → Custom F1=0.000
 Best configuration for L1.xes: abs=1, rel=0, F1=0.857
 
 Checked 110 parameter combinations.
-Execution time: 0.05 seconds
-parsing log, completed traces :: 100%|██████████| 6/6 [00:00<00:00, 5828.12it/s]
-parsing log, completed traces :: 100%|██████████| 6/6 [00:00<00:00, 6447.82it/s]
+Execution time: 0.03 seconds
+parsing log, completed traces ::   0%|          | 0/6 [00:00<?, ?it/s]parsing log, completed traces :: 100%|██████████| 6/6 [00:00<00:00, 3705.76it/s]
+parsing log, completed traces ::   0%|          | 0/6 [00:00<?, ?it/s]parsing log, completed traces :: 100%|██████████| 6/6 [00:00<00:00, 6680.60it/s]
 
 📊 === Evaluation Summary for L1.xes ===
 → Gold standard relations: 6
@@ -132,21 +133,25 @@ parsing log, completed traces :: 100%|██████████| 6/6 [00:00
 Precision: 0.750
 Recall:    1.000
 F1 Score:  0.857
+TP: 6, FP: 2, FN: 0, TN: 12
 
 --- Default (0, 0) Custom Miner ---
 Precision: 0.750
 Recall:    1.000
 F1 Score:  0.857
+TP: 6, FP: 2, FN: 0, TN: 12
 
 --- PM4Py Alpha Miner ---
 Precision: 1.000
 Recall:    1.000
 F1 Score:  1.000
+TP: 6, FP: 0, FN: 0, TN: 14
 
 --- PM4Py Heuristics Miner ---
 Precision: 0.750
 Recall:    1.000
 F1 Score:  0.857
+TP: 6, FP: 2, FN: 0, TN: 12
 Model visualized and saved to outputs/L1_best_model.png
 
 
@@ -270,8 +275,8 @@ Best configuration for L2.xes: abs=1, rel=0, F1=0.900
 
 Checked 110 parameter combinations.
 Execution time: 0.10 seconds
-parsing log, completed traces :: 100%|██████████| 13/13 [00:00<00:00, 4990.02it/s]
-parsing log, completed traces :: 100%|██████████| 13/13 [00:00<00:00, 5018.03it/s]
+parsing log, completed traces ::   0%|          | 0/13 [00:00<?, ?it/s]parsing log, completed traces :: 100%|██████████| 13/13 [00:00<00:00, 5110.21it/s]
+parsing log, completed traces ::   0%|          | 0/13 [00:00<?, ?it/s]parsing log, completed traces :: 100%|██████████| 13/13 [00:00<00:00, 5367.26it/s]
 
 📊 === Evaluation Summary for L2.xes ===
 → Gold standard relations: 9
@@ -281,21 +286,25 @@ parsing log, completed traces :: 100%|██████████| 13/13 [00:
 Precision: 0.818
 Recall:    1.000
 F1 Score:  0.900
+TP: 9, FP: 2, FN: 0, TN: 19
 
 --- Default (0, 0) Custom Miner ---
 Precision: 0.818
 Recall:    1.000
 F1 Score:  0.900
+TP: 9, FP: 2, FN: 0, TN: 19
 
 --- PM4Py Alpha Miner ---
 Precision: 1.000
 Recall:    1.000
 F1 Score:  1.000
+TP: 9, FP: 0, FN: 0, TN: 21
 
 --- PM4Py Heuristics Miner ---
 Precision: 0.818
 Recall:    1.000
 F1 Score:  0.900
+TP: 9, FP: 2, FN: 0, TN: 19
 Model visualized and saved to outputs/L2_best_model.png
 
 
@@ -418,7 +427,9 @@ abs=10, rel=0.50 → Custom F1=0.000
 Best configuration for L3.xes: abs=1, rel=0, F1=0.889
 
 Checked 110 parameter combinations.
-Execution time: 0.07 seconds
+Execution time: 0.04 seconds
+parsing log, completed traces ::   0%|          | 0/4 [00:00<?, ?it/s]parsing log, completed traces :: 100%|██████████| 4/4 [00:00<00:00, 2958.42it/s]
+parsing log, completed traces ::   0%|          | 0/4 [00:00<?, ?it/s]parsing log, completed traces :: 100%|██████████| 4/4 [00:00<00:00, 3218.34it/s]
 
 📊 === Evaluation Summary for L3.xes ===
 → Gold standard relations: 8
@@ -428,23 +439,25 @@ Execution time: 0.07 seconds
 Precision: 0.800
 Recall:    1.000
 F1 Score:  0.889
+TP: 8, FP: 2, FN: 0, TN: 32
 
 --- Default (0, 0) Custom Miner ---
 Precision: 0.800
 Recall:    1.000
 F1 Score:  0.889
+TP: 8, FP: 2, FN: 0, TN: 32
 
 --- PM4Py Alpha Miner ---
 Precision: 1.000
 Recall:    1.000
 F1 Score:  1.000
+TP: 8, FP: 0, FN: 0, TN: 34
 
 --- PM4Py Heuristics Miner ---
 Precision: 0.800
 Recall:    1.000
 F1 Score:  0.889
-parsing log, completed traces :: 100%|██████████| 4/4 [00:00<00:00, 2912.71it/s]
-parsing log, completed traces :: 100%|██████████| 4/4 [00:00<00:00, 2928.98it/s]
+TP: 8, FP: 2, FN: 0, TN: 32
 Model visualized and saved to outputs/L3_best_model.png
 
 
@@ -567,9 +580,9 @@ abs=10, rel=0.50 → Custom F1=0.857
 Best configuration for L4.xes: abs=1, rel=0, F1=1.000
 
 Checked 110 parameter combinations.
-Execution time: 0.62 seconds
-parsing log, completed traces :: 100%|██████████| 147/147 [00:00<00:00, 14346.01it/s]
-parsing log, completed traces :: 100%|██████████| 147/147 [00:00<00:00, 14422.86it/s]
+Execution time: 0.55 seconds
+parsing log, completed traces ::   0%|          | 0/147 [00:00<?, ?it/s]parsing log, completed traces :: 100%|██████████| 147/147 [00:00<00:00, 10383.51it/s]
+parsing log, completed traces ::   0%|          | 0/147 [00:00<?, ?it/s]parsing log, completed traces :: 100%|██████████| 147/147 [00:00<00:00, 10784.16it/s]
 
 📊 === Evaluation Summary for L4.xes ===
 → Gold standard relations: 4
@@ -579,21 +592,25 @@ parsing log, completed traces :: 100%|██████████| 147/147 [0
 Precision: 1.000
 Recall:    1.000
 F1 Score:  1.000
+TP: 4, FP: 0, FN: 0, TN: 16
 
 --- Default (0, 0) Custom Miner ---
 Precision: 1.000
 Recall:    1.000
 F1 Score:  1.000
+TP: 4, FP: 0, FN: 0, TN: 16
 
 --- PM4Py Alpha Miner ---
 Precision: 1.000
 Recall:    1.000
 F1 Score:  1.000
+TP: 4, FP: 0, FN: 0, TN: 16
 
 --- PM4Py Heuristics Miner ---
 Precision: 1.000
 Recall:    1.000
 F1 Score:  1.000
+TP: 4, FP: 0, FN: 0, TN: 16
 Model visualized and saved to outputs/L4_best_model.png
 
 
@@ -716,9 +733,9 @@ abs=10, rel=0.50 → Custom F1=0.444
 Best configuration for L5.xes: abs=8, rel=0, F1=0.833
 
 Checked 110 parameter combinations.
-Execution time: 0.12 seconds
-parsing log, completed traces :: 100%|██████████| 14/14 [00:00<00:00, 4719.14it/s]
-parsing log, completed traces :: 100%|██████████| 14/14 [00:00<00:00, 4730.16it/s]
+Execution time: 0.08 seconds
+parsing log, completed traces ::   0%|          | 0/14 [00:00<?, ?it/s]parsing log, completed traces :: 100%|██████████| 14/14 [00:00<00:00, 4957.81it/s]
+parsing log, completed traces ::   0%|          | 0/14 [00:00<?, ?it/s]parsing log, completed traces :: 100%|██████████| 14/14 [00:00<00:00, 4924.13it/s]
 
 📊 === Evaluation Summary for L5.xes ===
 → Gold standard relations: 7
@@ -728,21 +745,25 @@ parsing log, completed traces :: 100%|██████████| 14/14 [00:
 Precision: 1.000
 Recall:    0.714
 F1 Score:  0.833
+TP: 5, FP: 0, FN: 2, TN: 23
 
 --- Default (0, 0) Custom Miner ---
 Precision: 0.538
 Recall:    1.000
 F1 Score:  0.700
+TP: 7, FP: 6, FN: 0, TN: 17
 
 --- PM4Py Alpha Miner ---
 Precision: 1.000
 Recall:    1.000
 F1 Score:  1.000
+TP: 7, FP: 0, FN: 0, TN: 23
 
 --- PM4Py Heuristics Miner ---
 Precision: 0.538
 Recall:    1.000
 F1 Score:  0.700
+TP: 7, FP: 6, FN: 0, TN: 17
 Model visualized and saved to outputs/L5_best_model.png
 
 
@@ -865,7 +886,9 @@ abs=10, rel=0.50 → Custom F1=0.000
 Best configuration for L6.xes: abs=1, rel=0, F1=0.800
 
 Checked 110 parameter combinations.
-Execution time: 0.06 seconds
+Execution time: 0.04 seconds
+parsing log, completed traces ::   0%|          | 0/11 [00:00<?, ?it/s]parsing log, completed traces :: 100%|██████████| 11/11 [00:00<00:00, 7118.86it/s]
+parsing log, completed traces ::   0%|          | 0/11 [00:00<?, ?it/s]parsing log, completed traces :: 100%|██████████| 11/11 [00:00<00:00, 7638.63it/s]
 
 📊 === Evaluation Summary for L6.xes ===
 → Gold standard relations: 8
@@ -875,23 +898,25 @@ Execution time: 0.06 seconds
 Precision: 0.667
 Recall:    1.000
 F1 Score:  0.800
+TP: 8, FP: 4, FN: 0, TN: 30
 
 --- Default (0, 0) Custom Miner ---
 Precision: 0.667
 Recall:    1.000
 F1 Score:  0.800
+TP: 8, FP: 4, FN: 0, TN: 30
 
 --- PM4Py Alpha Miner ---
 Precision: 1.000
 Recall:    1.000
 F1 Score:  1.000
+TP: 8, FP: 0, FN: 0, TN: 34
 
 --- PM4Py Heuristics Miner ---
 Precision: 0.667
 Recall:    1.000
 F1 Score:  0.800
-parsing log, completed traces :: 100%|██████████| 11/11 [00:00<00:00, 6659.55it/s]
-parsing log, completed traces :: 100%|██████████| 11/11 [00:00<00:00, 8786.39it/s]
+TP: 8, FP: 4, FN: 0, TN: 30
 Model visualized and saved to outputs/L6_best_model.png
 
 
@@ -1014,7 +1039,9 @@ abs=10, rel=0.50 → Custom F1=0.000
 Best configuration for L7.xes: abs=1, rel=0, F1=1.000
 
 Checked 110 parameter combinations.
-Execution time: 0.05 seconds
+Execution time: 0.03 seconds
+parsing log, completed traces ::   0%|          | 0/8 [00:00<?, ?it/s]parsing log, completed traces :: 100%|██████████| 8/8 [00:00<00:00, 7504.91it/s]
+parsing log, completed traces ::   0%|          | 0/8 [00:00<?, ?it/s]parsing log, completed traces :: 100%|██████████| 8/8 [00:00<00:00, 8266.67it/s]
 
 📊 === Evaluation Summary for L7.xes ===
 → Gold standard relations: 4
@@ -1024,23 +1051,25 @@ Execution time: 0.05 seconds
 Precision: 1.000
 Recall:    1.000
 F1 Score:  1.000
+TP: 4, FP: 0, FN: 0, TN: 3
 
 --- Default (0, 0) Custom Miner ---
 Precision: 1.000
 Recall:    1.000
 F1 Score:  1.000
+TP: 4, FP: 0, FN: 0, TN: 3
 
 --- PM4Py Alpha Miner ---
 Precision: 1.000
 Recall:    0.250
 F1 Score:  0.400
+TP: 1, FP: 0, FN: 3, TN: 3
 
 --- PM4Py Heuristics Miner ---
 Precision: 1.000
 Recall:    0.750
 F1 Score:  0.857
-parsing log, completed traces :: 100%|██████████| 8/8 [00:00<00:00, 7353.59it/s]
-parsing log, completed traces :: 100%|██████████| 8/8 [00:00<00:00, 7518.36it/s]
+TP: 3, FP: 0, FN: 1, TN: 3
 Model visualized and saved to outputs/L7_best_model.png
 
 
@@ -1163,9 +1192,9 @@ abs=10, rel=0.50 → Custom F1=0.000
 Best configuration for running-example.xes: abs=1, rel=0.15, F1=0.800
 
 Checked 110 parameter combinations.
-Execution time: 0.09 seconds
-parsing log, completed traces :: 100%|██████████| 6/6 [00:00<00:00, 3090.49it/s]
-parsing log, completed traces :: 100%|██████████| 6/6 [00:00<00:00, 3017.12it/s]
+Execution time: 0.06 seconds
+parsing log, completed traces ::   0%|          | 0/6 [00:00<?, ?it/s]parsing log, completed traces :: 100%|██████████| 6/6 [00:00<00:00, 2879.06it/s]
+parsing log, completed traces ::   0%|          | 0/6 [00:00<?, ?it/s]parsing log, completed traces :: 100%|██████████| 6/6 [00:00<00:00, 3331.46it/s]
 
 📊 === Evaluation Summary for running-example.xes ===
 → Gold standard relations: 10
@@ -1175,21 +1204,25 @@ parsing log, completed traces :: 100%|██████████| 6/6 [00:00
 Precision: 0.667
 Recall:    1.000
 F1 Score:  0.800
+TP: 10, FP: 5, FN: 0, TN: 41
 
 --- Default (0, 0) Custom Miner ---
 Precision: 0.625
 Recall:    1.000
 F1 Score:  0.769
+TP: 10, FP: 6, FN: 0, TN: 40
 
 --- PM4Py Alpha Miner ---
 Precision: 0.833
 Recall:    1.000
 F1 Score:  0.909
+TP: 10, FP: 2, FN: 0, TN: 44
 
 --- PM4Py Heuristics Miner ---
 Precision: 0.625
 Recall:    1.000
 F1 Score:  0.769
+TP: 10, FP: 6, FN: 0, TN: 40
 Model visualized and saved to outputs/running-example_best_model.png
 
 
@@ -1312,9 +1345,9 @@ abs=10, rel=0.50 → Custom F1=1.000
 Best configuration for billinstances.xes: abs=1, rel=0, F1=1.000
 
 Checked 110 parameter combinations.
-Execution time: 18.23 seconds
-parsing log, completed traces :: 100%|██████████| 1800/1800 [00:00<00:00, 4119.39it/s]
-parsing log, completed traces :: 100%|██████████| 1800/1800 [00:00<00:00, 4275.05it/s]
+Execution time: 22.17 seconds
+parsing log, completed traces ::   0%|          | 0/1800 [00:00<?, ?it/s]parsing log, completed traces ::  22%|██▏       | 397/1800 [00:00<00:00, 3969.69it/s]parsing log, completed traces ::  45%|████▍     | 806/1800 [00:00<00:00, 4036.54it/s]parsing log, completed traces ::  67%|██████▋   | 1210/1800 [00:00<00:00, 4018.77it/s]parsing log, completed traces ::  90%|████████▉ | 1612/1800 [00:00<00:00, 3960.69it/s]parsing log, completed traces :: 100%|██████████| 1800/1800 [00:00<00:00, 3978.28it/s]
+parsing log, completed traces ::   0%|          | 0/1800 [00:00<?, ?it/s]parsing log, completed traces ::  18%|█▊        | 329/1800 [00:00<00:00, 3041.66it/s]parsing log, completed traces ::  40%|███▉      | 712/1800 [00:00<00:00, 3489.55it/s]parsing log, completed traces ::  61%|██████    | 1098/1800 [00:00<00:00, 3653.93it/s]parsing log, completed traces ::  83%|████████▎ | 1491/1800 [00:00<00:00, 3760.95it/s]parsing log, completed traces :: 100%|██████████| 1800/1800 [00:00<00:00, 3694.72it/s]
 
 📊 === Evaluation Summary for billinstances.xes ===
 → Gold standard relations: 2
@@ -1324,21 +1357,25 @@ parsing log, completed traces :: 100%|██████████| 1800/1800 
 Precision: 1.000
 Recall:    1.000
 F1 Score:  1.000
+TP: 2, FP: 0, FN: 0, TN: 4
 
 --- Default (0, 0) Custom Miner ---
 Precision: 1.000
 Recall:    1.000
 F1 Score:  1.000
+TP: 2, FP: 0, FN: 0, TN: 4
 
 --- PM4Py Alpha Miner ---
 Precision: 1.000
 Recall:    1.000
 F1 Score:  1.000
+TP: 2, FP: 0, FN: 0, TN: 4
 
 --- PM4Py Heuristics Miner ---
 Precision: 1.000
 Recall:    1.000
 F1 Score:  1.000
+TP: 2, FP: 0, FN: 0, TN: 4
 Model visualized and saved to outputs/billinstances_best_model.png
 
 
@@ -1461,9 +1498,9 @@ abs=10, rel=0.50 → Custom F1=1.000
 Best configuration for posterinstances.xes: abs=1, rel=0, F1=1.000
 
 Checked 110 parameter combinations.
-Execution time: 11.75 seconds
-parsing log, completed traces :: 100%|██████████| 900/900 [00:00<00:00, 3299.30it/s]
-parsing log, completed traces :: 100%|██████████| 900/900 [00:00<00:00, 2938.54it/s]
+Execution time: 14.54 seconds
+parsing log, completed traces ::   0%|          | 0/900 [00:00<?, ?it/s]parsing log, completed traces ::   9%|▉         | 83/900 [00:00<00:00, 828.20it/s]parsing log, completed traces ::  43%|████▎     | 387/900 [00:00<00:00, 2116.25it/s]parsing log, completed traces ::  78%|███████▊  | 702/900 [00:00<00:00, 2583.33it/s]parsing log, completed traces :: 100%|██████████| 900/900 [00:00<00:00, 2470.31it/s]
+parsing log, completed traces ::   0%|          | 0/900 [00:00<?, ?it/s]parsing log, completed traces ::  36%|███▌      | 320/900 [00:00<00:00, 3192.69it/s]parsing log, completed traces ::  71%|███████▏  | 643/900 [00:00<00:00, 3213.88it/s]parsing log, completed traces :: 100%|██████████| 900/900 [00:00<00:00, 3209.26it/s]
 
 📊 === Evaluation Summary for posterinstances.xes ===
 → Gold standard relations: 3
@@ -1473,21 +1510,25 @@ parsing log, completed traces :: 100%|██████████| 900/900 [0
 Precision: 1.000
 Recall:    1.000
 F1 Score:  1.000
+TP: 3, FP: 0, FN: 0, TN: 9
 
 --- Default (0, 0) Custom Miner ---
 Precision: 1.000
 Recall:    1.000
 F1 Score:  1.000
+TP: 3, FP: 0, FN: 0, TN: 9
 
 --- PM4Py Alpha Miner ---
 Precision: 1.000
 Recall:    1.000
 F1 Score:  1.000
+TP: 3, FP: 0, FN: 0, TN: 9
 
 --- PM4Py Heuristics Miner ---
 Precision: 1.000
 Recall:    1.000
 F1 Score:  1.000
+TP: 3, FP: 0, FN: 0, TN: 9
 Model visualized and saved to outputs/posterinstances_best_model.png
 
 
@@ -1610,9 +1651,9 @@ abs=10, rel=0.50 → Custom F1=0.889
 Best configuration for flyerinstances.xes: abs=1, rel=0, F1=1.000
 
 Checked 110 parameter combinations.
-Execution time: 19.14 seconds
-parsing log, completed traces :: 100%|██████████| 900/900 [00:00<00:00, 1906.22it/s]
-parsing log, completed traces :: 100%|██████████| 900/900 [00:00<00:00, 2043.98it/s]
+Execution time: 24.76 seconds
+parsing log, completed traces ::   0%|          | 0/900 [00:00<?, ?it/s]parsing log, completed traces ::  20%|██        | 184/900 [00:00<00:00, 1833.85it/s]parsing log, completed traces ::  41%|████▏     | 372/900 [00:00<00:00, 1855.06it/s]parsing log, completed traces ::  62%|██████▏   | 558/900 [00:00<00:00, 1856.50it/s]parsing log, completed traces ::  83%|████████▎ | 749/900 [00:00<00:00, 1876.43it/s]parsing log, completed traces :: 100%|██████████| 900/900 [00:00<00:00, 1875.11it/s]
+parsing log, completed traces ::   0%|          | 0/900 [00:00<?, ?it/s]parsing log, completed traces ::  20%|██        | 182/900 [00:00<00:00, 1811.50it/s]parsing log, completed traces ::  41%|████      | 371/900 [00:00<00:00, 1856.30it/s]parsing log, completed traces ::  62%|██████▏   | 558/900 [00:00<00:00, 1861.82it/s]parsing log, completed traces ::  83%|████████▎ | 745/900 [00:00<00:00, 1701.26it/s]parsing log, completed traces :: 100%|██████████| 900/900 [00:00<00:00, 1777.45it/s]
 
 📊 === Evaluation Summary for flyerinstances.xes ===
 → Gold standard relations: 5
@@ -1622,21 +1663,25 @@ parsing log, completed traces :: 100%|██████████| 900/900 [0
 Precision: 1.000
 Recall:    1.000
 F1 Score:  1.000
+TP: 5, FP: 0, FN: 0, TN: 15
 
 --- Default (0, 0) Custom Miner ---
 Precision: 1.000
 Recall:    1.000
 F1 Score:  1.000
+TP: 5, FP: 0, FN: 0, TN: 15
 
 --- PM4Py Alpha Miner ---
 Precision: 1.000
 Recall:    0.600
 F1 Score:  0.750
+TP: 3, FP: 0, FN: 2, TN: 15
 
 --- PM4Py Heuristics Miner ---
 Precision: 1.000
 Recall:    1.000
 F1 Score:  1.000
+TP: 5, FP: 0, FN: 0, TN: 15
 Model visualized and saved to outputs/flyerinstances_best_model.png
 
 
@@ -1759,9 +1804,9 @@ abs=10, rel=0.50 → Custom F1=0.312
 Best configuration for BPI_Challenge_2012.xes: abs=1, rel=0.35, F1=0.391
 
 Checked 110 parameter combinations.
-Execution time: 345.38 seconds
-parsing log, completed traces :: 100%|██████████| 13087/13087 [00:07<00:00, 1644.60it/s]
-parsing log, completed traces :: 100%|██████████| 13087/13087 [00:07<00:00, 1646.45it/s]
+Execution time: 372.60 seconds
+parsing log, completed traces ::   0%|          | 0/13087 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 10/13087 [00:00<02:11, 99.65it/s]parsing log, completed traces ::   1%|▏         | 172/13087 [00:00<00:13, 991.81it/s]parsing log, completed traces ::   2%|▏         | 323/13087 [00:00<00:10, 1226.80it/s]parsing log, completed traces ::   4%|▎         | 482/13087 [00:00<00:09, 1368.77it/s]parsing log, completed traces ::   5%|▍         | 648/13087 [00:00<00:08, 1473.46it/s]parsing log, completed traces ::   6%|▌         | 796/13087 [00:00<00:08, 1434.78it/s]parsing log, completed traces ::   7%|▋         | 957/13087 [00:00<00:08, 1486.07it/s]parsing log, completed traces ::   9%|▊         | 1119/13087 [00:00<00:07, 1525.27it/s]parsing log, completed traces ::  10%|▉         | 1296/13087 [00:00<00:07, 1596.25it/s]parsing log, completed traces ::  11%|█▏        | 1497/13087 [00:01<00:06, 1716.78it/s]parsing log, completed traces ::  13%|█▎        | 1669/13087 [00:01<00:06, 1717.03it/s]parsing log, completed traces ::  14%|█▍        | 1841/13087 [00:01<00:07, 1546.14it/s]parsing log, completed traces ::  15%|█▌        | 2006/13087 [00:01<00:07, 1569.67it/s]parsing log, completed traces ::  17%|█▋        | 2171/13087 [00:01<00:06, 1591.77it/s]parsing log, completed traces ::  18%|█▊        | 2344/13087 [00:01<00:06, 1626.78it/s]parsing log, completed traces ::  19%|█▉        | 2524/13087 [00:01<00:06, 1673.26it/s]parsing log, completed traces ::  21%|██        | 2693/13087 [00:01<00:06, 1491.51it/s]parsing log, completed traces ::  22%|██▏       | 2847/13087 [00:01<00:06, 1501.01it/s]parsing log, completed traces ::  23%|██▎       | 3011/13087 [00:01<00:06, 1539.78it/s]parsing log, completed traces ::  24%|██▍       | 3168/13087 [00:02<00:06, 1535.90it/s]parsing log, completed traces ::  26%|██▌       | 3396/13087 [00:02<00:05, 1748.53it/s]parsing log, completed traces ::  27%|██▋       | 3573/13087 [00:02<00:06, 1573.03it/s]parsing log, completed traces ::  29%|██▊       | 3753/13087 [00:02<00:05, 1627.81it/s]parsing log, completed traces ::  30%|██▉       | 3926/13087 [00:02<00:05, 1645.86it/s]parsing log, completed traces ::  32%|███▏      | 4174/13087 [00:02<00:04, 1881.36it/s]parsing log, completed traces ::  34%|███▎      | 4399/13087 [00:02<00:04, 1983.12it/s]parsing log, completed traces ::  35%|███▌      | 4608/13087 [00:02<00:04, 2012.71it/s]parsing log, completed traces ::  37%|███▋      | 4812/13087 [00:03<00:05, 1603.44it/s]parsing log, completed traces ::  38%|███▊      | 5012/13087 [00:03<00:04, 1702.27it/s]parsing log, completed traces ::  40%|███▉      | 5195/13087 [00:03<00:04, 1693.66it/s]parsing log, completed traces ::  41%|████      | 5373/13087 [00:03<00:04, 1700.42it/s]parsing log, completed traces ::  42%|████▏     | 5549/13087 [00:03<00:04, 1597.80it/s]parsing log, completed traces ::  44%|████▎     | 5723/13087 [00:03<00:04, 1630.04it/s]parsing log, completed traces ::  45%|████▌     | 5899/13087 [00:03<00:04, 1660.79it/s]parsing log, completed traces ::  46%|████▋     | 6068/13087 [00:03<00:04, 1424.10it/s]parsing log, completed traces ::  48%|████▊     | 6226/13087 [00:03<00:04, 1462.63it/s]parsing log, completed traces ::  49%|████▉     | 6426/13087 [00:04<00:04, 1603.10it/s]parsing log, completed traces ::  50%|█████     | 6592/13087 [00:04<00:04, 1596.53it/s]parsing log, completed traces ::  52%|█████▏    | 6761/13087 [00:04<00:03, 1619.83it/s]parsing log, completed traces ::  53%|█████▎    | 6926/13087 [00:04<00:03, 1554.05it/s]parsing log, completed traces ::  54%|█████▍    | 7084/13087 [00:04<00:03, 1527.45it/s]parsing log, completed traces ::  55%|█████▌    | 7258/13087 [00:04<00:03, 1584.02it/s]parsing log, completed traces ::  57%|█████▋    | 7418/13087 [00:04<00:04, 1278.19it/s]parsing log, completed traces ::  58%|█████▊    | 7563/13087 [00:04<00:04, 1320.12it/s]parsing log, completed traces ::  59%|█████▉    | 7718/13087 [00:04<00:03, 1375.88it/s]parsing log, completed traces ::  60%|██████    | 7886/13087 [00:05<00:03, 1455.85it/s]parsing log, completed traces ::  61%|██████▏   | 8037/13087 [00:05<00:03, 1443.08it/s]parsing log, completed traces ::  63%|██████▎   | 8224/13087 [00:05<00:03, 1562.01it/s]parsing log, completed traces ::  64%|██████▍   | 8390/13087 [00:05<00:02, 1589.76it/s]parsing log, completed traces ::  66%|██████▌   | 8574/13087 [00:05<00:02, 1653.75it/s]parsing log, completed traces ::  67%|██████▋   | 8747/13087 [00:05<00:02, 1674.51it/s]parsing log, completed traces ::  68%|██████▊   | 8916/13087 [00:05<00:03, 1302.53it/s]parsing log, completed traces ::  69%|██████▉   | 9079/13087 [00:05<00:02, 1380.35it/s]parsing log, completed traces ::  71%|███████   | 9262/13087 [00:05<00:02, 1494.46it/s]parsing log, completed traces ::  72%|███████▏  | 9435/13087 [00:06<00:02, 1554.24it/s]parsing log, completed traces ::  73%|███████▎  | 9598/13087 [00:06<00:02, 1534.95it/s]parsing log, completed traces ::  75%|███████▍  | 9765/13087 [00:06<00:02, 1568.27it/s]parsing log, completed traces ::  76%|███████▌  | 9929/13087 [00:06<00:01, 1580.04it/s]parsing log, completed traces ::  77%|███████▋  | 10090/13087 [00:06<00:01, 1560.18it/s]parsing log, completed traces ::  78%|███████▊  | 10248/13087 [00:06<00:01, 1508.64it/s]parsing log, completed traces ::  80%|███████▉  | 10409/13087 [00:06<00:01, 1531.80it/s]parsing log, completed traces ::  81%|████████  | 10564/13087 [00:06<00:01, 1458.32it/s]parsing log, completed traces ::  82%|████████▏ | 10712/13087 [00:07<00:02, 1164.36it/s]parsing log, completed traces ::  83%|████████▎ | 10910/13087 [00:07<00:01, 1360.70it/s]parsing log, completed traces ::  85%|████████▍ | 11082/13087 [00:07<00:01, 1451.20it/s]parsing log, completed traces ::  86%|████████▌ | 11258/13087 [00:07<00:01, 1533.50it/s]parsing log, completed traces ::  87%|████████▋ | 11436/13087 [00:07<00:01, 1600.92it/s]parsing log, completed traces ::  89%|████████▊ | 11603/13087 [00:07<00:00, 1588.65it/s]parsing log, completed traces ::  90%|█████████ | 11802/13087 [00:07<00:00, 1700.73it/s]parsing log, completed traces ::  92%|█████████▏| 11998/13087 [00:07<00:00, 1773.25it/s]parsing log, completed traces ::  93%|█████████▎| 12179/13087 [00:07<00:00, 1757.36it/s]parsing log, completed traces ::  94%|█████████▍| 12367/13087 [00:07<00:00, 1789.06it/s]parsing log, completed traces ::  96%|█████████▌| 12560/13087 [00:08<00:00, 1829.62it/s]parsing log, completed traces ::  97%|█████████▋| 12753/13087 [00:08<00:00, 1857.43it/s]parsing log, completed traces ::  99%|█████████▉| 12948/13087 [00:08<00:00, 1883.95it/s]parsing log, completed traces :: 100%|██████████| 13087/13087 [00:08<00:00, 1577.67it/s]
+parsing log, completed traces ::   0%|          | 0/13087 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/13087 [00:00<30:07,  7.24it/s]parsing log, completed traces ::   1%|          | 118/13087 [00:00<00:21, 596.83it/s]parsing log, completed traces ::   2%|▏         | 257/13087 [00:00<00:13, 928.35it/s]parsing log, completed traces ::   3%|▎         | 407/13087 [00:00<00:11, 1136.97it/s]parsing log, completed traces ::   4%|▍         | 575/13087 [00:00<00:09, 1323.72it/s]parsing log, completed traces ::   6%|▌         | 767/13087 [00:00<00:08, 1520.27it/s]parsing log, completed traces ::   7%|▋         | 923/13087 [00:00<00:08, 1508.12it/s]parsing log, completed traces ::   8%|▊         | 1092/13087 [00:00<00:07, 1561.37it/s]parsing log, completed traces ::  10%|▉         | 1262/13087 [00:00<00:07, 1596.68it/s]parsing log, completed traces ::  11%|█         | 1460/13087 [00:01<00:06, 1709.42it/s]parsing log, completed traces ::  13%|█▎        | 1637/13087 [00:01<00:06, 1726.92it/s]parsing log, completed traces ::  14%|█▍        | 1812/13087 [00:01<00:06, 1730.22it/s]parsing log, completed traces ::  15%|█▌        | 1986/13087 [00:01<00:06, 1671.85it/s]parsing log, completed traces ::  16%|█▋        | 2154/13087 [00:01<00:06, 1664.05it/s]parsing log, completed traces ::  18%|█▊        | 2325/13087 [00:01<00:06, 1675.15it/s]parsing log, completed traces ::  19%|█▉        | 2512/13087 [00:01<00:06, 1731.01it/s]parsing log, completed traces ::  21%|██        | 2686/13087 [00:01<00:06, 1692.17it/s]parsing log, completed traces ::  22%|██▏       | 2856/13087 [00:01<00:06, 1605.76it/s]parsing log, completed traces ::  23%|██▎       | 3027/13087 [00:01<00:06, 1634.28it/s]parsing log, completed traces ::  24%|██▍       | 3192/13087 [00:02<00:06, 1592.96it/s]parsing log, completed traces ::  26%|██▋       | 3443/13087 [00:02<00:05, 1854.97it/s]parsing log, completed traces ::  28%|██▊       | 3640/13087 [00:02<00:05, 1884.65it/s]parsing log, completed traces ::  29%|██▉       | 3830/13087 [00:02<00:05, 1606.43it/s]parsing log, completed traces ::  31%|███       | 4017/13087 [00:02<00:05, 1670.53it/s]parsing log, completed traces ::  33%|███▎      | 4287/13087 [00:02<00:04, 1949.70it/s]parsing log, completed traces ::  34%|███▍      | 4490/13087 [00:02<00:04, 1964.06it/s]parsing log, completed traces ::  36%|███▌      | 4692/13087 [00:02<00:04, 1948.53it/s]parsing log, completed traces ::  37%|███▋      | 4891/13087 [00:02<00:04, 1897.31it/s]parsing log, completed traces ::  39%|███▉      | 5084/13087 [00:03<00:04, 1865.42it/s]parsing log, completed traces ::  40%|████      | 5273/13087 [00:03<00:05, 1531.96it/s]parsing log, completed traces ::  42%|████▏     | 5440/13087 [00:03<00:04, 1561.38it/s]parsing log, completed traces ::  43%|████▎     | 5605/13087 [00:03<00:04, 1558.30it/s]parsing log, completed traces ::  44%|████▍     | 5778/13087 [00:03<00:04, 1603.74it/s]parsing log, completed traces ::  45%|████▌     | 5943/13087 [00:03<00:05, 1404.72it/s]parsing log, completed traces ::  47%|████▋     | 6091/13087 [00:03<00:05, 1355.74it/s]parsing log, completed traces ::  48%|████▊     | 6232/13087 [00:03<00:05, 1352.43it/s]parsing log, completed traces ::  49%|████▉     | 6425/13087 [00:04<00:04, 1505.52it/s]parsing log, completed traces ::  50%|█████     | 6580/13087 [00:04<00:05, 1243.75it/s]parsing log, completed traces ::  52%|█████▏    | 6743/13087 [00:04<00:04, 1337.55it/s]parsing log, completed traces ::  53%|█████▎    | 6894/13087 [00:04<00:04, 1375.17it/s]parsing log, completed traces ::  54%|█████▍    | 7057/13087 [00:04<00:04, 1441.02it/s]parsing log, completed traces ::  55%|█████▌    | 7227/13087 [00:04<00:03, 1511.98it/s]parsing log, completed traces ::  56%|█████▋    | 7383/13087 [00:04<00:03, 1491.62it/s]parsing log, completed traces ::  58%|█████▊    | 7536/13087 [00:04<00:03, 1459.92it/s]parsing log, completed traces ::  59%|█████▊    | 7685/13087 [00:04<00:03, 1458.85it/s]parsing log, completed traces ::  60%|██████    | 7855/13087 [00:05<00:03, 1526.34it/s]parsing log, completed traces ::  61%|██████    | 8010/13087 [00:05<00:04, 1189.89it/s]parsing log, completed traces ::  63%|██████▎   | 8196/13087 [00:05<00:03, 1352.72it/s]parsing log, completed traces ::  64%|██████▍   | 8376/13087 [00:05<00:03, 1464.26it/s]parsing log, completed traces ::  65%|██████▌   | 8553/13087 [00:05<00:02, 1545.18it/s]parsing log, completed traces ::  67%|██████▋   | 8727/13087 [00:05<00:02, 1596.76it/s]parsing log, completed traces ::  68%|██████▊   | 8893/13087 [00:05<00:02, 1587.38it/s]parsing log, completed traces ::  69%|██████▉   | 9056/13087 [00:05<00:02, 1577.73it/s]parsing log, completed traces ::  71%|███████   | 9236/13087 [00:05<00:02, 1637.46it/s]parsing log, completed traces ::  72%|███████▏  | 9414/13087 [00:06<00:02, 1675.13it/s]parsing log, completed traces ::  73%|███████▎  | 9584/13087 [00:06<00:02, 1218.64it/s]parsing log, completed traces ::  74%|███████▍  | 9748/13087 [00:06<00:02, 1315.45it/s]parsing log, completed traces ::  76%|███████▌  | 9918/13087 [00:06<00:02, 1410.13it/s]parsing log, completed traces ::  77%|███████▋  | 10079/13087 [00:06<00:02, 1460.27it/s]parsing log, completed traces ::  78%|███████▊  | 10235/13087 [00:06<00:01, 1448.56it/s]parsing log, completed traces ::  79%|███████▉  | 10400/13087 [00:06<00:01, 1501.85it/s]parsing log, completed traces ::  81%|████████  | 10556/13087 [00:06<00:01, 1414.06it/s]parsing log, completed traces ::  82%|████████▏ | 10710/13087 [00:07<00:01, 1448.16it/s]parsing log, completed traces ::  83%|████████▎ | 10899/13087 [00:07<00:01, 1567.30it/s]parsing log, completed traces ::  85%|████████▍ | 11066/13087 [00:07<00:01, 1590.71it/s]parsing log, completed traces ::  86%|████████▌ | 11231/13087 [00:07<00:01, 1607.11it/s]parsing log, completed traces ::  87%|████████▋ | 11438/13087 [00:07<00:00, 1739.77it/s]parsing log, completed traces ::  89%|████████▊ | 11614/13087 [00:07<00:01, 1337.02it/s]parsing log, completed traces ::  90%|█████████ | 11823/13087 [00:07<00:00, 1519.01it/s]parsing log, completed traces ::  92%|█████████▏| 12011/13087 [00:07<00:00, 1609.95it/s]parsing log, completed traces ::  93%|█████████▎| 12208/13087 [00:07<00:00, 1706.61it/s]parsing log, completed traces ::  95%|█████████▍| 12403/13087 [00:08<00:00, 1772.92it/s]parsing log, completed traces ::  96%|█████████▋| 12613/13087 [00:08<00:00, 1859.17it/s]parsing log, completed traces ::  98%|█████████▊| 12805/13087 [00:08<00:00, 1851.20it/s]parsing log, completed traces ::  99%|█████████▉| 13008/13087 [00:08<00:00, 1898.81it/s]parsing log, completed traces :: 100%|██████████| 13087/13087 [00:08<00:00, 1559.84it/s]
 
 📊 === Evaluation Summary for BPI_Challenge_2012.xes ===
 → Gold standard relations: 20
@@ -1771,24 +1816,26 @@ parsing log, completed traces :: 100%|██████████| 13087/1308
 Precision: 0.346
 Recall:    0.450
 F1 Score:  0.391
+TP: 9, FP: 17, FN: 11, TN: 520
 
 --- Default (0, 0) Custom Miner ---
 Precision: 0.087
 Recall:    0.600
 F1 Score:  0.152
+TP: 12, FP: 126, FN: 8, TN: 412
 
 --- PM4Py Alpha Miner ---
 Precision: 0.643
 Recall:    0.450
 F1 Score:  0.529
+TP: 9, FP: 5, FN: 11, TN: 527
 
 --- PM4Py Heuristics Miner ---
 Precision: 0.097
 Recall:    0.500
 F1 Score:  0.163
+TP: 10, FP: 93, FN: 10, TN: 439
 Model visualized and saved to outputs/BPI_Challenge_2012_best_model.png
 
 
 🎉 All datasets processed successfully.
-
-Process finished with exit code 0

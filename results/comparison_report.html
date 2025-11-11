@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alpha Miner Comparison Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        h2 {
+            color: #555;
+            margin-top: 40px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: bold;
+        }
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        .dataset {
+            font-weight: bold;
+            color: #333;
+        }
+        .metric {
+            text-align: right;
+        }
+        .f1-high {
+            color: #2e7d32;
+            font-weight: bold;
+        }
+        .f1-medium {
+            color: #f57c00;
+        }
+        .f1-low {
+            color: #c62828;
+        }
+        .diff-positive {
+            color: #2e7d32;
+            font-weight: bold;
+        }
+        .diff-negative {
+            color: #c62828;
+            font-weight: bold;
+        }
+        .diff-zero {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Alpha Miner Comparison Report</h1>
+    <p style="text-align: center; color: #666;">Generated comparison of PM4Py and Custom Alpha Miner implementations</p>
+    
+    <h2>Table 1: PM4Py Alpha Miner vs Default Custom Miner (abs=1, rel=0.0)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Dataset</th>
+                <th>PM4Py Alpha - Precision</th>
+                <th>PM4Py Alpha - Recall</th>
+                <th>PM4Py Alpha - F1</th>
+                <th>PM4Py Alpha - TP/FP/FN/TN</th>
+                <th>Default Custom - Precision</th>
+                <th>Default Custom - Recall</th>
+                <th>Default Custom - F1</th>
+                <th>Default Custom - TP/FP/FN/TN</th>
+                <th>F1 Difference (Custom - PM4Py)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="dataset">L1.xes</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">6/0/0/14</td>
+                <td class="metric">0.750</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">0.857</td>
+                <td class="metric">6/2/0/12</td>
+                <td class="metric diff-negative">-0.143</td>
+            </tr>
+            <tr>
+                <td class="dataset">L2.xes</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">9/0/0/21</td>
+                <td class="metric">0.818</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">0.900</td>
+                <td class="metric">9/2/0/19</td>
+                <td class="metric diff-negative">-0.100</td>
+            </tr>
+            <tr>
+                <td class="dataset">L3.xes</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">8/0/0/34</td>
+                <td class="metric">0.800</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">0.889</td>
+                <td class="metric">8/2/0/32</td>
+                <td class="metric diff-negative">-0.111</td>
+            </tr>
+            <tr>
+                <td class="dataset">L4.xes</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">4/0/0/16</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">4/0/0/16</td>
+                <td class="metric diff-zero">0.000</td>
+            </tr>
+            <tr>
+                <td class="dataset">L5.xes</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">7/0/0/23</td>
+                <td class="metric">0.538</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-medium">0.700</td>
+                <td class="metric">7/6/0/17</td>
+                <td class="metric diff-negative">-0.300</td>
+            </tr>
+            <tr>
+                <td class="dataset">L6.xes</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">8/0/0/34</td>
+                <td class="metric">0.667</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">0.800</td>
+                <td class="metric">8/4/0/30</td>
+                <td class="metric diff-negative">-0.200</td>
+            </tr>
+            <tr>
+                <td class="dataset">L7.xes</td>
+                <td class="metric">1.000</td>
+                <td class="metric">0.250</td>
+                <td class="metric f1-low">0.400</td>
+                <td class="metric">1/0/3/3</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">4/0/0/3</td>
+                <td class="metric diff-positive">+0.600</td>
+            </tr>
+            <tr>
+                <td class="dataset">running-example.xes</td>
+                <td class="metric">0.833</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">0.909</td>
+                <td class="metric">10/2/0/44</td>
+                <td class="metric">0.625</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-medium">0.769</td>
+                <td class="metric">10/6/0/40</td>
+                <td class="metric diff-negative">-0.140</td>
+            </tr>
+            <tr>
+                <td class="dataset">billinstances.xes</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">2/0/0/4</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">2/0/0/4</td>
+                <td class="metric diff-zero">0.000</td>
+            </tr>
+            <tr>
+                <td class="dataset">posterinstances.xes</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">3/0/0/9</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">3/0/0/9</td>
+                <td class="metric diff-zero">0.000</td>
+            </tr>
+            <tr>
+                <td class="dataset">flyerinstances.xes</td>
+                <td class="metric">1.000</td>
+                <td class="metric">0.600</td>
+                <td class="metric f1-medium">0.750</td>
+                <td class="metric">3/0/2/15</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">5/0/0/15</td>
+                <td class="metric diff-positive">+0.250</td>
+            </tr>
+            <tr>
+                <td class="dataset">BPI_Challenge_2012.xes</td>
+                <td class="metric">0.643</td>
+                <td class="metric">0.450</td>
+                <td class="metric f1-medium">0.529</td>
+                <td class="metric">9/5/11/527</td>
+                <td class="metric">0.087</td>
+                <td class="metric">0.600</td>
+                <td class="metric f1-low">0.152</td>
+                <td class="metric">12/126/8/412</td>
+                <td class="metric diff-negative">-0.377</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2>Table 2: PM4Py Alpha Miner vs Best Custom Miner (from Grid Search)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Dataset</th>
+                <th>Best Params (abs, rel)</th>
+                <th>PM4Py Alpha - Precision</th>
+                <th>PM4Py Alpha - Recall</th>
+                <th>PM4Py Alpha - F1</th>
+                <th>PM4Py Alpha - TP/FP/FN/TN</th>
+                <th>Best Custom - Precision</th>
+                <th>Best Custom - Recall</th>
+                <th>Best Custom - F1</th>
+                <th>Best Custom - TP/FP/FN/TN</th>
+                <th>F1 Difference (Custom - PM4Py)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="dataset">L1.xes</td>
+                <td>(1, 0.00)</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">6/0/0/14</td>
+                <td class="metric">0.750</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">0.857</td>
+                <td class="metric">6/2/0/12</td>
+                <td class="metric diff-negative">-0.143</td>
+            </tr>
+            <tr>
+                <td class="dataset">L2.xes</td>
+                <td>(1, 0.00)</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">9/0/0/21</td>
+                <td class="metric">0.818</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">0.900</td>
+                <td class="metric">9/2/0/19</td>
+                <td class="metric diff-negative">-0.100</td>
+            </tr>
+            <tr>
+                <td class="dataset">L3.xes</td>
+                <td>(1, 0.00)</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">8/0/0/34</td>
+                <td class="metric">0.800</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">0.889</td>
+                <td class="metric">8/2/0/32</td>
+                <td class="metric diff-negative">-0.111</td>
+            </tr>
+            <tr>
+                <td class="dataset">L4.xes</td>
+                <td>(1, 0.00)</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">4/0/0/16</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">4/0/0/16</td>
+                <td class="metric diff-zero">0.000</td>
+            </tr>
+            <tr>
+                <td class="dataset">L5.xes</td>
+                <td>(8, 0.00)</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">7/0/0/23</td>
+                <td class="metric">1.000</td>
+                <td class="metric">0.714</td>
+                <td class="metric f1-high">0.833</td>
+                <td class="metric">5/0/2/23</td>
+                <td class="metric diff-negative">-0.167</td>
+            </tr>
+            <tr>
+                <td class="dataset">L6.xes</td>
+                <td>(1, 0.00)</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">8/0/0/34</td>
+                <td class="metric">0.667</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">0.800</td>
+                <td class="metric">8/4/0/30</td>
+                <td class="metric diff-negative">-0.200</td>
+            </tr>
+            <tr>
+                <td class="dataset">L7.xes</td>
+                <td>(1, 0.00)</td>
+                <td class="metric">1.000</td>
+                <td class="metric">0.250</td>
+                <td class="metric f1-low">0.400</td>
+                <td class="metric">1/0/3/3</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">4/0/0/3</td>
+                <td class="metric diff-positive">+0.600</td>
+            </tr>
+            <tr>
+                <td class="dataset">running-example.xes</td>
+                <td>(1, 0.15)</td>
+                <td class="metric">0.833</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">0.909</td>
+                <td class="metric">10/2/0/44</td>
+                <td class="metric">0.667</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">0.800</td>
+                <td class="metric">10/5/0/41</td>
+                <td class="metric diff-negative">-0.109</td>
+            </tr>
+            <tr>
+                <td class="dataset">billinstances.xes</td>
+                <td>(1, 0.00)</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">2/0/0/4</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">2/0/0/4</td>
+                <td class="metric diff-zero">0.000</td>
+            </tr>
+            <tr>
+                <td class="dataset">posterinstances.xes</td>
+                <td>(1, 0.00)</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">3/0/0/9</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">3/0/0/9</td>
+                <td class="metric diff-zero">0.000</td>
+            </tr>
+            <tr>
+                <td class="dataset">flyerinstances.xes</td>
+                <td>(1, 0.00)</td>
+                <td class="metric">1.000</td>
+                <td class="metric">0.600</td>
+                <td class="metric f1-medium">0.750</td>
+                <td class="metric">3/0/2/15</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">5/0/0/15</td>
+                <td class="metric diff-positive">+0.250</td>
+            </tr>
+            <tr>
+                <td class="dataset">BPI_Challenge_2012.xes</td>
+                <td>(1, 0.35)</td>
+                <td class="metric">0.643</td>
+                <td class="metric">0.450</td>
+                <td class="metric f1-medium">0.529</td>
+                <td class="metric">9/5/11/527</td>
+                <td class="metric">0.346</td>
+                <td class="metric">0.450</td>
+                <td class="metric f1-low">0.391</td>
+                <td class="metric">9/17/11/520</td>
+                <td class="metric diff-negative">-0.138</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2>Table 3: PM4Py Heuristics Miner vs Best Custom Miner (from Grid Search)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Dataset</th>
+                <th>Best Params (abs, rel)</th>
+                <th>PM4Py Heuristics - Precision</th>
+                <th>PM4Py Heuristics - Recall</th>
+                <th>PM4Py Heuristics - F1</th>
+                <th>PM4Py Heuristics - TP/FP/FN/TN</th>
+                <th>Best Custom - Precision</th>
+                <th>Best Custom - Recall</th>
+                <th>Best Custom - F1</th>
+                <th>Best Custom - TP/FP/FN/TN</th>
+                <th>F1 Difference (Custom - PM4Py)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="dataset">L1.xes</td>
+                <td>(1, 0.00)</td>
+                <td class="metric">0.750</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">0.857</td>
+                <td class="metric">6/2/0/12</td>
+                <td class="metric">0.750</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">0.857</td>
+                <td class="metric">6/2/0/12</td>
+                <td class="metric diff-zero">0.000</td>
+            </tr>
+            <tr>
+                <td class="dataset">L2.xes</td>
+                <td>(1, 0.00)</td>
+                <td class="metric">0.818</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">0.900</td>
+                <td class="metric">9/2/0/19</td>
+                <td class="metric">0.818</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">0.900</td>
+                <td class="metric">9/2/0/19</td>
+                <td class="metric diff-zero">0.000</td>
+            </tr>
+            <tr>
+                <td class="dataset">L3.xes</td>
+                <td>(1, 0.00)</td>
+                <td class="metric">0.800</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">0.889</td>
+                <td class="metric">8/2/0/32</td>
+                <td class="metric">0.800</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">0.889</td>
+                <td class="metric">8/2/0/32</td>
+                <td class="metric diff-zero">0.000</td>
+            </tr>
+            <tr>
+                <td class="dataset">L4.xes</td>
+                <td>(1, 0.00)</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">4/0/0/16</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">4/0/0/16</td>
+                <td class="metric diff-zero">0.000</td>
+            </tr>
+            <tr>
+                <td class="dataset">L5.xes</td>
+                <td>(8, 0.00)</td>
+                <td class="metric">0.538</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-medium">0.700</td>
+                <td class="metric">7/6/0/17</td>
+                <td class="metric">1.000</td>
+                <td class="metric">0.714</td>
+                <td class="metric f1-high">0.833</td>
+                <td class="metric">5/0/2/23</td>
+                <td class="metric diff-positive">+0.133</td>
+            </tr>
+            <tr>
+                <td class="dataset">L6.xes</td>
+                <td>(1, 0.00)</td>
+                <td class="metric">0.667</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">0.800</td>
+                <td class="metric">8/4/0/30</td>
+                <td class="metric">0.667</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">0.800</td>
+                <td class="metric">8/4/0/30</td>
+                <td class="metric diff-zero">0.000</td>
+            </tr>
+            <tr>
+                <td class="dataset">L7.xes</td>
+                <td>(1, 0.00)</td>
+                <td class="metric">1.000</td>
+                <td class="metric">0.750</td>
+                <td class="metric f1-high">0.857</td>
+                <td class="metric">3/0/1/3</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">4/0/0/3</td>
+                <td class="metric diff-positive">+0.143</td>
+            </tr>
+            <tr>
+                <td class="dataset">running-example.xes</td>
+                <td>(1, 0.15)</td>
+                <td class="metric">0.625</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-medium">0.769</td>
+                <td class="metric">10/6/0/40</td>
+                <td class="metric">0.667</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">0.800</td>
+                <td class="metric">10/5/0/41</td>
+                <td class="metric diff-positive">+0.031</td>
+            </tr>
+            <tr>
+                <td class="dataset">billinstances.xes</td>
+                <td>(1, 0.00)</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">2/0/0/4</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">2/0/0/4</td>
+                <td class="metric diff-zero">0.000</td>
+            </tr>
+            <tr>
+                <td class="dataset">posterinstances.xes</td>
+                <td>(1, 0.00)</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">3/0/0/9</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">3/0/0/9</td>
+                <td class="metric diff-zero">0.000</td>
+            </tr>
+            <tr>
+                <td class="dataset">flyerinstances.xes</td>
+                <td>(1, 0.00)</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">5/0/0/15</td>
+                <td class="metric">1.000</td>
+                <td class="metric">1.000</td>
+                <td class="metric f1-high">1.000</td>
+                <td class="metric">5/0/0/15</td>
+                <td class="metric diff-zero">0.000</td>
+            </tr>
+            <tr>
+                <td class="dataset">BPI_Challenge_2012.xes</td>
+                <td>(1, 0.35)</td>
+                <td class="metric">0.097</td>
+                <td class="metric">0.500</td>
+                <td class="metric f1-low">0.163</td>
+                <td class="metric">10/93/10/439</td>
+                <td class="metric">0.346</td>
+                <td class="metric">0.450</td>
+                <td class="metric f1-low">0.391</td>
+                <td class="metric">9/17/11/520</td>
+                <td class="metric diff-positive">+0.228</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <footer style="margin-top: 40px; text-align: center; color: #666; font-size: 0.9em;">
+        <p>Report generated automatically from evaluation results</p>
+    </footer>
+</body>
+</html>

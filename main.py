@@ -41,21 +41,25 @@ def run_full_analysis_for_dataset(dataset: str, abs_values: list[int], rel_value
     print(f"Precision: {best_result['precision']:.3f}")
     print(f"Recall:    {best_result['recall']:.3f}")
     print(f"F1 Score:  {best_result['f1']:.3f}")
+    print(f"TP: {best_result['tp']}, FP: {best_result['fp']}, FN: {best_result['fn']}, TN: {best_result['tn']}")
 
     print("\n--- Default (0, 0) Custom Miner ---")
     print(f"Precision: {default_result['precision']:.3f}")
     print(f"Recall:    {default_result['recall']:.3f}")
     print(f"F1 Score:  {default_result['f1']:.3f}")
+    print(f"TP: {default_result['tp']}, FP: {default_result['fp']}, FN: {default_result['fn']}, TN: {default_result['tn']}")
 
     print("\n--- PM4Py Alpha Miner ---")
     print(f"Precision: {alpha_result['precision']:.3f}")
     print(f"Recall:    {alpha_result['recall']:.3f}")
     print(f"F1 Score:  {alpha_result['f1']:.3f}")
+    print(f"TP: {alpha_result['tp']}, FP: {alpha_result['fp']}, FN: {alpha_result['fn']}, TN: {alpha_result['tn']}")
 
     print("\n--- PM4Py Heuristics Miner ---")
     print(f"Precision: {heuristics_result['precision']:.3f}")
     print(f"Recall:    {heuristics_result['recall']:.3f}")
     print(f"F1 Score:  {heuristics_result['f1']:.3f}")
+    print(f"TP: {heuristics_result['tp']}, FP: {heuristics_result['fp']}, FN: {heuristics_result['fn']}, TN: {heuristics_result['tn']}")
 
     # Visualize best model
     miner = AlphaMinerFrequencies(abs_best, rel_best)
@@ -66,12 +70,19 @@ def run_full_analysis_for_dataset(dataset: str, abs_values: list[int], rel_value
 
 
 if __name__ == "__main__":
+    import sys
 
     # total 110 param combos
     abs_values = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] # 10
     rel_values = [0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5] # 11
 
     os.makedirs("outputs", exist_ok=True)
+
+    # Optionally write to results.txt if --save flag is provided
+    if "--save" in sys.argv or len(sys.argv) > 1 and sys.argv[1] == "--save":
+        output_file = open("results.txt", "w", encoding="utf-8")
+        sys.stdout = output_file
+        sys.stderr = output_file
 
     datasets = list(standards.keys())
 
@@ -81,3 +92,8 @@ if __name__ == "__main__":
     #run_full_analysis_for_dataset('BPI_Challenge_2012.xes', abs_values, rel_values)
 
     print("\n\n🎉 All datasets processed successfully.")
+    
+    # Close file if we opened it
+    if "--save" in sys.argv or (len(sys.argv) > 1 and sys.argv[1] == "--save"):
+        output_file.close()
+        print("Results saved to results.txt")
