@@ -41,21 +41,25 @@ def run_full_analysis_for_dataset(dataset: str, abs_values: list[int], rel_value
     print(f"Precision: {best_result['precision']:.3f}")
     print(f"Recall:    {best_result['recall']:.3f}")
     print(f"F1 Score:  {best_result['f1']:.3f}")
+    print(f"TP: {best_result['tp']}  FP: {best_result['fp']}  FN: {best_result['fn']}  TN: {best_result['tn']}")
 
     print("\n--- Default (0, 0) Custom Miner ---")
     print(f"Precision: {default_result['precision']:.3f}")
     print(f"Recall:    {default_result['recall']:.3f}")
     print(f"F1 Score:  {default_result['f1']:.3f}")
+    print(f"TP: {default_result['tp']}  FP: {default_result['fp']}  FN: {default_result['fn']}  TN: {default_result['tn']}")
 
     print("\n--- PM4Py Alpha Miner ---")
     print(f"Precision: {alpha_result['precision']:.3f}")
     print(f"Recall:    {alpha_result['recall']:.3f}")
     print(f"F1 Score:  {alpha_result['f1']:.3f}")
+    print(f"TP: {alpha_result['tp']}  FP: {alpha_result['fp']}  FN: {alpha_result['fn']}  TN: {alpha_result['tn']}")
 
     print("\n--- PM4Py Heuristics Miner ---")
     print(f"Precision: {heuristics_result['precision']:.3f}")
     print(f"Recall:    {heuristics_result['recall']:.3f}")
     print(f"F1 Score:  {heuristics_result['f1']:.3f}")
+    print(f"TP: {heuristics_result['tp']}  FP: {heuristics_result['fp']}  FN: {heuristics_result['fn']}  TN: {heuristics_result['tn']}")
 
     # Visualize best model
     miner = AlphaMinerFrequencies(abs_best, rel_best)

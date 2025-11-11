@@ -7,16 +7,35 @@ from utils.import_xes import read_xes_pm4py
 
 
 def compute_metrics(discovered: set, gold: set):
-    """Compute precision, recall, and F1-score between discovered and gold relations."""
-    intersection = discovered & gold
-    precision = len(intersection) / len(discovered) if discovered else 0
-    recall = len(intersection) / len(gold) if gold else 0
-    f1 = (
-        2 * precision * recall / (precision + recall)
-        if (precision + recall) > 0
-        else 0
-    )
-    return precision, recall, f1, intersection
+    """
+    Compute precision, recall, F1-score, and confusion matrix elements:
+    TP, FP, FN, TN — based on discovered and gold relations.
+
+    `discovered` and `gold` are sets of (a, b) activity pairs.
+    """
+    # Derive activity universe from gold and discovered relations
+    activities = {a for a, _ in gold | discovered} | {b for _, b in gold | discovered}
+
+    # Generate full set of possible (a, b) activity pairs (excluding self-loops)
+    all_possible_pairs = {
+        (a, b) for a in activities for b in activities if a != b
+    }
+
+    tp_set = discovered & gold
+    fp_set = discovered - gold
+    fn_set = gold - discovered
+    tn_set = all_possible_pairs - (tp_set | fp_set | fn_set)
+
+    tp = len(tp_set)
+    fp = len(fp_set)
+    fn = len(fn_set)
+    tn = len(tn_set)
+
+    precision = tp / (tp + fp) if (tp + fp) else 0
+    recall = tp / (tp + fn) if (tp + fn) else 0
+    f1 = (2 * precision * recall) / (precision + recall) if (precision + recall) else 0
+
+    return precision, recall, f1, tp, fp, fn, tn
 
 
 def flatten_pairs(pairs):
@@ -45,12 +64,17 @@ def evaluate_pm4py_alpha(dataset: str, log_path: str):
             for b in post:
                 relations.add((a, b))
 
-    precision, recall, f1, _ = compute_metrics(relations, gold_relations)
+    precision, recall, f1, tp, fp, fn, tn = compute_metrics(relations, gold_relations)
+
     return {
         "precision": precision,
         "recall": recall,
         "f1": f1,
         "relations": relations,
+        "tp": tp,
+        "fp": fp,
+        "fn": fn,
+        "tn": tn
     }
 
 
@@ -70,13 +94,17 @@ def evaluate_pm4py_heuristics(dataset: str, log_path: str):
                 relations.add((src, tgt))
 
     # Evaluate against gold standard
-    precision, recall, f1, _ = compute_metrics(relations, gold_relations)
+    precision, recall, f1, tp, fp, fn, tn = compute_metrics(relations, gold_relations)
 
     return {
         "precision": precision,
         "recall": recall,
         "f1": f1,
         "relations": relations,
+        "tp": tp,
+        "fp": fp,
+        "fn": fn,
+        "tn": tn
     }
 
 
@@ -88,13 +116,17 @@ def evaluate_custom_alpha(dataset: str, log_path: str, abs_threshold: int = 0, r
     miner = AlphaMinerFrequencies(abs_threshold=abs_threshold, rel_threshold=rel_threshold)
     miner.run(log_path)
     custom_relations = flatten_pairs(miner.direct_follower)
-    precision, recall, f1, _ = compute_metrics(custom_relations, gold_relations)
+    precision, recall, f1, tp, fp, fn, tn = compute_metrics(custom_relations, gold_relations)
 
     return {
         "precision": precision,
         "recall": recall,
         "f1": f1,
         "relations": custom_relations,
+        "tp": tp,
+        "fp": fp,
+        "fn": fn,
+        "tn": tn
     }
 
 
@@ -129,16 +161,19 @@ if __name__ == "__main__":
     print("PM4Py Alpha Miner vs Gold Standard:")
     print(f"  Precision: {alpha_results['precision']:.2f}")
     print(f"  Recall:    {alpha_results['recall']:.2f}")
-    print(f"  F1-Score:  {alpha_results['f1']:.2f}\n")
+    print(f"  F1-Score:  {alpha_results['f1']:.2f}")
+    print(f"  TP: {alpha_results['tp']}  FP: {alpha_results['fp']}  FN: {alpha_results['fn']}  TN: {alpha_results['tn']}\n")
 
     print("PM4Py Heuristics Miner vs Gold Standard:")
     print(f"  Precision: {heuristics_results['precision']:.2f}")
     print(f"  Recall:    {heuristics_results['recall']:.2f}")
-    print(f"  F1-Score:  {heuristics_results['f1']:.2f}\n")
+    print(f"  F1-Score:  {heuristics_results['f1']:.2f}")
+    print(f"  TP: {heuristics_results['tp']}  FP: {heuristics_results['fp']}  FN: {heuristics_results['fn']}  TN: {heuristics_results['tn']}\n")
 
     print("Custom Alpha Miner (Frequencies) vs Gold Standard:")
     print(f"  Precision: {custom_results['precision']:.2f}")
     print(f"  Recall:    {custom_results['recall']:.2f}")
-    print(f"  F1-Score:  {custom_results['f1']:.2f}\n")
+    print(f"  F1-Score:  {custom_results['f1']:.2f}")
+    print(f"  TP: {custom_results['tp']}  FP: {custom_results['fp']}  FN: {custom_results['fn']}  TN: {custom_results['tn']}\n")
 
     print("Done.")
