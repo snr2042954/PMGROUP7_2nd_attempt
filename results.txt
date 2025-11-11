@@ -1,0 +1,696 @@
+C:\Users\20203927\Documents\GitHub\PMGROUP7_2nd_attempt\.venv\Scripts\python.exe C:\Users\20203927\Documents\GitHub\PMGROUP7_2nd_attempt\main.py
+Found 12 XES files:
+  - billinstances.xes
+  - BPI_Challenge_2012.xes
+  - flyerinstances.xes
+  - L1.xes
+  - L2.xes
+  - L3.xes
+  - L4.xes
+  - L5.xes
+  - L6.xes
+  - L7.xes
+  - posterinstances.xes
+  - running-example.xes
+
+=== Running experiment for billinstances.xes ===
+Running PM4Py Alpha Miner once for baseline...
+parsing log, completed traces :: 100%|██████████| 1800/1800 [00:00<00:00, 4099.64it/s]
+Baseline PM4Py F1: 1.000
+
+abs=0, rel=0.1 → Custom F1=1.000
+abs=0, rel=0.2 → Custom F1=1.000
+abs=0, rel=0.3 → Custom F1=1.000
+abs=0, rel=0.4 → Custom F1=1.000
+abs=1, rel=0.1 → Custom F1=1.000
+abs=1, rel=0.2 → Custom F1=1.000
+abs=1, rel=0.3 → Custom F1=1.000
+abs=1, rel=0.4 → Custom F1=1.000
+abs=2, rel=0.1 → Custom F1=1.000
+abs=2, rel=0.2 → Custom F1=1.000
+abs=2, rel=0.3 → Custom F1=1.000
+abs=2, rel=0.4 → Custom F1=1.000
+abs=3, rel=0.1 → Custom F1=1.000
+abs=3, rel=0.2 → Custom F1=1.000
+abs=3, rel=0.3 → Custom F1=1.000
+abs=3, rel=0.4 → Custom F1=1.000
+abs=4, rel=0.1 → Custom F1=1.000
+abs=4, rel=0.2 → Custom F1=1.000
+abs=4, rel=0.3 → Custom F1=1.000
+abs=4, rel=0.4 → Custom F1=1.000
+
+=== GRID SEARCH RESULTS (sorted by Custom F1) ===
+ abs |  rel |  Precision |     Recall |         F1
+--------------------------------------------------
+   0 |  0.1 |      1.000 |      1.000 |      1.000
+   0 |  0.2 |      1.000 |      1.000 |      1.000
+   0 |  0.3 |      1.000 |      1.000 |      1.000
+   0 |  0.4 |      1.000 |      1.000 |      1.000
+   1 |  0.1 |      1.000 |      1.000 |      1.000
+   1 |  0.2 |      1.000 |      1.000 |      1.000
+   1 |  0.3 |      1.000 |      1.000 |      1.000
+   1 |  0.4 |      1.000 |      1.000 |      1.000
+   2 |  0.1 |      1.000 |      1.000 |      1.000
+   2 |  0.2 |      1.000 |      1.000 |      1.000
+   2 |  0.3 |      1.000 |      1.000 |      1.000
+   2 |  0.4 |      1.000 |      1.000 |      1.000
+   3 |  0.1 |      1.000 |      1.000 |      1.000
+   3 |  0.2 |      1.000 |      1.000 |      1.000
+   3 |  0.3 |      1.000 |      1.000 |      1.000
+   3 |  0.4 |      1.000 |      1.000 |      1.000
+   4 |  0.1 |      1.000 |      1.000 |      1.000
+   4 |  0.2 |      1.000 |      1.000 |      1.000
+   4 |  0.3 |      1.000 |      1.000 |      1.000
+   4 |  0.4 |      1.000 |      1.000 |      1.000
+
+Checked 20 parameter combinations.
+Execution time: 4.04 seconds
+
+Best configuration for billinstances.xes: abs=0, rel=0.1, F1=1.000
+
+=== Running experiment for BPI_Challenge_2012.xes ===
+Running PM4Py Alpha Miner once for baseline...
+parsing log, completed traces :: 100%|██████████| 13087/13087 [00:07<00:00, 1758.08it/s]
+Baseline PM4Py F1: 0.174
+
+abs=0, rel=0.1 → Custom F1=0.253
+abs=0, rel=0.2 → Custom F1=0.273
+abs=0, rel=0.3 → Custom F1=0.346
+abs=0, rel=0.4 → Custom F1=0.390
+abs=1, rel=0.1 → Custom F1=0.253
+abs=1, rel=0.2 → Custom F1=0.273
+abs=1, rel=0.3 → Custom F1=0.346
+abs=1, rel=0.4 → Custom F1=0.390
+abs=2, rel=0.1 → Custom F1=0.253
+abs=2, rel=0.2 → Custom F1=0.273
+abs=2, rel=0.3 → Custom F1=0.346
+abs=2, rel=0.4 → Custom F1=0.390
+abs=3, rel=0.1 → Custom F1=0.253
+abs=3, rel=0.2 → Custom F1=0.273
+abs=3, rel=0.3 → Custom F1=0.346
+abs=3, rel=0.4 → Custom F1=0.390
+abs=4, rel=0.1 → Custom F1=0.253
+abs=4, rel=0.2 → Custom F1=0.273
+abs=4, rel=0.3 → Custom F1=0.346
+abs=4, rel=0.4 → Custom F1=0.390
+
+=== GRID SEARCH RESULTS (sorted by Custom F1) ===
+ abs |  rel |  Precision |     Recall |         F1
+--------------------------------------------------
+   0 |  0.4 |      0.381 |      0.400 |      0.390
+   1 |  0.4 |      0.381 |      0.400 |      0.390
+   2 |  0.4 |      0.381 |      0.400 |      0.390
+   3 |  0.4 |      0.381 |      0.400 |      0.390
+   4 |  0.4 |      0.381 |      0.400 |      0.390
+   0 |  0.3 |      0.281 |      0.450 |      0.346
+   1 |  0.3 |      0.281 |      0.450 |      0.346
+   2 |  0.3 |      0.281 |      0.450 |      0.346
+   3 |  0.3 |      0.281 |      0.450 |      0.346
+   4 |  0.3 |      0.281 |      0.450 |      0.346
+   0 |  0.2 |      0.196 |      0.450 |      0.273
+   1 |  0.2 |      0.196 |      0.450 |      0.273
+   2 |  0.2 |      0.196 |      0.450 |      0.273
+   3 |  0.2 |      0.196 |      0.450 |      0.273
+   4 |  0.2 |      0.196 |      0.450 |      0.273
+   0 |  0.1 |      0.169 |      0.500 |      0.253
+   1 |  0.1 |      0.169 |      0.500 |      0.253
+   2 |  0.1 |      0.169 |      0.500 |      0.253
+   3 |  0.1 |      0.169 |      0.500 |      0.253
+   4 |  0.1 |      0.169 |      0.500 |      0.253
+
+Checked 20 parameter combinations.
+Execution time: 79.59 seconds
+
+Best configuration for BPI_Challenge_2012.xes: abs=0, rel=0.4, F1=0.390
+
+=== Running experiment for flyerinstances.xes ===
+Running PM4Py Alpha Miner once for baseline...
+parsing log, completed traces :: 100%|██████████| 900/900 [00:00<00:00, 1581.35it/s]
+Baseline PM4Py F1: 1.000
+
+abs=0, rel=0.1 → Custom F1=1.000
+abs=0, rel=0.2 → Custom F1=1.000
+abs=0, rel=0.3 → Custom F1=1.000
+abs=0, rel=0.4 → Custom F1=1.000
+abs=1, rel=0.1 → Custom F1=1.000
+abs=1, rel=0.2 → Custom F1=1.000
+abs=1, rel=0.3 → Custom F1=1.000
+abs=1, rel=0.4 → Custom F1=1.000
+abs=2, rel=0.1 → Custom F1=1.000
+abs=2, rel=0.2 → Custom F1=1.000
+abs=2, rel=0.3 → Custom F1=1.000
+abs=2, rel=0.4 → Custom F1=1.000
+abs=3, rel=0.1 → Custom F1=1.000
+abs=3, rel=0.2 → Custom F1=1.000
+abs=3, rel=0.3 → Custom F1=1.000
+abs=3, rel=0.4 → Custom F1=1.000
+abs=4, rel=0.1 → Custom F1=1.000
+abs=4, rel=0.2 → Custom F1=1.000
+abs=4, rel=0.3 → Custom F1=1.000
+parsing log, completed traces :: 100%|██████████| 6/6 [00:00<00:00, 7133.17it/s]
+abs=4, rel=0.4 → Custom F1=1.000
+
+=== GRID SEARCH RESULTS (sorted by Custom F1) ===
+ abs |  rel |  Precision |     Recall |         F1
+--------------------------------------------------
+   0 |  0.1 |      1.000 |      1.000 |      1.000
+   0 |  0.2 |      1.000 |      1.000 |      1.000
+   0 |  0.3 |      1.000 |      1.000 |      1.000
+   0 |  0.4 |      1.000 |      1.000 |      1.000
+   1 |  0.1 |      1.000 |      1.000 |      1.000
+   1 |  0.2 |      1.000 |      1.000 |      1.000
+   1 |  0.3 |      1.000 |      1.000 |      1.000
+   1 |  0.4 |      1.000 |      1.000 |      1.000
+   2 |  0.1 |      1.000 |      1.000 |      1.000
+   2 |  0.2 |      1.000 |      1.000 |      1.000
+   2 |  0.3 |      1.000 |      1.000 |      1.000
+   2 |  0.4 |      1.000 |      1.000 |      1.000
+   3 |  0.1 |      1.000 |      1.000 |      1.000
+   3 |  0.2 |      1.000 |      1.000 |      1.000
+   3 |  0.3 |      1.000 |      1.000 |      1.000
+   3 |  0.4 |      1.000 |      1.000 |      1.000
+   4 |  0.1 |      1.000 |      1.000 |      1.000
+   4 |  0.2 |      1.000 |      1.000 |      1.000
+   4 |  0.3 |      1.000 |      1.000 |      1.000
+   4 |  0.4 |      1.000 |      1.000 |      1.000
+
+Checked 20 parameter combinations.
+Execution time: 5.38 seconds
+
+Best configuration for flyerinstances.xes: abs=0, rel=0.1, F1=1.000
+
+=== Running experiment for L1.xes ===
+Running PM4Py Alpha Miner once for baseline...
+Baseline PM4Py F1: 0.857
+
+abs=0, rel=0.1 → Custom F1=0.857
+abs=0, rel=0.2 → Custom F1=0.769
+abs=0, rel=0.3 → Custom F1=0.769
+abs=0, rel=0.4 → Custom F1=0.667
+abs=1, rel=0.1 → Custom F1=0.857
+abs=1, rel=0.2 → Custom F1=0.769
+abs=1, rel=0.3 → Custom F1=0.769
+abs=1, rel=0.4 → Custom F1=0.667
+abs=2, rel=0.1 → Custom F1=0.667
+abs=2, rel=0.2 → Custom F1=0.667
+abs=2, rel=0.3 → Custom F1=0.667
+abs=2, rel=0.4 → Custom F1=0.545
+abs=3, rel=0.1 → Custom F1=0.444
+abs=3, rel=0.2 → Custom F1=0.444
+abs=3, rel=0.3 → Custom F1=0.444
+abs=3, rel=0.4 → Custom F1=0.444
+abs=4, rel=0.1 → Custom F1=0.000
+abs=4, rel=0.2 → Custom F1=0.000
+abs=4, rel=0.3 → Custom F1=0.000
+abs=4, rel=0.4 → Custom F1=0.000
+
+=== GRID SEARCH RESULTS (sorted by Custom F1) ===
+ abs |  rel |  Precision |     Recall |         F1
+--------------------------------------------------
+   0 |  0.1 |      0.750 |      1.000 |      0.857
+   1 |  0.1 |      0.750 |      1.000 |      0.857
+   0 |  0.2 |      0.714 |      0.833 |      0.769
+   0 |  0.3 |      0.714 |      0.833 |      0.769
+   1 |  0.2 |      0.714 |      0.833 |      0.769
+   1 |  0.3 |      0.714 |      0.833 |      0.769
+   0 |  0.4 |      0.667 |      0.667 |      0.667
+   1 |  0.4 |      0.667 |      0.667 |      0.667
+   2 |  0.1 |      0.667 |      0.667 |      0.667
+   2 |  0.2 |      0.667 |      0.667 |      0.667
+   2 |  0.3 |      0.667 |      0.667 |      0.667
+   2 |  0.4 |      0.600 |      0.500 |      0.545
+   3 |  0.1 |      0.667 |      0.333 |      0.444
+   3 |  0.2 |      0.667 |      0.333 |      0.444
+   3 |  0.3 |      0.667 |      0.333 |      0.444
+   3 |  0.4 |      0.667 |      0.333 |      0.444
+   4 |  0.1 |      0.000 |      0.000 |      0.000
+   4 |  0.2 |      0.000 |      0.000 |      0.000
+   4 |  0.3 |      0.000 |      0.000 |      0.000
+   4 |  0.4 |      0.000 |      0.000 |      0.000
+
+Checked 20 parameter combinations.
+Execution time: 0.01 seconds
+
+Best configuration for L1.xes: abs=0, rel=0.1, F1=0.857
+
+=== Running experiment for L2.xes ===
+Running PM4Py Alpha Miner once for baseline...
+Baseline PM4Py F1: 0.900
+
+abs=0, rel=0.1 → Custom F1=0.900
+abs=0, rel=0.2 → Custom F1=0.842
+abs=0, rel=0.3 → Custom F1=0.706
+abs=0, rel=0.4 → Custom F1=0.533
+abs=1, rel=0.1 → Custom F1=0.900
+abs=1, rel=0.2 → Custom F1=0.842
+abs=1, rel=0.3 → Custom F1=0.706
+abs=1, rel=0.4 → Custom F1=0.533
+abs=2, rel=0.1 → Custom F1=0.900
+abs=2, rel=0.2 → Custom F1=0.842
+parsing log, completed traces :: 100%|██████████| 13/13 [00:00<00:00, 4442.39it/s]
+abs=2, rel=0.3 → Custom F1=0.706
+abs=2, rel=0.4 → Custom F1=0.533
+abs=3, rel=0.1 → Custom F1=0.842
+abs=3, rel=0.2 → Custom F1=0.778
+abs=3, rel=0.3 → Custom F1=0.706
+abs=3, rel=0.4 → Custom F1=0.533
+abs=4, rel=0.1 → Custom F1=0.778
+abs=4, rel=0.2 → Custom F1=0.778
+abs=4, rel=0.3 → Custom F1=0.706
+abs=4, rel=0.4 → Custom F1=0.533
+
+=== GRID SEARCH RESULTS (sorted by Custom F1) ===
+ abs |  rel |  Precision |     Recall |         F1
+--------------------------------------------------
+   0 |  0.1 |      0.818 |      1.000 |      0.900
+   1 |  0.1 |      0.818 |      1.000 |      0.900
+   2 |  0.1 |      0.818 |      1.000 |      0.900
+   0 |  0.2 |      0.800 |      0.889 |      0.842
+   1 |  0.2 |      0.800 |      0.889 |      0.842
+   2 |  0.2 |      0.800 |      0.889 |      0.842
+   3 |  0.1 |      0.800 |      0.889 |      0.842
+   3 |  0.2 |      0.778 |      0.778 |      0.778
+   4 |  0.1 |      0.778 |      0.778 |      0.778
+   4 |  0.2 |      0.778 |      0.778 |      0.778
+   0 |  0.3 |      0.750 |      0.667 |      0.706
+   1 |  0.3 |      0.750 |      0.667 |      0.706
+   2 |  0.3 |      0.750 |      0.667 |      0.706
+   3 |  0.3 |      0.750 |      0.667 |      0.706
+   4 |  0.3 |      0.750 |      0.667 |      0.706
+   0 |  0.4 |      0.667 |      0.444 |      0.533
+   1 |  0.4 |      0.667 |      0.444 |      0.533
+   2 |  0.4 |      0.667 |      0.444 |      0.533
+   3 |  0.4 |      0.667 |      0.444 |      0.533
+   4 |  0.4 |      0.667 |      0.444 |      0.533
+
+Checked 20 parameter combinations.
+Execution time: 0.05 seconds
+
+Best configuration for L2.xes: abs=0, rel=0.1, F1=0.900
+
+=== Running experiment for L3.xes ===
+Running PM4Py Alpha Miner once for baseline...
+parsing log, completed traces :: 100%|██████████| 4/4 [00:00<00:00, 3818.21it/s]
+Baseline PM4Py F1: 0.889
+
+abs=0, rel=0.1 → Custom F1=0.889
+abs=0, rel=0.2 → Custom F1=0.889
+abs=0, rel=0.3 → Custom F1=0.889
+abs=0, rel=0.4 → Custom F1=0.889
+abs=1, rel=0.1 → Custom F1=0.889
+abs=1, rel=0.2 → Custom F1=0.889
+abs=1, rel=0.3 → Custom F1=0.889
+abs=1, rel=0.4 → Custom F1=0.889
+abs=2, rel=0.1 → Custom F1=0.889
+abs=2, rel=0.2 → Custom F1=0.889
+abs=2, rel=0.3 → Custom F1=0.889
+abs=2, rel=0.4 → Custom F1=0.889
+abs=3, rel=0.1 → Custom F1=0.889
+abs=3, rel=0.2 → Custom F1=0.889
+abs=3, rel=0.3 → Custom F1=0.889
+abs=3, rel=0.4 → Custom F1=0.889
+abs=4, rel=0.1 → Custom F1=0.615
+abs=4, rel=0.2 → Custom F1=0.615
+abs=4, rel=0.3 → Custom F1=0.615
+abs=4, rel=0.4 → Custom F1=0.615
+
+=== GRID SEARCH RESULTS (sorted by Custom F1) ===
+ abs |  rel |  Precision |     Recall |         F1
+--------------------------------------------------
+   0 |  0.1 |      0.800 |      1.000 |      0.889
+   0 |  0.2 |      0.800 |      1.000 |      0.889
+   0 |  0.3 |      0.800 |      1.000 |      0.889
+   0 |  0.4 |      0.800 |      1.000 |      0.889
+   1 |  0.1 |      0.800 |      1.000 |      0.889
+   1 |  0.2 |      0.800 |      1.000 |      0.889
+   1 |  0.3 |      0.800 |      1.000 |      0.889
+   1 |  0.4 |      0.800 |      1.000 |      0.889
+   2 |  0.1 |      0.800 |      1.000 |      0.889
+   2 |  0.2 |      0.800 |      1.000 |      0.889
+   2 |  0.3 |      0.800 |      1.000 |      0.889
+   2 |  0.4 |      0.800 |      1.000 |      0.889
+   3 |  0.1 |      0.800 |      1.000 |      0.889
+   3 |  0.2 |      0.800 |      1.000 |      0.889
+   3 |  0.3 |      0.800 |      1.000 |      0.889
+   3 |  0.4 |      0.800 |      1.000 |      0.889
+   4 |  0.1 |      0.800 |      0.500 |      0.615
+   4 |  0.2 |      0.800 |      0.500 |      0.615
+   4 |  0.3 |      0.800 |      0.500 |      0.615
+   4 |  0.4 |      0.800 |      0.500 |      0.615
+
+Checked 20 parameter combinations.
+Execution time: 0.03 seconds
+
+Best configuration for L3.xes: abs=0, rel=0.1, F1=0.889
+
+=== Running experiment for L4.xes ===
+Running PM4Py Alpha Miner once for baseline...
+parsing log, completed traces :: 100%|██████████| 147/147 [00:00<00:00, 11911.26it/s]
+Baseline PM4Py F1: 1.000
+
+abs=0, rel=0.1 → Custom F1=1.000
+abs=0, rel=0.2 → Custom F1=1.000
+abs=0, rel=0.3 → Custom F1=1.000
+abs=0, rel=0.4 → Custom F1=1.000
+abs=1, rel=0.1 → Custom F1=1.000
+abs=1, rel=0.2 → Custom F1=1.000
+abs=1, rel=0.3 → Custom F1=1.000
+abs=1, rel=0.4 → Custom F1=1.000
+abs=2, rel=0.1 → Custom F1=1.000
+abs=2, rel=0.2 → Custom F1=1.000
+abs=2, rel=0.3 → Custom F1=1.000
+abs=2, rel=0.4 → Custom F1=1.000
+abs=3, rel=0.1 → Custom F1=1.000
+abs=3, rel=0.2 → Custom F1=1.000
+abs=3, rel=0.3 → Custom F1=1.000
+abs=3, rel=0.4 → Custom F1=1.000
+abs=4, rel=0.1 → Custom F1=1.000
+abs=4, rel=0.2 → Custom F1=1.000
+abs=4, rel=0.3 → Custom F1=1.000
+abs=4, rel=0.4 → Custom F1=1.000
+
+=== GRID SEARCH RESULTS (sorted by Custom F1) ===
+ abs |  rel |  Precision |     Recall |         F1
+--------------------------------------------------
+   0 |  0.1 |      1.000 |      1.000 |      1.000
+   0 |  0.2 |      1.000 |      1.000 |      1.000
+   0 |  0.3 |      1.000 |      1.000 |      1.000
+   0 |  0.4 |      1.000 |      1.000 |      1.000
+   1 |  0.1 |      1.000 |      1.000 |      1.000
+   1 |  0.2 |      1.000 |      1.000 |      1.000
+   1 |  0.3 |      1.000 |      1.000 |      1.000
+   1 |  0.4 |      1.000 |      1.000 |      1.000
+   2 |  0.1 |      1.000 |      1.000 |      1.000
+   2 |  0.2 |      1.000 |      1.000 |      1.000
+   2 |  0.3 |      1.000 |      1.000 |      1.000
+   2 |  0.4 |      1.000 |      1.000 |      1.000
+   3 |  0.1 |      1.000 |      1.000 |      1.000
+   3 |  0.2 |      1.000 |      1.000 |      1.000
+   3 |  0.3 |      1.000 |      1.000 |      1.000
+   3 |  0.4 |      1.000 |      1.000 |      1.000
+   4 |  0.1 |      1.000 |      1.000 |      1.000
+   4 |  0.2 |      1.000 |      1.000 |      1.000
+   4 |  0.3 |      1.000 |      1.000 |      1.000
+   4 |  0.4 |      1.000 |      1.000 |      1.000
+
+Checked 20 parameter combinations.
+Execution time: 0.14 seconds
+
+Best configuration for L4.xes: abs=0, rel=0.1, F1=1.000
+
+=== Running experiment for L5.xes ===
+Running PM4Py Alpha Miner once for baseline...
+parsing log, completed traces :: 100%|██████████| 14/14 [00:00<00:00, 5717.09it/s]
+Baseline PM4Py F1: 0.700
+
+abs=0, rel=0.1 → Custom F1=0.700
+abs=0, rel=0.2 → Custom F1=0.750
+abs=0, rel=0.3 → Custom F1=0.714
+abs=0, rel=0.4 → Custom F1=0.667
+abs=1, rel=0.1 → Custom F1=0.700
+abs=1, rel=0.2 → Custom F1=0.750
+abs=1, rel=0.3 → Custom F1=0.714
+abs=1, rel=0.4 → Custom F1=0.667
+abs=2, rel=0.1 → Custom F1=0.700
+abs=2, rel=0.2 → Custom F1=0.750
+abs=2, rel=0.3 → Custom F1=0.714
+abs=2, rel=0.4 → Custom F1=0.667
+abs=3, rel=0.1 → Custom F1=0.706
+abs=3, rel=0.2 → Custom F1=0.750
+abs=3, rel=0.3 → Custom F1=0.714
+abs=3, rel=0.4 → Custom F1=0.667
+abs=4, rel=0.1 → Custom F1=0.667
+abs=4, rel=0.2 → Custom F1=0.714
+abs=4, rel=0.3 → Custom F1=0.714
+abs=4, rel=0.4 → Custom F1=0.667
+
+=== GRID SEARCH RESULTS (sorted by Custom F1) ===
+ abs |  rel |  Precision |     Recall |         F1
+--------------------------------------------------
+   0 |  0.2 |      0.667 |      0.857 |      0.750
+   1 |  0.2 |      0.667 |      0.857 |      0.750
+   2 |  0.2 |      0.667 |      0.857 |      0.750
+   3 |  0.2 |      0.667 |      0.857 |      0.750
+   0 |  0.3 |      0.714 |      0.714 |      0.714
+   1 |  0.3 |      0.714 |      0.714 |      0.714
+   2 |  0.3 |      0.714 |      0.714 |      0.714
+   3 |  0.3 |      0.714 |      0.714 |      0.714
+   4 |  0.2 |      0.714 |      0.714 |      0.714
+   4 |  0.3 |      0.714 |      0.714 |      0.714
+   3 |  0.1 |      0.600 |      0.857 |      0.706
+   0 |  0.1 |      0.538 |      1.000 |      0.700
+   1 |  0.1 |      0.538 |      1.000 |      0.700
+   2 |  0.1 |      0.538 |      1.000 |      0.700
+   0 |  0.4 |      0.800 |      0.571 |      0.667
+   1 |  0.4 |      0.800 |      0.571 |      0.667
+   2 |  0.4 |      0.800 |      0.571 |      0.667
+   3 |  0.4 |      0.800 |      0.571 |      0.667
+   4 |  0.1 |      0.625 |      0.714 |      0.667
+   4 |  0.4 |      0.800 |      0.571 |      0.667
+
+Checked 20 parameter combinations.
+Execution time: 0.04 seconds
+
+Best configuration for L5.xes: abs=0, rel=0.2, F1=0.750
+
+=== Running experiment for L6.xes ===
+Running PM4Py Alpha Miner once for baseline...
+parsing log, completed traces :: 100%|██████████| 11/11 [00:00<00:00, 7896.17it/s]
+Baseline PM4Py F1: 0.800
+
+abs=0, rel=0.1 → Custom F1=0.800
+abs=0, rel=0.2 → Custom F1=0.800
+abs=0, rel=0.3 → Custom F1=0.800
+abs=0, rel=0.4 → Custom F1=0.706
+abs=1, rel=0.1 → Custom F1=0.800
+abs=1, rel=0.2 → Custom F1=0.800
+abs=1, rel=0.3 → Custom F1=0.800
+abs=1, rel=0.4 → Custom F1=0.706
+abs=2, rel=0.1 → Custom F1=0.800
+abs=2, rel=0.2 → Custom F1=0.800
+abs=2, rel=0.3 → Custom F1=0.800
+abs=2, rel=0.4 → Custom F1=0.706
+abs=3, rel=0.1 → Custom F1=0.571
+abs=3, rel=0.2 → Custom F1=0.571
+abs=3, rel=0.3 → Custom F1=0.571
+abs=3, rel=0.4 → Custom F1=0.571
+abs=4, rel=0.1 → Custom F1=0.364
+abs=4, rel=0.2 → Custom F1=0.364
+abs=4, rel=0.3 → Custom F1=0.364
+abs=4, rel=0.4 → Custom F1=0.364
+
+=== GRID SEARCH RESULTS (sorted by Custom F1) ===
+ abs |  rel |  Precision |     Recall |         F1
+--------------------------------------------------
+   0 |  0.1 |      0.667 |      1.000 |      0.800
+   0 |  0.2 |      0.667 |      1.000 |      0.800
+   0 |  0.3 |      0.667 |      1.000 |      0.800
+   1 |  0.1 |      0.667 |      1.000 |      0.800
+   1 |  0.2 |      0.667 |      1.000 |      0.800
+   1 |  0.3 |      0.667 |      1.000 |      0.800
+   2 |  0.1 |      0.667 |      1.000 |      0.800
+   2 |  0.2 |      0.667 |      1.000 |      0.800
+   2 |  0.3 |      0.667 |      1.000 |      0.800
+   0 |  0.4 |      0.667 |      0.750 |      0.706
+   1 |  0.4 |      0.667 |      0.750 |      0.706
+   2 |  0.4 |      0.667 |      0.750 |      0.706
+   3 |  0.1 |      0.667 |      0.500 |      0.571
+   3 |  0.2 |      0.667 |      0.500 |      0.571
+   3 |  0.3 |      0.667 |      0.500 |      0.571
+   3 |  0.4 |      0.667 |      0.500 |      0.571
+   4 |  0.1 |      0.667 |      0.250 |      0.364
+   4 |  0.2 |      0.667 |      0.250 |      0.364
+   4 |  0.3 |      0.667 |      0.250 |      0.364
+   4 |  0.4 |      0.667 |      0.250 |      0.364
+
+Checked 20 parameter combinations.
+Execution time: 0.03 seconds
+
+Best configuration for L6.xes: abs=0, rel=0.1, F1=0.800
+
+=== Running experiment for L7.xes ===
+Running PM4Py Alpha Miner once for baseline...
+parsing log, completed traces :: 100%|██████████| 8/8 [00:00<00:00, 8122.59it/s]
+Baseline PM4Py F1: 0.857
+
+abs=0, rel=0.1 → Custom F1=1.000
+abs=0, rel=0.2 → Custom F1=1.000
+abs=0, rel=0.3 → Custom F1=0.857
+abs=0, rel=0.4 → Custom F1=0.857
+abs=1, rel=0.1 → Custom F1=1.000
+abs=1, rel=0.2 → Custom F1=1.000
+abs=1, rel=0.3 → Custom F1=0.857
+abs=1, rel=0.4 → Custom F1=0.857
+abs=2, rel=0.1 → Custom F1=1.000
+abs=2, rel=0.2 → Custom F1=1.000
+abs=2, rel=0.3 → Custom F1=0.857
+abs=2, rel=0.4 → Custom F1=0.857
+abs=3, rel=0.1 → Custom F1=0.857
+abs=3, rel=0.2 → Custom F1=0.857
+abs=3, rel=0.3 → Custom F1=0.857
+abs=3, rel=0.4 → Custom F1=0.857
+abs=4, rel=0.1 → Custom F1=0.857
+abs=4, rel=0.2 → Custom F1=0.857
+abs=4, rel=0.3 → Custom F1=0.857
+abs=4, rel=0.4 → Custom F1=0.857
+
+=== GRID SEARCH RESULTS (sorted by Custom F1) ===
+ abs |  rel |  Precision |     Recall |         F1
+--------------------------------------------------
+   0 |  0.1 |      1.000 |      1.000 |      1.000
+   0 |  0.2 |      1.000 |      1.000 |      1.000
+   1 |  0.1 |      1.000 |      1.000 |      1.000
+   1 |  0.2 |      1.000 |      1.000 |      1.000
+   2 |  0.1 |      1.000 |      1.000 |      1.000
+   2 |  0.2 |      1.000 |      1.000 |      1.000
+   0 |  0.3 |      1.000 |      0.750 |      0.857
+   0 |  0.4 |      1.000 |      0.750 |      0.857
+   1 |  0.3 |      1.000 |      0.750 |      0.857
+   1 |  0.4 |      1.000 |      0.750 |      0.857
+   2 |  0.3 |      1.000 |      0.750 |      0.857
+   2 |  0.4 |      1.000 |      0.750 |      0.857
+   3 |  0.1 |      1.000 |      0.750 |      0.857
+   3 |  0.2 |      1.000 |      0.750 |      0.857
+   3 |  0.3 |      1.000 |      0.750 |      0.857
+   3 |  0.4 |      1.000 |      0.750 |      0.857
+   4 |  0.1 |      1.000 |      0.750 |      0.857
+   4 |  0.2 |      1.000 |      0.750 |      0.857
+   4 |  0.3 |      1.000 |      0.750 |      0.857
+   4 |  0.4 |      1.000 |      0.750 |      0.857
+
+Checked 20 parameter combinations.
+Execution time: 0.02 seconds
+
+Best configuration for L7.xes: abs=0, rel=0.1, F1=1.000
+
+=== Running experiment for posterinstances.xes ===
+Running PM4Py Alpha Miner once for baseline...
+parsing log, completed traces :: 100%|██████████| 900/900 [00:00<00:00, 2944.80it/s]
+Baseline PM4Py F1: 1.000
+
+abs=0, rel=0.1 → Custom F1=1.000
+abs=0, rel=0.2 → Custom F1=1.000
+abs=0, rel=0.3 → Custom F1=1.000
+abs=0, rel=0.4 → Custom F1=1.000
+abs=1, rel=0.1 → Custom F1=1.000
+abs=1, rel=0.2 → Custom F1=1.000
+abs=1, rel=0.3 → Custom F1=1.000
+abs=1, rel=0.4 → Custom F1=1.000
+abs=2, rel=0.1 → Custom F1=1.000
+abs=2, rel=0.2 → Custom F1=1.000
+abs=2, rel=0.3 → Custom F1=1.000
+abs=2, rel=0.4 → Custom F1=1.000
+abs=3, rel=0.1 → Custom F1=1.000
+abs=3, rel=0.2 → Custom F1=1.000
+abs=3, rel=0.3 → Custom F1=1.000
+abs=3, rel=0.4 → Custom F1=1.000
+abs=4, rel=0.1 → Custom F1=1.000
+abs=4, rel=0.2 → Custom F1=1.000
+abs=4, rel=0.3 → Custom F1=1.000
+abs=4, rel=0.4 → Custom F1=1.000
+
+=== GRID SEARCH RESULTS (sorted by Custom F1) ===
+ abs |  rel |  Precision |     Recall |         F1
+--------------------------------------------------
+   0 |  0.1 |      1.000 |      1.000 |      1.000
+   0 |  0.2 |      1.000 |      1.000 |      1.000
+   0 |  0.3 |      1.000 |      1.000 |      1.000
+   0 |  0.4 |      1.000 |      1.000 |      1.000
+   1 |  0.1 |      1.000 |      1.000 |      1.000
+   1 |  0.2 |      1.000 |      1.000 |      1.000
+   1 |  0.3 |      1.000 |      1.000 |      1.000
+   1 |  0.4 |      1.000 |      1.000 |      1.000
+   2 |  0.1 |      1.000 |      1.000 |      1.000
+   2 |  0.2 |      1.000 |      1.000 |      1.000
+   2 |  0.3 |      1.000 |      1.000 |      1.000
+   2 |  0.4 |      1.000 |      1.000 |      1.000
+   3 |  0.1 |      1.000 |      1.000 |      1.000
+   3 |  0.2 |      1.000 |      1.000 |      1.000
+   3 |  0.3 |      1.000 |      1.000 |      1.000
+   3 |  0.4 |      1.000 |      1.000 |      1.000
+   4 |  0.1 |      1.000 |      1.000 |      1.000
+   4 |  0.2 |      1.000 |      1.000 |      1.000
+   4 |  0.3 |      1.000 |      1.000 |      1.000
+   4 |  0.4 |      1.000 |      1.000 |      1.000
+
+Checked 20 parameter combinations.
+Execution time: 2.92 seconds
+
+Best configuration for posterinstances.xes: abs=0, rel=0.1, F1=1.000
+
+=== Running experiment for running-example.xes ===
+Running PM4Py Alpha Miner once for baseline...
+parsing log, completed traces :: 100%|██████████| 6/6 [00:00<00:00, 3598.72it/s]
+Baseline PM4Py F1: 0.769
+
+abs=0, rel=0.1 → Custom F1=0.769
+abs=0, rel=0.2 → Custom F1=0.750
+abs=0, rel=0.3 → Custom F1=0.783
+abs=0, rel=0.4 → Custom F1=0.286
+abs=1, rel=0.1 → Custom F1=0.769
+abs=1, rel=0.2 → Custom F1=0.750
+abs=1, rel=0.3 → Custom F1=0.783
+abs=1, rel=0.4 → Custom F1=0.286
+abs=2, rel=0.1 → Custom F1=0.700
+abs=2, rel=0.2 → Custom F1=0.700
+abs=2, rel=0.3 → Custom F1=0.737
+abs=2, rel=0.4 → Custom F1=0.286
+abs=3, rel=0.1 → Custom F1=0.625
+abs=3, rel=0.2 → Custom F1=0.625
+abs=3, rel=0.3 → Custom F1=0.625
+abs=3, rel=0.4 → Custom F1=0.308
+abs=4, rel=0.1 → Custom F1=0.167
+abs=4, rel=0.2 → Custom F1=0.167
+abs=4, rel=0.3 → Custom F1=0.167
+abs=4, rel=0.4 → Custom F1=0.167
+
+=== GRID SEARCH RESULTS (sorted by Custom F1) ===
+ abs |  rel |  Precision |     Recall |         F1
+--------------------------------------------------
+   0 |  0.3 |      0.692 |      0.900 |      0.783
+   1 |  0.3 |      0.692 |      0.900 |      0.783
+   0 |  0.1 |      0.625 |      1.000 |      0.769
+   1 |  0.1 |      0.625 |      1.000 |      0.769
+   0 |  0.2 |      0.643 |      0.900 |      0.750
+   1 |  0.2 |      0.643 |      0.900 |      0.750
+   2 |  0.3 |      0.778 |      0.700 |      0.737
+   2 |  0.1 |      0.700 |      0.700 |      0.700
+   2 |  0.2 |      0.700 |      0.700 |      0.700
+   3 |  0.1 |      0.833 |      0.500 |      0.625
+   3 |  0.2 |      0.833 |      0.500 |      0.625
+   3 |  0.3 |      0.833 |      0.500 |      0.625
+   3 |  0.4 |      0.667 |      0.200 |      0.308
+   0 |  0.4 |      0.500 |      0.200 |      0.286
+   1 |  0.4 |      0.500 |      0.200 |      0.286
+   2 |  0.4 |      0.500 |      0.200 |      0.286
+   4 |  0.1 |      0.500 |      0.100 |      0.167
+   4 |  0.2 |      0.500 |      0.100 |      0.167
+   4 |  0.3 |      0.500 |      0.100 |      0.167
+   4 |  0.4 |      0.500 |      0.100 |      0.167
+
+Checked 20 parameter combinations.
+Execution time: 0.05 seconds
+
+Best configuration for running-example.xes: abs=0, rel=0.3, F1=0.783
+
+============================
+ SUMMARY OF BEST RESULTS
+============================
+Dataset                   | Best F1 | abs | rel
+--------------------------------------------------
+billinstances.xes         |   1.000 |   0 | 0.1
+BPI_Challenge_2012.xes    |   0.390 |   0 | 0.4
+flyerinstances.xes        |   1.000 |   0 | 0.1
+L1.xes                    |   0.857 |   0 | 0.1
+L2.xes                    |   0.900 |   0 | 0.1
+L3.xes                    |   0.889 |   0 | 0.1
+L4.xes                    |   1.000 |   0 | 0.1
+L5.xes                    |   0.750 |   0 | 0.2
+L6.xes                    |   0.800 |   0 | 0.1
+L7.xes                    |   1.000 |   0 | 0.1
+posterinstances.xes       |   1.000 |   0 | 0.1
+running-example.xes       |   0.783 |   0 | 0.3
+
+All experiments complete.
+
+Process finished with exit code 0
