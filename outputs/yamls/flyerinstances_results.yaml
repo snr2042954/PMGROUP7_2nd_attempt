@@ -1,0 +1,139 @@
+dataset: flyerinstances.xes
+best_parameters:
+  abs_threshold: 1
+  rel_threshold: 0.0
+  f1: 1.0
+top_10_combinations:
+- abs: 1
+  rel: 0.0
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.05
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.1
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.15
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.2
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.25
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.3
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.35
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.4
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.45
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+evaluation_custom:
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+  tp: 5
+  fp: 0
+  fn: 0
+  tn: 15
+evaluation_default:
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+  tp: 5
+  fp: 0
+  fn: 0
+  tn: 15
+evaluation_alpha:
+  precision: 1.0
+  recall: 0.6
+  f1: 0.7499999999999999
+  tp: 3
+  fp: 0
+  fn: 2
+  tn: 15
+evaluation_heuristic:
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+  tp: 5
+  fp: 0
+  fn: 0
+  tn: 15
+relations_found:
+- - receive_flyer_order
+  - design_flyer
+- - send_draft_to_customer
+  - print_flyer
+- - design_flyer
+  - send_draft_to_customer
+- - send_draft_to_customer
+  - design_flyer
+- - print_flyer
+  - deliver_flyer
+configured_net:
+  places:
+  - I_w
+  - P0
+  - P1
+  - P2
+  - O_w
+  transitions:
+  - deliver_flyer
+  - design_flyer
+  - print_flyer
+  - receive_flyer_order
+  - send_draft_to_customer
+  flows:
+  - - I_w
+    - receive_flyer_order
+  - - receive_flyer_order
+    - P0
+  - - P0
+    - design_flyer
+  - - send_draft_to_customer
+    - P1
+  - - P1
+    - print_flyer
+  - - print_flyer
+    - P2
+  - - P2
+    - deliver_flyer
+  - - deliver_flyer
+    - O_w
+  parallel:
+  - - - design_flyer
+    - - send_draft_to_customer
+  causality:
+  - - - receive_flyer_order
+    - - design_flyer
+  - - - send_draft_to_customer
+    - - print_flyer
+  - - - print_flyer
+    - - deliver_flyer

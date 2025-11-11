@@ -1,0 +1,333 @@
+dataset: running-example.xes
+best_parameters:
+  abs_threshold: 1
+  rel_threshold: 0.15
+  f1: 0.8
+top_10_combinations:
+- abs: 1
+  rel: 0.15
+  precision: 0.6666666666666666
+  recall: 1.0
+  f1: 0.8
+- abs: 1
+  rel: 0.25
+  precision: 0.6923076923076923
+  recall: 0.9
+  f1: 0.7826086956521738
+- abs: 1
+  rel: 0.3
+  precision: 0.6923076923076923
+  recall: 0.9
+  f1: 0.7826086956521738
+- abs: 1
+  rel: 0.0
+  precision: 0.625
+  recall: 1.0
+  f1: 0.7692307692307693
+- abs: 1
+  rel: 0.05
+  precision: 0.625
+  recall: 1.0
+  f1: 0.7692307692307693
+- abs: 1
+  rel: 0.1
+  precision: 0.625
+  recall: 1.0
+  f1: 0.7692307692307693
+- abs: 1
+  rel: 0.2
+  precision: 0.6428571428571429
+  recall: 0.9
+  f1: 0.75
+- abs: 2
+  rel: 0.25
+  precision: 0.7777777777777778
+  recall: 0.7
+  f1: 0.7368421052631577
+- abs: 2
+  rel: 0.3
+  precision: 0.7777777777777778
+  recall: 0.7
+  f1: 0.7368421052631577
+- abs: 2
+  rel: 0.0
+  precision: 0.7
+  recall: 0.7
+  f1: 0.7
+evaluation_custom:
+  precision: 0.6666666666666666
+  recall: 1.0
+  f1: 0.8
+  tp: 10
+  fp: 5
+  fn: 0
+  tn: 41
+evaluation_default:
+  precision: 0.625
+  recall: 1.0
+  f1: 0.7692307692307693
+  tp: 10
+  fp: 6
+  fn: 0
+  tn: 40
+evaluation_alpha:
+  precision: 0.8333333333333334
+  recall: 1.0
+  f1: 0.9090909090909091
+  tp: 10
+  fp: 2
+  fn: 0
+  tn: 44
+evaluation_heuristic:
+  precision: 0.625
+  recall: 1.0
+  f1: 0.7692307692307693
+  tp: 10
+  fp: 6
+  fn: 0
+  tn: 40
+relations_found:
+- - examine_thoroughly
+  - decide
+- - check_ticket
+  - examine_casually
+- - examine_thoroughly
+  - check_ticket
+- - register_request
+  - examine_thoroughly
+- - decide
+  - reinitiate_request
+- - examine_casually
+  - decide
+- - reinitiate_request
+  - examine_thoroughly
+- - register_request
+  - check_ticket
+- - register_request
+  - examine_casually
+- - reinitiate_request
+  - check_ticket
+- - check_ticket
+  - decide
+- - examine_casually
+  - check_ticket
+- - reinitiate_request
+  - examine_casually
+- - decide
+  - reject_request
+- - decide
+  - pay_compensation
+configured_net:
+  places:
+  - I_w
+  - P0
+  - P1
+  - P2
+  - P3
+  - P4
+  - P5
+  - P6
+  - P7
+  - P8
+  - P9
+  - P10
+  - P11
+  - P12
+  - P13
+  - P14
+  - P15
+  - P16
+  - P17
+  - P18
+  - P19
+  - P20
+  - P21
+  - P22
+  - P23
+  - P24
+  - P25
+  - O_w
+  transitions:
+  - check_ticket
+  - decide
+  - examine_casually
+  - examine_thoroughly
+  - pay_compensation
+  - register_request
+  - reinitiate_request
+  - reject_request
+  flows:
+  - - I_w
+    - register_request
+  - - register_request
+    - P0
+  - - P0
+    - examine_casually
+  - - check_ticket
+    - P1
+  - - P1
+    - decide
+  - - decide
+    - P2
+  - - P2
+    - reinitiate_request
+  - - reinitiate_request
+    - P3
+  - - P3
+    - examine_thoroughly
+  - - examine_thoroughly
+    - P4
+  - - P4
+    - check_ticket
+  - - decide
+    - P5
+  - - P5
+    - pay_compensation
+  - - register_request
+    - P6
+  - - P6
+    - check_ticket
+  - - examine_casually
+    - P7
+  - - P7
+    - decide
+  - - register_request
+    - P8
+  - - P8
+    - examine_thoroughly
+  - - decide
+    - P9
+  - - P9
+    - reject_request
+  - - reinitiate_request
+    - P10
+  - - P10
+    - check_ticket
+  - - reinitiate_request
+    - P11
+  - - P11
+    - examine_casually
+  - - examine_thoroughly
+    - P12
+  - - P12
+    - decide
+  - - register_request
+    - P13
+  - - P13
+    - examine_casually
+  - - P13
+    - check_ticket
+  - - P13
+    - examine_thoroughly
+  - - decide
+    - P14
+  - - P14
+    - reinitiate_request
+  - - P14
+    - pay_compensation
+  - - P14
+    - reject_request
+  - - reinitiate_request
+    - P15
+  - - P15
+    - examine_thoroughly
+  - - P15
+    - check_ticket
+  - - P15
+    - examine_casually
+  - - examine_thoroughly
+    - P16
+  - - P16
+    - check_ticket
+  - - P16
+    - decide
+  - - decide
+    - P17
+  - - P17
+    - pay_compensation
+  - - P17
+    - reject_request
+  - - register_request
+    - P18
+  - - P18
+    - check_ticket
+  - - P18
+    - examine_thoroughly
+  - - reinitiate_request
+    - P19
+  - - P19
+    - check_ticket
+  - - P19
+    - examine_casually
+  - - register_request
+    - P20
+  - - reinitiate_request
+    - P20
+  - - P20
+    - examine_casually
+  - - check_ticket
+    - P21
+  - - examine_casually
+    - P21
+  - - examine_thoroughly
+    - P21
+  - - P21
+    - decide
+  - - reinitiate_request
+    - P22
+  - - register_request
+    - P22
+  - - P22
+    - examine_thoroughly
+  - - examine_thoroughly
+    - P23
+  - - register_request
+    - P23
+  - - reinitiate_request
+    - P23
+  - - P23
+    - check_ticket
+  - - register_request
+    - P24
+  - - reinitiate_request
+    - P24
+  - - P24
+    - check_ticket
+  - - examine_casually
+    - P25
+  - - examine_thoroughly
+    - P25
+  - - P25
+    - decide
+  - - pay_compensation
+    - O_w
+  parallel:
+  - - - examine_casually
+    - - check_ticket
+  causality:
+  - - - register_request
+    - - examine_casually
+  - - - check_ticket
+    - - decide
+  - - - decide
+    - - reinitiate_request
+  - - - reinitiate_request
+    - - examine_thoroughly
+  - - - examine_thoroughly
+    - - check_ticket
+  - - - decide
+    - - pay_compensation
+  - - - register_request
+    - - check_ticket
+  - - - examine_casually
+    - - decide
+  - - - register_request
+    - - examine_thoroughly
+  - - - decide
+    - - reject_request
+  - - - reinitiate_request
+    - - check_ticket
+  - - - reinitiate_request
+    - - examine_casually
+  - - - examine_thoroughly
+    - - decide

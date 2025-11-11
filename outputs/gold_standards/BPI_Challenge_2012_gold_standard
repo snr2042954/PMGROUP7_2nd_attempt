@@ -1,0 +1,88 @@
+digraph {
+	A_PARTLYSUBMITTED [fillcolor="#f0f0f0" shape=box style=filled]
+	A_DECLINED [fillcolor="#f0f0f0" shape=box style=filled]
+	O_CREATED [fillcolor="#f0f0f0" shape=box style=filled]
+	A_PREACCEPTED [fillcolor="#f0f0f0" shape=box style=filled]
+	O_SENT_BACK [fillcolor="#f0f0f0" shape=box style=filled]
+	O_DECLINED [fillcolor="#f0f0f0" shape=box style=filled]
+	O_ACCEPTED [fillcolor="#f0f0f0" shape=box style=filled]
+	O_SENT [fillcolor="#f0f0f0" shape=box style=filled]
+	A_ACTIVATED [fillcolor="#f0f0f0" shape=box style=filled]
+	A_REGISTERED [fillcolor="#f0f0f0" shape=box style=filled]
+	A_ACCEPTED [fillcolor="#f0f0f0" shape=box style=filled]
+	O_SELECTED [fillcolor="#f0f0f0" shape=box style=filled]
+	W_Valideren_aanvraag [fillcolor="#f0f0f0" shape=box style=filled]
+	A_APPROVED [fillcolor="#f0f0f0" shape=box style=filled]
+	A_SUBMITTED [fillcolor="#f0f0f0" shape=box style=filled]
+	W_Beoordelen_fraude [fillcolor="#f0f0f0" shape=box style=filled]
+	W_Nabellen_incomplete_dossiers [fillcolor="#f0f0f0" shape=box style=filled]
+	W_Completeren_aanvraag [fillcolor="#f0f0f0" shape=box style=filled]
+	O_CANCELLED [fillcolor="#f0f0f0" shape=box style=filled]
+	W_Nabellen_offertes [fillcolor="#f0f0f0" shape=box style=filled]
+	A_CANCELLED [fillcolor="#f0f0f0" shape=box style=filled]
+	W_Afhandelen_leads [fillcolor="#f0f0f0" shape=box style=filled]
+	W_Wijzigen_contractgegevens [fillcolor="#f0f0f0" shape=box style=filled]
+	A_FINALIZED [fillcolor="#f0f0f0" shape=box style=filled]
+	p1 [shape=circle]
+	A_SUBMITTED -> p1
+	p1 -> A_PARTLYSUBMITTED
+	p2 [shape=circle]
+	A_PARTLYSUBMITTED -> p2
+	p2 -> A_PREACCEPTED
+	p3 [shape=circle]
+	A_PARTLYSUBMITTED -> p3
+	p3 -> A_DECLINED
+	p4 [shape=circle]
+	A_PARTLYSUBMITTED -> p4
+	p4 -> W_Valideren_aanvraag
+	p5 [shape=circle]
+	A_PARTLYSUBMITTED -> p5
+	p5 -> W_Nabellen_incomplete_dossiers
+	p6 [shape=circle]
+	A_PREACCEPTED -> p6
+	p6 -> W_Completeren_aanvraag
+	p7 [shape=circle]
+	A_ACCEPTED -> p7
+	p7 -> O_SELECTED
+	p8 [shape=circle]
+	A_ACCEPTED -> p8
+	p8 -> A_FINALIZED
+	p9 [shape=circle]
+	A_ACCEPTED -> p9
+	p9 -> O_CANCELLED
+	p10 [shape=circle]
+	A_ACCEPTED -> p10
+	p10 -> A_CANCELLED
+	p11 [shape=circle]
+	A_ACCEPTED -> p11
+	p11 -> W_Wijzigen_contractgegevens
+	p12 [shape=circle]
+	A_ACCEPTED -> p12
+	p12 -> A_REGISTERED
+	p13 [shape=circle]
+	A_ACCEPTED -> p13
+	p13 -> W_Afhandelen_leads
+	p14 [shape=circle]
+	O_SELECTED -> p14
+	A_FINALIZED -> p14
+	p14 -> O_CREATED
+	p15 [shape=circle]
+	O_CREATED -> p15
+	p15 -> O_SENT
+	i_L [fillcolor="#b2fab4" shape=circle style=filled]
+	i_L -> A_SUBMITTED
+	o_L [fillcolor="#ffb2b2" shape=circle style=filled]
+	W_Beoordelen_fraude -> o_L
+	W_Nabellen_incomplete_dossiers -> o_L
+	W_Completeren_aanvraag -> o_L
+	O_CANCELLED -> o_L
+	O_ACCEPTED -> o_L
+	W_Valideren_aanvraag -> o_L
+	A_DECLINED -> o_L
+	W_Nabellen_offertes -> o_L
+	A_CANCELLED -> o_L
+	W_Afhandelen_leads -> o_L
+	A_REGISTERED -> o_L
+	W_Wijzigen_contractgegevens -> o_L
+	O_DECLINED -> o_L
+}

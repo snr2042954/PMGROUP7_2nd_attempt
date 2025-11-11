@@ -13,15 +13,19 @@ and evaluates the discovered relations against textbook **gold standard models**
 
 ### What’s Included
 | File / Folder | Description |
-|----------------|--------------|
-| `alpha_miner.py` | Core implementation of the frequency-based Alpha Miner (hybrid: functional + lightweight class). |
-| `evaluate.py` | Compares PM4Py’s Alpha Miner and the custom implementation against gold standards. |
-| `grid_search.py` | Runs grid search experiments over multiple absolute and relative thresholds. |
-| `main.py` | Runs experiments automatically on *all* `.xes` logs found in the `data/` folder. |
-| `utils/gold_standards.py` | Contains manually defined textbook reference Petri net structures for all sample logs. |
-| `utils/import_xes.py` | Lightweight XES parser used by the custom miner. |
-| `requirements.txt` | All dependencies needed for running experiments (PM4Py, matplotlib, etc.). |
-| `results.txt` | Example experiment output (console logs). |
+|----------------|-------------|
+| `utils/gold_standards.py` | Defines textbook Petri net reference models (gold standards). |
+| `utils/import_xes.py` | Custom XES parser (simplified alternative to PM4Py’s importer). |
+| `alpha_miner.py` | Core implementation of the frequency-based Alpha Miner (hybrid functional + class design). |
+| `grid_search.py` | Runs grid search experiments across absolute/relative frequency thresholds. |
+| `evaluate.py` | Evaluates PM4Py Alpha Miner, Heuristics Miner, and the custom miner against gold standards. |
+| `visualize.py` | Generates Graphviz diagrams for discovered models. |
+| `generate_html_from_yaml.py` | Builds an HTML summary report comparing F1-scores across all miners and datasets. |
+| `visualize_gold_standards.py` | Generates Graphviz diagrams for gold standard Petri nets. |
+| `main.py` | Automates the full pipeline: experiments, YAML export, HTML report, and visualizations. |
+| `outputs/` | Contains generated YAML result files, HTML reports, and PNG visualizations. |
+| `requirements.txt` | Python dependencies (PM4Py, Graphviz, PyYAML, etc.). |
+
 
 ## Installation
 
@@ -66,8 +70,21 @@ printing precision, recall, and F1 for each configuration.
 python main.py
 ```
 
-This script:
+This performs the complete pipeline:
 
-- Scans the data/ folder for all .xes files.
-- Runs the grid search experiment on each.
-- Prints a summary of the best F1 score per dataset.
+- Runs grid search for each dataset in data/
+- Finds the best threshold combination
+- Evaluates all miners vs. gold standards
+- Exports results as .yaml
+- Generates an HTML summary report
+- Visualizes both discovered and gold-standard Petri nets
+
+## Results
+
+
+| Folder	         | Contents                                                         |
+|-----------------|------------------------------------------------------------------|
+| outputs/yamls/	 | YAML results with metrics, thresholds, and discovered relations. |
+|outputs/models/	| Graphviz PNGs for best-performing discovered models.             |
+|outputs/gold_standards/	| Visualizations of all gold-standard Petri nets.                  |
+|outputs/`comparison_report.html`	| Automatically generated performance comparison dashboard.        |

@@ -1,0 +1,132 @@
+dataset: posterinstances.xes
+best_parameters:
+  abs_threshold: 1
+  rel_threshold: 0.0
+  f1: 1.0
+top_10_combinations:
+- abs: 1
+  rel: 0.0
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.05
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.1
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.15
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.2
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.25
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.3
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.35
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.4
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.45
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+evaluation_custom:
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+  tp: 3
+  fp: 0
+  fn: 0
+  tn: 9
+evaluation_default:
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+  tp: 3
+  fp: 0
+  fn: 0
+  tn: 9
+evaluation_alpha:
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+  tp: 3
+  fp: 0
+  fn: 0
+  tn: 9
+evaluation_heuristic:
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+  tp: 3
+  fp: 0
+  fn: 0
+  tn: 9
+relations_found:
+- - design_photo_poster
+  - print_poster
+- - receive_order_and_photo
+  - design_photo_poster
+- - print_poster
+  - deliver_poster
+configured_net:
+  places:
+  - I_w
+  - P0
+  - P1
+  - P2
+  - O_w
+  transitions:
+  - deliver_poster
+  - design_photo_poster
+  - print_poster
+  - receive_order_and_photo
+  flows:
+  - - I_w
+    - receive_order_and_photo
+  - - receive_order_and_photo
+    - P0
+  - - P0
+    - design_photo_poster
+  - - design_photo_poster
+    - P1
+  - - P1
+    - print_poster
+  - - print_poster
+    - P2
+  - - P2
+    - deliver_poster
+  - - deliver_poster
+    - O_w
+  parallel: []
+  causality:
+  - - - receive_order_and_photo
+    - - design_photo_poster
+  - - - design_photo_poster
+    - - print_poster
+  - - - print_poster
+    - - deliver_poster

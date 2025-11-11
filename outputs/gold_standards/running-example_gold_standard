@@ -1,0 +1,35 @@
+digraph {
+	reinitiate_request [fillcolor="#f0f0f0" shape=box style=filled]
+	check_ticket [fillcolor="#f0f0f0" shape=box style=filled]
+	decide [fillcolor="#f0f0f0" shape=box style=filled]
+	pay_compensation [fillcolor="#f0f0f0" shape=box style=filled]
+	reject_request [fillcolor="#f0f0f0" shape=box style=filled]
+	examine_thoroughly [fillcolor="#f0f0f0" shape=box style=filled]
+	examine_casually [fillcolor="#f0f0f0" shape=box style=filled]
+	register_request [fillcolor="#f0f0f0" shape=box style=filled]
+	p1 [shape=circle]
+	register_request -> p1
+	p1 -> examine_thoroughly
+	p1 -> examine_casually
+	p2 [shape=circle]
+	register_request -> p2
+	reinitiate_request -> p2
+	p2 -> check_ticket
+	p3 [shape=circle]
+	examine_thoroughly -> p3
+	examine_casually -> p3
+	p3 -> decide
+	p4 [shape=circle]
+	check_ticket -> p4
+	p4 -> decide
+	p5 [shape=circle]
+	decide -> p5
+	p5 -> reinitiate_request
+	p5 -> pay_compensation
+	p5 -> reject_request
+	i_L [fillcolor="#b2fab4" shape=circle style=filled]
+	i_L -> register_request
+	o_L [fillcolor="#ffb2b2" shape=circle style=filled]
+	pay_compensation -> o_L
+	reject_request -> o_L
+}

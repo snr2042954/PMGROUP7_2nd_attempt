@@ -1,0 +1,14 @@
+digraph {
+	a [fillcolor="#f0f0f0" shape=box style=filled]
+	c [fillcolor="#f0f0f0" shape=box style=filled]
+	b [fillcolor="#f0f0f0" shape=box style=filled]
+	p1 [shape=circle]
+	a -> p1
+	b -> p1
+	p1 -> c
+	p1 -> b
+	i_L [fillcolor="#b2fab4" shape=circle style=filled]
+	i_L -> a
+	o_L [fillcolor="#ffb2b2" shape=circle style=filled]
+	c -> o_L
+}

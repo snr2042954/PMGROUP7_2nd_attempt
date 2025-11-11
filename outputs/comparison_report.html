@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Alpha Miner Comparison Report</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 25px; background: #f7f7f7; }
+    h1, h2 { color: #333; text-align: center; }
+    table { width: 100%; border-collapse: collapse; margin: 25px 0; background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    th { background: #4CAF50; color: white; padding: 10px; text-align: center; }
+    td { padding: 8px; text-align: center; border-bottom: 1px solid #ddd; }
+    tr:hover { background-color: #f5f5f5; }
+    .dataset { text-align: left; font-weight: bold; }
+    .f1-high { color: #2e7d32; font-weight: bold; }
+    .f1-medium { color: #f57c00; font-weight: bold; }
+    .f1-low { color: #c62828; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>Alpha Miner Comparison Report</h1>
+
+  <h2>Summary of Best Custom Miner Results (from Grid Search)</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Dataset</th>
+        <th>Best Params (abs, rel)</th>
+        <th>Precision</th>
+        <th>Recall</th>
+        <th>F1 Score</th>
+        <th>TP</th>
+        <th>FP</th>
+        <th>FN</th>
+        <th>TN</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="dataset">BPI_Challenge_2012.xes</td>
+        <td>(1, 0.35)</td>
+        <td>0.346</td>
+        <td>0.450</td>
+        <td class="f1-low">0.391</td>
+        <td>9</td>
+        <td>17</td>
+        <td>11</td>
+        <td>474</td>
+      </tr>
+      <tr>
+        <td class="dataset">L1.xes</td>
+        <td>(1, 0.00)</td>
+        <td>0.750</td>
+        <td>1.000</td>
+        <td class="f1-high">0.857</td>
+        <td>6</td>
+        <td>2</td>
+        <td>0</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td class="dataset">L2.xes</td>
+        <td>(1, 0.00)</td>
+        <td>0.818</td>
+        <td>1.000</td>
+        <td class="f1-high">0.900</td>
+        <td>9</td>
+        <td>2</td>
+        <td>0</td>
+        <td>19</td>
+      </tr>
+      <tr>
+        <td class="dataset">L3.xes</td>
+        <td>(1, 0.00)</td>
+        <td>0.800</td>
+        <td>1.000</td>
+        <td class="f1-high">0.889</td>
+        <td>8</td>
+        <td>2</td>
+        <td>0</td>
+        <td>32</td>
+      </tr>
+      <tr>
+        <td class="dataset">L4.xes</td>
+        <td>(1, 0.00)</td>
+        <td>1.000</td>
+        <td>1.000</td>
+        <td class="f1-high">1.000</td>
+        <td>4</td>
+        <td>0</td>
+        <td>0</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td class="dataset">L5.xes</td>
+        <td>(8, 0.00)</td>
+        <td>1.000</td>
+        <td>0.714</td>
+        <td class="f1-high">0.833</td>
+        <td>5</td>
+        <td>0</td>
+        <td>2</td>
+        <td>23</td>
+      </tr>
+      <tr>
+        <td class="dataset">L6.xes</td>
+        <td>(1, 0.00)</td>
+        <td>0.667</td>
+        <td>1.000</td>
+        <td class="f1-high">0.800</td>
+        <td>8</td>
+        <td>4</td>
+        <td>0</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td class="dataset">L7.xes</td>
+        <td>(1, 0.00)</td>
+        <td>1.000</td>
+        <td>1.000</td>
+        <td class="f1-high">1.000</td>
+        <td>4</td>
+        <td>0</td>
+        <td>0</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="dataset">billinstances.xes</td>
+        <td>(1, 0.00)</td>
+        <td>1.000</td>
+        <td>1.000</td>
+        <td class="f1-high">1.000</td>
+        <td>2</td>
+        <td>0</td>
+        <td>0</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="dataset">flyerinstances.xes</td>
+        <td>(1, 0.00)</td>
+        <td>1.000</td>
+        <td>1.000</td>
+        <td class="f1-high">1.000</td>
+        <td>5</td>
+        <td>0</td>
+        <td>0</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td class="dataset">posterinstances.xes</td>
+        <td>(1, 0.00)</td>
+        <td>1.000</td>
+        <td>1.000</td>
+        <td class="f1-high">1.000</td>
+        <td>3</td>
+        <td>0</td>
+        <td>0</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td class="dataset">running-example.xes</td>
+        <td>(1, 0.15)</td>
+        <td>0.667</td>
+        <td>1.000</td>
+        <td class="f1-high">0.800</td>
+        <td>10</td>
+        <td>5</td>
+        <td>0</td>
+        <td>41</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Comparison of F1 Scores Across All Methods</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Dataset</th>
+        <th>Best Params (abs, rel)</th>
+        <th>Custom (0,0)</th>
+        <th>Custom (Best)</th>
+        <th>PM4Py Alpha</th>
+        <th>PM4Py Heuristic</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="dataset">BPI_Challenge_2012.xes</td>
+        <td>(1, 0.35)</td>
+        <td class="f1-low">0.152</td>
+        <td class="f1-low">0.391</td>
+        <td class="f1-medium">0.529</td>
+        <td class="f1-low">0.163</td>
+      </tr>
+      <tr>
+        <td class="dataset">L1.xes</td>
+        <td>(1, 0.00)</td>
+        <td class="f1-high">0.857</td>
+        <td class="f1-high">0.857</td>
+        <td class="f1-high">1.000</td>
+        <td class="f1-high">0.857</td>
+      </tr>
+      <tr>
+        <td class="dataset">L2.xes</td>
+        <td>(1, 0.00)</td>
+        <td class="f1-high">0.900</td>
+        <td class="f1-high">0.900</td>
+        <td class="f1-high">1.000</td>
+        <td class="f1-high">0.900</td>
+      </tr>
+      <tr>
+        <td class="dataset">L3.xes</td>
+        <td>(1, 0.00)</td>
+        <td class="f1-high">0.889</td>
+        <td class="f1-high">0.889</td>
+        <td class="f1-high">1.000</td>
+        <td class="f1-high">0.889</td>
+      </tr>
+      <tr>
+        <td class="dataset">L4.xes</td>
+        <td>(1, 0.00)</td>
+        <td class="f1-high">1.000</td>
+        <td class="f1-high">1.000</td>
+        <td class="f1-high">1.000</td>
+        <td class="f1-high">1.000</td>
+      </tr>
+      <tr>
+        <td class="dataset">L5.xes</td>
+        <td>(8, 0.00)</td>
+        <td class="f1-medium">0.700</td>
+        <td class="f1-high">0.833</td>
+        <td class="f1-high">1.000</td>
+        <td class="f1-medium">0.700</td>
+      </tr>
+      <tr>
+        <td class="dataset">L6.xes</td>
+        <td>(1, 0.00)</td>
+        <td class="f1-high">0.800</td>
+        <td class="f1-high">0.800</td>
+        <td class="f1-high">1.000</td>
+        <td class="f1-high">0.800</td>
+      </tr>
+      <tr>
+        <td class="dataset">L7.xes</td>
+        <td>(1, 0.00)</td>
+        <td class="f1-high">1.000</td>
+        <td class="f1-high">1.000</td>
+        <td class="f1-low">0.400</td>
+        <td class="f1-high">0.857</td>
+      </tr>
+      <tr>
+        <td class="dataset">billinstances.xes</td>
+        <td>(1, 0.00)</td>
+        <td class="f1-high">1.000</td>
+        <td class="f1-high">1.000</td>
+        <td class="f1-high">1.000</td>
+        <td class="f1-high">1.000</td>
+      </tr>
+      <tr>
+        <td class="dataset">flyerinstances.xes</td>
+        <td>(1, 0.00)</td>
+        <td class="f1-high">1.000</td>
+        <td class="f1-high">1.000</td>
+        <td class="f1-medium">0.750</td>
+        <td class="f1-high">1.000</td>
+      </tr>
+      <tr>
+        <td class="dataset">posterinstances.xes</td>
+        <td>(1, 0.00)</td>
+        <td class="f1-high">1.000</td>
+        <td class="f1-high">1.000</td>
+        <td class="f1-high">1.000</td>
+        <td class="f1-high">1.000</td>
+      </tr>
+      <tr>
+        <td class="dataset">running-example.xes</td>
+        <td>(1, 0.15)</td>
+        <td class="f1-medium">0.769</td>
+        <td class="f1-high">0.800</td>
+        <td class="f1-high">0.909</td>
+        <td class="f1-medium">0.769</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer style="text-align:center;color:#666;margin-top:30px;font-size:0.9em;">
+    Report generated automatically from YAML exports.
+  </footer>
+</body>
+</html>

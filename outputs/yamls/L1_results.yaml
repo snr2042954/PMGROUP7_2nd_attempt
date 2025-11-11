@@ -1,0 +1,198 @@
+dataset: L1.xes
+best_parameters:
+  abs_threshold: 1
+  rel_threshold: 0.0
+  f1: 0.8571428571428571
+top_10_combinations:
+- abs: 1
+  rel: 0.0
+  precision: 0.75
+  recall: 1.0
+  f1: 0.8571428571428571
+- abs: 1
+  rel: 0.05
+  precision: 0.75
+  recall: 1.0
+  f1: 0.8571428571428571
+- abs: 1
+  rel: 0.1
+  precision: 0.75
+  recall: 1.0
+  f1: 0.8571428571428571
+- abs: 1
+  rel: 0.15
+  precision: 0.75
+  recall: 1.0
+  f1: 0.8571428571428571
+- abs: 1
+  rel: 0.2
+  precision: 0.7142857142857143
+  recall: 0.8333333333333334
+  f1: 0.7692307692307692
+- abs: 1
+  rel: 0.25
+  precision: 0.7142857142857143
+  recall: 0.8333333333333334
+  f1: 0.7692307692307692
+- abs: 1
+  rel: 0.3
+  precision: 0.7142857142857143
+  recall: 0.8333333333333334
+  f1: 0.7692307692307692
+- abs: 1
+  rel: 0.35
+  precision: 0.6666666666666666
+  recall: 0.6666666666666666
+  f1: 0.6666666666666666
+- abs: 1
+  rel: 0.4
+  precision: 0.6666666666666666
+  recall: 0.6666666666666666
+  f1: 0.6666666666666666
+- abs: 2
+  rel: 0.0
+  precision: 0.6666666666666666
+  recall: 0.6666666666666666
+  f1: 0.6666666666666666
+evaluation_custom:
+  precision: 0.75
+  recall: 1.0
+  f1: 0.8571428571428571
+  tp: 6
+  fp: 2
+  fn: 0
+  tn: 12
+evaluation_default:
+  precision: 0.75
+  recall: 1.0
+  f1: 0.8571428571428571
+  tp: 6
+  fp: 2
+  fn: 0
+  tn: 12
+evaluation_alpha:
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+  tp: 6
+  fp: 0
+  fn: 0
+  tn: 14
+evaluation_heuristic:
+  precision: 0.75
+  recall: 1.0
+  f1: 0.8571428571428571
+  tp: 6
+  fp: 2
+  fn: 0
+  tn: 12
+relations_found:
+- - c
+  - d
+- - a
+  - e
+- - b
+  - c
+- - b
+  - d
+- - a
+  - b
+- - c
+  - b
+- - a
+  - c
+- - e
+  - d
+configured_net:
+  places:
+  - I_w
+  - P0
+  - P1
+  - P2
+  - P3
+  - P4
+  - P5
+  - P6
+  - P7
+  - P8
+  - P9
+  - O_w
+  transitions:
+  - a
+  - b
+  - c
+  - d
+  - e
+  flows:
+  - - I_w
+    - a
+  - - a
+    - P0
+  - - P0
+    - e
+  - - e
+    - P1
+  - - P1
+    - d
+  - - a
+    - P2
+  - - P2
+    - c
+  - - b
+    - P3
+  - - P3
+    - d
+  - - a
+    - P4
+  - - P4
+    - b
+  - - c
+    - P5
+  - - P5
+    - d
+  - - a
+    - P6
+  - - P6
+    - e
+  - - P6
+    - c
+  - - P6
+    - b
+  - - a
+    - P7
+  - - P7
+    - c
+  - - P7
+    - b
+  - - e
+    - P8
+  - - b
+    - P8
+  - - c
+    - P8
+  - - P8
+    - d
+  - - b
+    - P9
+  - - c
+    - P9
+  - - P9
+    - d
+  - - d
+    - O_w
+  parallel:
+  - - - c
+    - - b
+  causality:
+  - - - a
+    - - e
+  - - - e
+    - - d
+  - - - a
+    - - c
+  - - - b
+    - - d
+  - - - a
+    - - b
+  - - - c
+    - - d

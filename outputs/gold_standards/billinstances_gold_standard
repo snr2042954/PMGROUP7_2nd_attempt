@@ -1,0 +1,15 @@
+digraph {
+	write_bill [fillcolor="#f0f0f0" shape=box style=filled]
+	deliver_bill [fillcolor="#f0f0f0" shape=box style=filled]
+	print_bill [fillcolor="#f0f0f0" shape=box style=filled]
+	p1 [shape=circle]
+	write_bill -> p1
+	p1 -> print_bill
+	p2 [shape=circle]
+	print_bill -> p2
+	p2 -> deliver_bill
+	i_L [fillcolor="#b2fab4" shape=circle style=filled]
+	i_L -> write_bill
+	o_L [fillcolor="#ffb2b2" shape=circle style=filled]
+	deliver_bill -> o_L
+}

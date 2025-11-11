@@ -1,0 +1,33 @@
+digraph {
+	f [fillcolor="#f0f0f0" shape=box style=filled]
+	e [fillcolor="#f0f0f0" shape=box style=filled]
+	d [fillcolor="#f0f0f0" shape=box style=filled]
+	c [fillcolor="#f0f0f0" shape=box style=filled]
+	b [fillcolor="#f0f0f0" shape=box style=filled]
+	g [fillcolor="#f0f0f0" shape=box style=filled]
+	a [fillcolor="#f0f0f0" shape=box style=filled]
+	p1 [shape=circle]
+	f -> p1
+	a -> p1
+	p1 -> b
+	p2 [shape=circle]
+	b -> p2
+	p2 -> c
+	p3 [shape=circle]
+	b -> p3
+	p3 -> d
+	p4 [shape=circle]
+	c -> p4
+	p4 -> e
+	p5 [shape=circle]
+	d -> p5
+	p5 -> e
+	p6 [shape=circle]
+	e -> p6
+	p6 -> f
+	p6 -> g
+	i_L [fillcolor="#b2fab4" shape=circle style=filled]
+	i_L -> a
+	o_L [fillcolor="#ffb2b2" shape=circle style=filled]
+	g -> o_L
+}

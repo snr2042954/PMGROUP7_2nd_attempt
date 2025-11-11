@@ -1,0 +1,445 @@
+dataset: BPI_Challenge_2012.xes
+best_parameters:
+  abs_threshold: 1
+  rel_threshold: 0.35
+  f1: 0.3913043478260869
+top_10_combinations:
+- abs: 1
+  rel: 0.35
+  precision: 0.34615384615384615
+  recall: 0.45
+  f1: 0.3913043478260869
+- abs: 2
+  rel: 0.35
+  precision: 0.34615384615384615
+  recall: 0.45
+  f1: 0.3913043478260869
+- abs: 3
+  rel: 0.35
+  precision: 0.34615384615384615
+  recall: 0.45
+  f1: 0.3913043478260869
+- abs: 4
+  rel: 0.35
+  precision: 0.34615384615384615
+  recall: 0.45
+  f1: 0.3913043478260869
+- abs: 5
+  rel: 0.35
+  precision: 0.34615384615384615
+  recall: 0.45
+  f1: 0.3913043478260869
+- abs: 6
+  rel: 0.35
+  precision: 0.34615384615384615
+  recall: 0.45
+  f1: 0.3913043478260869
+- abs: 7
+  rel: 0.35
+  precision: 0.34615384615384615
+  recall: 0.45
+  f1: 0.3913043478260869
+- abs: 8
+  rel: 0.35
+  precision: 0.34615384615384615
+  recall: 0.45
+  f1: 0.3913043478260869
+- abs: 9
+  rel: 0.35
+  precision: 0.34615384615384615
+  recall: 0.45
+  f1: 0.3913043478260869
+- abs: 10
+  rel: 0.35
+  precision: 0.34615384615384615
+  recall: 0.45
+  f1: 0.3913043478260869
+evaluation_custom:
+  precision: 0.34615384615384615
+  recall: 0.45
+  f1: 0.3913043478260869
+  tp: 9
+  fp: 17
+  fn: 11
+  tn: 474
+evaluation_default:
+  precision: 0.08695652173913043
+  recall: 0.6
+  f1: 0.15189873417721517
+  tp: 12
+  fp: 126
+  fn: 8
+  tn: 412
+evaluation_alpha:
+  precision: 0.6428571428571429
+  recall: 0.45
+  f1: 0.5294117647058824
+  tp: 9
+  fp: 5
+  fn: 11
+  tn: 317
+evaluation_heuristic:
+  precision: 0.0970873786407767
+  recall: 0.5
+  f1: 0.16260162601626016
+  tp: 10
+  fp: 93
+  fn: 10
+  tn: 439
+relations_found:
+- - A_FINALIZED
+  - O_CREATED
+- - W_Nabellen_offertes
+  - W_Nabellen_offertes
+- - A_ACCEPTED
+  - A_FINALIZED
+- - A_PARTLYSUBMITTED
+  - A_PREACCEPTED
+- - A_CANCELLED
+  - O_CANCELLED
+- - W_Completeren_aanvraag
+  - W_Completeren_aanvraag
+- - A_SUBMITTED
+  - A_PARTLYSUBMITTED
+- - A_PARTLYSUBMITTED
+  - A_DECLINED
+- - A_APPROVED
+  - A_ACTIVATED
+- - A_FINALIZED
+  - O_SELECTED
+- - O_SENT
+  - W_Completeren_aanvraag
+- - O_DECLINED
+  - W_Valideren_aanvraag
+- - O_SELECTED
+  - A_FINALIZED
+- - O_SELECTED
+  - O_CREATED
+- - A_ACCEPTED
+  - O_SELECTED
+- - W_Afhandelen_leads
+  - W_Completeren_aanvraag
+- - W_Nabellen_incomplete_dossiers
+  - W_Nabellen_incomplete_dossiers
+- - W_Valideren_aanvraag
+  - W_Nabellen_incomplete_dossiers
+- - A_PREACCEPTED
+  - W_Completeren_aanvraag
+- - W_Valideren_aanvraag
+  - W_Valideren_aanvraag
+- - O_DECLINED
+  - A_DECLINED
+- - W_Beoordelen_fraude
+  - W_Beoordelen_fraude
+- - A_ACTIVATED
+  - W_Valideren_aanvraag
+- - A_DECLINED
+  - W_Afhandelen_leads
+- - O_SENT_BACK
+  - W_Nabellen_offertes
+- - O_CREATED
+  - O_SENT
+configured_net:
+  places:
+  - I_w
+  - P0
+  - P1
+  - P2
+  - P3
+  - P4
+  - P5
+  - P6
+  - P7
+  - P8
+  - P9
+  - P10
+  - P11
+  - P12
+  - P13
+  - P14
+  - P15
+  - P16
+  - P17
+  - P18
+  - P19
+  - P20
+  - P21
+  - P22
+  - P23
+  - P24
+  - P25
+  - P26
+  - P27
+  - P28
+  - P29
+  - P30
+  - P31
+  - P32
+  - P33
+  - P34
+  - P35
+  - P36
+  - O_w
+  transitions:
+  - A_ACCEPTED
+  - A_ACTIVATED
+  - A_APPROVED
+  - A_CANCELLED
+  - A_DECLINED
+  - A_FINALIZED
+  - A_PARTLYSUBMITTED
+  - A_PREACCEPTED
+  - A_REGISTERED
+  - A_SUBMITTED
+  - O_ACCEPTED
+  - O_CANCELLED
+  - O_CREATED
+  - O_DECLINED
+  - O_SELECTED
+  - O_SENT
+  - O_SENT_BACK
+  - W_Afhandelen_leads
+  - W_Beoordelen_fraude
+  - W_Completeren_aanvraag
+  - W_Nabellen_incomplete_dossiers
+  - W_Nabellen_offertes
+  - W_Valideren_aanvraag
+  flows:
+  - - I_w
+    - A_SUBMITTED
+  - - A_SUBMITTED
+    - P0
+  - - P0
+    - A_PARTLYSUBMITTED
+  - - A_PARTLYSUBMITTED
+    - P1
+  - - P1
+    - A_PREACCEPTED
+  - - A_ACCEPTED
+    - P2
+  - - P2
+    - O_SELECTED
+  - - A_FINALIZED
+    - P3
+  - - P3
+    - O_CREATED
+  - - O_CREATED
+    - P4
+  - - P4
+    - O_SENT
+  - - O_SENT
+    - P5
+  - - P5
+    - W_Completeren_aanvraag
+  - - W_Nabellen_offertes
+    - P6
+  - - P6
+    - W_Nabellen_offertes
+  - - O_SENT_BACK
+    - P7
+  - - P7
+    - W_Nabellen_offertes
+  - - A_ACTIVATED
+    - P8
+  - - P8
+    - W_Valideren_aanvraag
+  - - A_PREACCEPTED
+    - P9
+  - - P9
+    - W_Completeren_aanvraag
+  - - A_ACCEPTED
+    - P10
+  - - P10
+    - A_FINALIZED
+  - - O_SELECTED
+    - P11
+  - - P11
+    - O_CREATED
+  - - W_Valideren_aanvraag
+    - P12
+  - - P12
+    - W_Valideren_aanvraag
+  - - W_Completeren_aanvraag
+    - P13
+  - - P13
+    - W_Completeren_aanvraag
+  - - A_PARTLYSUBMITTED
+    - P14
+  - - P14
+    - A_DECLINED
+  - - W_Afhandelen_leads
+    - P15
+  - - P15
+    - W_Completeren_aanvraag
+  - - O_DECLINED
+    - P16
+  - - P16
+    - W_Valideren_aanvraag
+  - - W_Valideren_aanvraag
+    - P17
+  - - P17
+    - W_Nabellen_incomplete_dossiers
+  - - W_Nabellen_incomplete_dossiers
+    - P18
+  - - P18
+    - W_Nabellen_incomplete_dossiers
+  - - O_DECLINED
+    - P19
+  - - P19
+    - A_DECLINED
+  - - A_DECLINED
+    - P20
+  - - P20
+    - W_Afhandelen_leads
+  - - A_APPROVED
+    - P21
+  - - P21
+    - A_ACTIVATED
+  - - A_CANCELLED
+    - P22
+  - - P22
+    - O_CANCELLED
+  - - W_Beoordelen_fraude
+    - P23
+  - - P23
+    - W_Beoordelen_fraude
+  - - A_PARTLYSUBMITTED
+    - P24
+  - - P24
+    - A_PREACCEPTED
+  - - P24
+    - A_DECLINED
+  - - A_ACCEPTED
+    - P25
+  - - P25
+    - O_SELECTED
+  - - P25
+    - A_FINALIZED
+  - - W_Valideren_aanvraag
+    - P26
+  - - P26
+    - W_Valideren_aanvraag
+  - - P26
+    - W_Nabellen_incomplete_dossiers
+  - - O_DECLINED
+    - P27
+  - - P27
+    - W_Valideren_aanvraag
+  - - P27
+    - A_DECLINED
+  - - A_FINALIZED
+    - P28
+  - - O_SELECTED
+    - P28
+  - - P28
+    - O_CREATED
+  - - O_SENT
+    - P29
+  - - A_PREACCEPTED
+    - P29
+  - - W_Completeren_aanvraag
+    - P29
+  - - W_Afhandelen_leads
+    - P29
+  - - P29
+    - W_Completeren_aanvraag
+  - - W_Nabellen_offertes
+    - P30
+  - - O_SENT_BACK
+    - P30
+  - - P30
+    - W_Nabellen_offertes
+  - - A_ACTIVATED
+    - P31
+  - - W_Valideren_aanvraag
+    - P31
+  - - O_DECLINED
+    - P31
+  - - P31
+    - W_Valideren_aanvraag
+  - - A_PREACCEPTED
+    - P32
+  - - W_Completeren_aanvraag
+    - P32
+  - - W_Afhandelen_leads
+    - P32
+  - - P32
+    - W_Completeren_aanvraag
+  - - W_Valideren_aanvraag
+    - P33
+  - - O_DECLINED
+    - P33
+  - - P33
+    - W_Valideren_aanvraag
+  - - W_Completeren_aanvraag
+    - P34
+  - - W_Afhandelen_leads
+    - P34
+  - - P34
+    - W_Completeren_aanvraag
+  - - A_PARTLYSUBMITTED
+    - P35
+  - - O_DECLINED
+    - P35
+  - - P35
+    - A_DECLINED
+  - - W_Valideren_aanvraag
+    - P36
+  - - W_Nabellen_incomplete_dossiers
+    - P36
+  - - P36
+    - W_Nabellen_incomplete_dossiers
+  - - W_Valideren_aanvraag
+    - O_w
+  parallel:
+  - - - O_SELECTED
+    - - A_FINALIZED
+  causality:
+  - - - A_SUBMITTED
+    - - A_PARTLYSUBMITTED
+  - - - A_PARTLYSUBMITTED
+    - - A_PREACCEPTED
+  - - - A_ACCEPTED
+    - - O_SELECTED
+  - - - A_FINALIZED
+    - - O_CREATED
+  - - - O_CREATED
+    - - O_SENT
+  - - - O_SENT
+    - - W_Completeren_aanvraag
+  - - - W_Nabellen_offertes
+    - - W_Nabellen_offertes
+  - - - O_SENT_BACK
+    - - W_Nabellen_offertes
+  - - - A_ACTIVATED
+    - - W_Valideren_aanvraag
+  - - - A_PREACCEPTED
+    - - W_Completeren_aanvraag
+  - - - A_ACCEPTED
+    - - A_FINALIZED
+  - - - O_SELECTED
+    - - O_CREATED
+  - - - W_Valideren_aanvraag
+    - - W_Valideren_aanvraag
+  - - - W_Completeren_aanvraag
+    - - W_Completeren_aanvraag
+  - - - A_PARTLYSUBMITTED
+    - - A_DECLINED
+  - - - W_Afhandelen_leads
+    - - W_Completeren_aanvraag
+  - - - O_DECLINED
+    - - W_Valideren_aanvraag
+  - - - W_Valideren_aanvraag
+    - - W_Nabellen_incomplete_dossiers
+  - - - W_Nabellen_incomplete_dossiers
+    - - W_Nabellen_incomplete_dossiers
+  - - - O_DECLINED
+    - - A_DECLINED
+  - - - A_DECLINED
+    - - W_Afhandelen_leads
+  - - - A_APPROVED
+    - - A_ACTIVATED
+  - - - A_CANCELLED
+    - - O_CANCELLED
+  - - - W_Beoordelen_fraude
+    - - W_Beoordelen_fraude

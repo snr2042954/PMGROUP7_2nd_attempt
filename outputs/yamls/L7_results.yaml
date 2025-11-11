@@ -1,0 +1,168 @@
+dataset: L7.xes
+best_parameters:
+  abs_threshold: 1
+  rel_threshold: 0.0
+  f1: 1.0
+top_10_combinations:
+- abs: 1
+  rel: 0.0
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.05
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.1
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.15
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.2
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 1
+  rel: 0.25
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 2
+  rel: 0.0
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 2
+  rel: 0.05
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 2
+  rel: 0.1
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+- abs: 2
+  rel: 0.15
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+evaluation_custom:
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+  tp: 4
+  fp: 0
+  fn: 0
+  tn: 3
+evaluation_default:
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+  tp: 4
+  fp: 0
+  fn: 0
+  tn: 3
+evaluation_alpha:
+  precision: 1.0
+  recall: 0.25
+  f1: 0.4
+  tp: 1
+  fp: 0
+  fn: 3
+  tn: 3
+evaluation_heuristic:
+  precision: 1.0
+  recall: 0.75
+  f1: 0.8571428571428571
+  tp: 3
+  fp: 0
+  fn: 1
+  tn: 3
+relations_found:
+- - a
+  - c
+- - a
+  - b
+- - b
+  - b
+- - b
+  - c
+configured_net:
+  places:
+  - I_w
+  - P0
+  - P1
+  - P2
+  - P3
+  - P4
+  - P5
+  - P6
+  - P7
+  - O_w
+  transitions:
+  - a
+  - b
+  - c
+  flows:
+  - - I_w
+    - a
+  - - a
+    - P0
+  - - P0
+    - b
+  - - b
+    - P1
+  - - P1
+    - b
+  - - b
+    - P2
+  - - P2
+    - c
+  - - a
+    - P3
+  - - P3
+    - c
+  - - a
+    - P4
+  - - P4
+    - b
+  - - P4
+    - c
+  - - b
+    - P5
+  - - P5
+    - b
+  - - P5
+    - c
+  - - a
+    - P6
+  - - b
+    - P6
+  - - P6
+    - b
+  - - b
+    - P7
+  - - a
+    - P7
+  - - P7
+    - c
+  - - c
+    - O_w
+  parallel: []
+  causality:
+  - - - a
+    - - b
+  - - - b
+    - - b
+  - - - b
+    - - c
+  - - - a
+    - - c

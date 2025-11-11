@@ -1,0 +1,24 @@
+digraph {
+	receive_flyer_order [fillcolor="#f0f0f0" shape=box style=filled]
+	design_flyer [fillcolor="#f0f0f0" shape=box style=filled]
+	print_flyer [fillcolor="#f0f0f0" shape=box style=filled]
+	send_draft_to_customer [fillcolor="#f0f0f0" shape=box style=filled]
+	deliver_flyer [fillcolor="#f0f0f0" shape=box style=filled]
+	p1 [shape=circle]
+	send_draft_to_customer -> p1
+	receive_flyer_order -> p1
+	p1 -> design_flyer
+	p2 [shape=circle]
+	design_flyer -> p2
+	p2 -> send_draft_to_customer
+	p3 [shape=circle]
+	send_draft_to_customer -> p3
+	p3 -> print_flyer
+	p4 [shape=circle]
+	print_flyer -> p4
+	p4 -> deliver_flyer
+	i_L [fillcolor="#b2fab4" shape=circle style=filled]
+	i_L -> receive_flyer_order
+	o_L [fillcolor="#ffb2b2" shape=circle style=filled]
+	deliver_flyer -> o_L
+}

@@ -1,0 +1,19 @@
+digraph {
+	print_poster [fillcolor="#f0f0f0" shape=box style=filled]
+	deliver_poster [fillcolor="#f0f0f0" shape=box style=filled]
+	receive_order_and_photo [fillcolor="#f0f0f0" shape=box style=filled]
+	design_photo_poster [fillcolor="#f0f0f0" shape=box style=filled]
+	p1 [shape=circle]
+	receive_order_and_photo -> p1
+	p1 -> design_photo_poster
+	p2 [shape=circle]
+	design_photo_poster -> p2
+	p2 -> print_poster
+	p3 [shape=circle]
+	print_poster -> p3
+	p3 -> deliver_poster
+	i_L [fillcolor="#b2fab4" shape=circle style=filled]
+	i_L -> receive_order_and_photo
+	o_L [fillcolor="#ffb2b2" shape=circle style=filled]
+	deliver_poster -> o_L
+}

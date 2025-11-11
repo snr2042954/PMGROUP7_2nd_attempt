@@ -1,0 +1,166 @@
+dataset: L5.xes
+best_parameters:
+  abs_threshold: 8
+  rel_threshold: 0.0
+  f1: 0.8333333333333333
+top_10_combinations:
+- abs: 8
+  rel: 0.0
+  precision: 1.0
+  recall: 0.7142857142857143
+  f1: 0.8333333333333333
+- abs: 8
+  rel: 0.05
+  precision: 1.0
+  recall: 0.7142857142857143
+  f1: 0.8333333333333333
+- abs: 8
+  rel: 0.1
+  precision: 1.0
+  recall: 0.7142857142857143
+  f1: 0.8333333333333333
+- abs: 8
+  rel: 0.15
+  precision: 1.0
+  recall: 0.7142857142857143
+  f1: 0.8333333333333333
+- abs: 8
+  rel: 0.2
+  precision: 1.0
+  recall: 0.7142857142857143
+  f1: 0.8333333333333333
+- abs: 8
+  rel: 0.25
+  precision: 1.0
+  recall: 0.7142857142857143
+  f1: 0.8333333333333333
+- abs: 8
+  rel: 0.3
+  precision: 1.0
+  recall: 0.7142857142857143
+  f1: 0.8333333333333333
+- abs: 5
+  rel: 0.2
+  precision: 0.8333333333333334
+  recall: 0.7142857142857143
+  f1: 0.7692307692307692
+- abs: 5
+  rel: 0.25
+  precision: 0.8333333333333334
+  recall: 0.7142857142857143
+  f1: 0.7692307692307692
+- abs: 5
+  rel: 0.3
+  precision: 0.8333333333333334
+  recall: 0.7142857142857143
+  f1: 0.7692307692307692
+evaluation_custom:
+  precision: 1.0
+  recall: 0.7142857142857143
+  f1: 0.8333333333333333
+  tp: 5
+  fp: 0
+  fn: 2
+  tn: 23
+evaluation_default:
+  precision: 0.5384615384615384
+  recall: 1.0
+  f1: 0.7000000000000001
+  tp: 7
+  fp: 6
+  fn: 0
+  tn: 17
+evaluation_alpha:
+  precision: 1.0
+  recall: 1.0
+  f1: 1.0
+  tp: 7
+  fp: 0
+  fn: 0
+  tn: 23
+evaluation_heuristic:
+  precision: 0.5384615384615384
+  recall: 1.0
+  f1: 0.7000000000000001
+  tp: 7
+  fp: 6
+  fn: 0
+  tn: 17
+relations_found:
+- - c
+  - d
+- - b
+  - c
+- - a
+  - b
+- - d
+  - b
+- - b
+  - f
+configured_net:
+  places:
+  - I_w
+  - P0
+  - P1
+  - P2
+  - P3
+  - P4
+  - P5
+  - P6
+  - O_w
+  transitions:
+  - a
+  - b
+  - c
+  - d
+  - e
+  - f
+  flows:
+  - - I_w
+    - a
+  - - a
+    - P0
+  - - P0
+    - b
+  - - c
+    - P1
+  - - P1
+    - d
+  - - d
+    - P2
+  - - P2
+    - b
+  - - b
+    - P3
+  - - P3
+    - f
+  - - b
+    - P4
+  - - P4
+    - c
+  - - b
+    - P5
+  - - P5
+    - f
+  - - P5
+    - c
+  - - a
+    - P6
+  - - d
+    - P6
+  - - P6
+    - b
+  - - f
+    - O_w
+  parallel: []
+  causality:
+  - - - a
+    - - b
+  - - - c
+    - - d
+  - - - d
+    - - b
+  - - - b
+    - - f
+  - - - b
+    - - c
